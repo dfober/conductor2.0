@@ -1,0 +1,11 @@
+
+/ITL/scene/faust_echo 		set faustw 'wasm/faust_echo.wasm' 'wasm/faust_echo.json';
+/ITL/scene/faust_pshift		set faustw 'wasm/faust_pshift.wasm' 'wasm/faust_pshift.json';
+/ITL/scene/faust_freeverb 	set faustw 'wasm/faust_freeverb.wasm' 'wasm/faust_freeverb.json';
+/ITL/scene/faust_eq 		set faustw 'wasm/eq.wasm' 'wasm/eq.json';
+/ITL/scene/faust_radio 		set faustw 'wasm/radio.wasm' 'wasm/radio.json';
+/ITL/scene/faust_vocoder 	set faustw 'wasm/vocoder.wasm' 'wasm/vocoder.json';
+/ITL/scene/faust_* 	compute 0;
+/ITL/scene/faust_* 	connect audioOutput;
+
+/ITL/scene event FAUSTREADY;

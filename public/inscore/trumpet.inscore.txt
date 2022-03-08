@@ -1,0 +1,2698 @@
+#### ATTENTION ! Ne pas modifier : ce script est généré automatiquement
+top = yorigin 1.3;
+bottom = yorigin -1.3;
+
+/ITL/scene/page_00 set img 'pages/trumpet/n00.png';
+/ITL/scene/page_00 date -0.025;
+/ITL/scene/page_00 duration 1.9;
+/ITL/scene/cursor watch timeEnter -0.025 1.875 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_00 show 1,
+  /ITL/scene/page_01 show 1,
+  /ITL/scene/page_00 $top,
+  /ITL/scene/page_01 $bottom
+);
+
+/ITL/scene/page_01 set img 'pages/trumpet/n01.png';
+/ITL/scene/page_01 date 1.875;
+/ITL/scene/page_01 duration 17.625;
+/ITL/scene/cursor watch timeEnter 1.875 19.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_01 show 1,
+  /ITL/scene/page_02 show 1,
+  /ITL/scene/page_01 $bottom,
+  /ITL/scene/page_02 $top
+);
+
+/ITL/scene/page_02 set img 'pages/trumpet/n02.png';
+/ITL/scene/page_02 date 19.5;
+/ITL/scene/page_02 duration 1.875;
+/ITL/scene/cursor watch timeEnter 19.5 21.375 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_02 show 1,
+  /ITL/scene/page_03 show 1,
+  /ITL/scene/page_02 $top,
+  /ITL/scene/page_03 $bottom
+);
+
+/ITL/scene/page_03 set img 'pages/trumpet/n03.png';
+/ITL/scene/page_03 date 21.375;
+/ITL/scene/page_03 duration 3.475;
+/ITL/scene/cursor watch timeEnter 21.375 24.85 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_03 show 1,
+  /ITL/scene/page_04 show 1,
+  /ITL/scene/page_03 $bottom,
+  /ITL/scene/page_04 $top
+);
+
+/ITL/scene/page_04 set img 'pages/trumpet/n04.png';
+/ITL/scene/page_04 date 24.85;
+/ITL/scene/page_04 duration 5.35;
+/ITL/scene/cursor watch timeEnter 24.85 30.2 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_04 show 1,
+  /ITL/scene/page_05 show 1,
+  /ITL/scene/page_04 $top,
+  /ITL/scene/page_05 $bottom
+);
+
+/ITL/scene/page_05 set img 'pages/trumpet/n05.png';
+/ITL/scene/page_05 date 30.2;
+/ITL/scene/page_05 duration 7.3;
+/ITL/scene/cursor watch timeEnter 30.2 37.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_05 show 1,
+  /ITL/scene/page_06 show 1,
+  /ITL/scene/page_05 $bottom,
+  /ITL/scene/page_06 $top
+);
+
+/ITL/scene/page_06 set img 'pages/trumpet/n06.png';
+/ITL/scene/page_06 date 37.5;
+/ITL/scene/page_06 duration 3.75;
+/ITL/scene/cursor watch timeEnter 37.5 41.25 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_06 show 1,
+  /ITL/scene/page_07 show 1,
+  /ITL/scene/page_06 $top,
+  /ITL/scene/page_07 $bottom
+);
+
+/ITL/scene/page_07 set img 'pages/trumpet/n07.png';
+/ITL/scene/page_07 date 41.25;
+/ITL/scene/page_07 duration 4.75;
+/ITL/scene/cursor watch timeEnter 41.25 46 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_07 show 1,
+  /ITL/scene/page_08 show 1,
+  /ITL/scene/page_07 $bottom,
+  /ITL/scene/page_08 $top
+);
+
+/ITL/scene/page_08 set img 'pages/trumpet/n08.png';
+/ITL/scene/page_08 date 46;
+/ITL/scene/page_08 duration 2;
+/ITL/scene/cursor watch timeEnter 46 48 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_08 show 1,
+  /ITL/scene/page_09 show 1,
+  /ITL/scene/page_08 $top,
+  /ITL/scene/page_09 $bottom
+);
+
+/ITL/scene/page_19 set img 'pages/trumpet/n19.png';
+/ITL/scene/page_19 date 48;
+/ITL/scene/page_19 duration 3.25;
+/ITL/scene/cursor watch timeEnter 48 51.25 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_19 show 1,
+  /ITL/scene/page_20 show 1,
+  /ITL/scene/page_19 $bottom,
+  /ITL/scene/page_20 $top
+);
+
+/ITL/scene/page_10 set img 'pages/trumpet/n10.png';
+/ITL/scene/page_10 date 51.25;
+/ITL/scene/page_10 duration 3.75;
+/ITL/scene/cursor watch timeEnter 51.25 55 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_10 show 1,
+  /ITL/scene/page_11 show 1,
+  /ITL/scene/page_10 $top,
+  /ITL/scene/page_11 $bottom
+);
+
+/ITL/scene/page_11 set img 'pages/trumpet/n11.png';
+/ITL/scene/page_11 date 55;
+/ITL/scene/page_11 duration 6.5;
+/ITL/scene/cursor watch timeEnter 55 61.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_11 show 1,
+  /ITL/scene/page_12 show 1,
+  /ITL/scene/page_11 $bottom,
+  /ITL/scene/page_12 $top
+);
+
+/ITL/scene/page_12 set img 'pages/trumpet/n12.png';
+/ITL/scene/page_12 date 61.5;
+/ITL/scene/page_12 duration 3.5;
+/ITL/scene/cursor watch timeEnter 61.5 65 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_12 show 1,
+  /ITL/scene/page_13 show 1,
+  /ITL/scene/page_12 $top,
+  /ITL/scene/page_13 $bottom
+);
+
+/ITL/scene/page_13 set img 'pages/trumpet/n13.png';
+/ITL/scene/page_13 date 65;
+/ITL/scene/page_13 duration 6.25;
+/ITL/scene/cursor watch timeEnter 65 71.25 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_13 show 1,
+  /ITL/scene/page_14 show 1,
+  /ITL/scene/page_13 $bottom,
+  /ITL/scene/page_14 $top
+);
+
+/ITL/scene/page_14 set img 'pages/trumpet/n14.png';
+/ITL/scene/page_14 date 71.25;
+/ITL/scene/page_14 duration 2.5;
+/ITL/scene/cursor watch timeEnter 71.25 73.75 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_14 show 1,
+  /ITL/scene/page_15 show 1,
+  /ITL/scene/page_14 $top,
+  /ITL/scene/page_15 $bottom
+);
+
+/ITL/scene/page_15 set img 'pages/trumpet/n15.png';
+/ITL/scene/page_15 date 73.75;
+/ITL/scene/page_15 duration 5.25;
+/ITL/scene/cursor watch timeEnter 73.75 79 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_15 show 1,
+  /ITL/scene/page_16 show 1,
+  /ITL/scene/page_15 $bottom,
+  /ITL/scene/page_16 $top
+);
+
+/ITL/scene/page_16 set img 'pages/trumpet/n16.png';
+/ITL/scene/page_16 date 79;
+/ITL/scene/page_16 duration 2;
+/ITL/scene/cursor watch timeEnter 79 81 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_16 show 1,
+  /ITL/scene/page_17 show 1,
+  /ITL/scene/page_16 $top,
+  /ITL/scene/page_17 $bottom
+);
+
+/ITL/scene/page_17 set img 'pages/trumpet/n17.png';
+/ITL/scene/page_17 date 81;
+/ITL/scene/page_17 duration 12;
+/ITL/scene/cursor watch timeEnter 81 93 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_17 show 1,
+  /ITL/scene/page_18 show 1,
+  /ITL/scene/page_17 $bottom,
+  /ITL/scene/page_18 $top
+);
+
+/ITL/scene/page_18 set img 'pages/trumpet/n18.png';
+/ITL/scene/page_18 date 93;
+/ITL/scene/page_18 duration 1.5;
+/ITL/scene/cursor watch timeEnter 93 94.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_18 show 1,
+  /ITL/scene/page_19 show 1,
+  /ITL/scene/page_18 $top,
+  /ITL/scene/page_19 $bottom
+);
+
+/ITL/scene/page_29 set img 'pages/trumpet/n29.png';
+/ITL/scene/page_29 date 94.5;
+/ITL/scene/page_29 duration 1.75;
+/ITL/scene/cursor watch timeEnter 94.5 96.25 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_29 show 1,
+  /ITL/scene/page_30 show 1,
+  /ITL/scene/page_29 $bottom,
+  /ITL/scene/page_30 $top
+);
+
+/ITL/scene/page_20 set img 'pages/trumpet/n20.png';
+/ITL/scene/page_20 date 96.25;
+/ITL/scene/page_20 duration 1.75;
+/ITL/scene/cursor watch timeEnter 96.25 98 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_20 show 1,
+  /ITL/scene/page_21 show 1,
+  /ITL/scene/page_20 $top,
+  /ITL/scene/page_21 $bottom
+);
+
+/ITL/scene/page_21 set img 'pages/trumpet/n21.png';
+/ITL/scene/page_21 date 98;
+/ITL/scene/page_21 duration 4;
+/ITL/scene/cursor watch timeEnter 98 102 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_21 show 1,
+  /ITL/scene/page_22 show 1,
+  /ITL/scene/page_21 $bottom,
+  /ITL/scene/page_22 $top
+);
+
+/ITL/scene/page_22 set img 'pages/trumpet/n22.png';
+/ITL/scene/page_22 date 102;
+/ITL/scene/page_22 duration 2;
+/ITL/scene/cursor watch timeEnter 102 104 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_22 show 1,
+  /ITL/scene/page_23 show 1,
+  /ITL/scene/page_22 $top,
+  /ITL/scene/page_23 $bottom
+);
+
+/ITL/scene/page_23 set img 'pages/trumpet/n23.png';
+/ITL/scene/page_23 date 104;
+/ITL/scene/page_23 duration 7.25;
+/ITL/scene/cursor watch timeEnter 104 111.25 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_23 show 1,
+  /ITL/scene/page_24 show 1,
+  /ITL/scene/page_23 $bottom,
+  /ITL/scene/page_24 $top
+);
+
+/ITL/scene/page_24 set img 'pages/trumpet/n24.png';
+/ITL/scene/page_24 date 111.25;
+/ITL/scene/page_24 duration 2.5;
+/ITL/scene/cursor watch timeEnter 111.25 113.75 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_24 show 1,
+  /ITL/scene/page_25 show 1,
+  /ITL/scene/page_24 $top,
+  /ITL/scene/page_25 $bottom
+);
+
+/ITL/scene/page_25 set img 'pages/trumpet/n25.png';
+/ITL/scene/page_25 date 113.75;
+/ITL/scene/page_25 duration 2.25;
+/ITL/scene/cursor watch timeEnter 113.75 116 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_25 show 1,
+  /ITL/scene/page_26 show 1,
+  /ITL/scene/page_25 $bottom,
+  /ITL/scene/page_26 $top
+);
+
+/ITL/scene/page_26 set img 'pages/trumpet/n26.png';
+/ITL/scene/page_26 date 116;
+/ITL/scene/page_26 duration 1.5;
+/ITL/scene/cursor watch timeEnter 116 117.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_26 show 1,
+  /ITL/scene/page_27 show 1,
+  /ITL/scene/page_26 $top,
+  /ITL/scene/page_27 $bottom
+);
+
+/ITL/scene/page_27 set img 'pages/trumpet/n27.png';
+/ITL/scene/page_27 date 117.5;
+/ITL/scene/page_27 duration 1.75;
+/ITL/scene/cursor watch timeEnter 117.5 119.25 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_27 show 1,
+  /ITL/scene/page_28 show 1,
+  /ITL/scene/page_27 $bottom,
+  /ITL/scene/page_28 $top
+);
+
+/ITL/scene/page_28 set img 'pages/trumpet/n28.png';
+/ITL/scene/page_28 date 119.25;
+/ITL/scene/page_28 duration 2.5;
+/ITL/scene/cursor watch timeEnter 119.25 121.75 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_28 show 1,
+  /ITL/scene/page_29 show 1,
+  /ITL/scene/page_28 $top,
+  /ITL/scene/page_29 $bottom
+);
+
+/ITL/scene/page_39 set img 'pages/trumpet/n39.png';
+/ITL/scene/page_39 date 121.75;
+/ITL/scene/page_39 duration 3;
+/ITL/scene/cursor watch timeEnter 121.75 124.75 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_39 show 1,
+  /ITL/scene/page_40 show 1,
+  /ITL/scene/page_39 $bottom,
+  /ITL/scene/page_40 $top
+);
+
+/ITL/scene/page_30 set img 'pages/trumpet/n30.png';
+/ITL/scene/page_30 date 124.75;
+/ITL/scene/page_30 duration 2.25;
+/ITL/scene/cursor watch timeEnter 124.75 127 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_30 show 1,
+  /ITL/scene/page_31 show 1,
+  /ITL/scene/page_30 $top,
+  /ITL/scene/page_31 $bottom
+);
+
+/ITL/scene/page_31 set img 'pages/trumpet/n31.png';
+/ITL/scene/page_31 date 127;
+/ITL/scene/page_31 duration 3.25;
+/ITL/scene/cursor watch timeEnter 127 130.25 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_31 show 1,
+  /ITL/scene/page_32 show 1,
+  /ITL/scene/page_31 $bottom,
+  /ITL/scene/page_32 $top
+);
+
+/ITL/scene/page_32 set img 'pages/trumpet/n32.png';
+/ITL/scene/page_32 date 130.25;
+/ITL/scene/page_32 duration 2.75;
+/ITL/scene/cursor watch timeEnter 130.25 133 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_32 show 1,
+  /ITL/scene/page_33 show 1,
+  /ITL/scene/page_32 $top,
+  /ITL/scene/page_33 $bottom
+);
+
+/ITL/scene/page_33 set img 'pages/trumpet/n33.png';
+/ITL/scene/page_33 date 133;
+/ITL/scene/page_33 duration 2.5;
+/ITL/scene/cursor watch timeEnter 133 135.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_33 show 1,
+  /ITL/scene/page_34 show 1,
+  /ITL/scene/page_33 $bottom,
+  /ITL/scene/page_34 $top
+);
+
+/ITL/scene/page_34 set img 'pages/trumpet/n34.png';
+/ITL/scene/page_34 date 135.5;
+/ITL/scene/page_34 duration 2.5;
+/ITL/scene/cursor watch timeEnter 135.5 138 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_34 show 1,
+  /ITL/scene/page_35 show 1,
+  /ITL/scene/page_34 $top,
+  /ITL/scene/page_35 $bottom
+);
+
+/ITL/scene/page_35 set img 'pages/trumpet/n35.png';
+/ITL/scene/page_35 date 138;
+/ITL/scene/page_35 duration 2.25;
+/ITL/scene/cursor watch timeEnter 138 140.25 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_35 show 1,
+  /ITL/scene/page_36 show 1,
+  /ITL/scene/page_35 $bottom,
+  /ITL/scene/page_36 $top
+);
+
+/ITL/scene/page_36 set img 'pages/trumpet/n36.png';
+/ITL/scene/page_36 date 140.25;
+/ITL/scene/page_36 duration 2.25;
+/ITL/scene/cursor watch timeEnter 140.25 142.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_36 show 1,
+  /ITL/scene/page_37 show 1,
+  /ITL/scene/page_36 $top,
+  /ITL/scene/page_37 $bottom
+);
+
+/ITL/scene/page_37 set img 'pages/trumpet/n37.png';
+/ITL/scene/page_37 date 142.5;
+/ITL/scene/page_37 duration 3;
+/ITL/scene/cursor watch timeEnter 142.5 145.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_37 show 1,
+  /ITL/scene/page_38 show 1,
+  /ITL/scene/page_37 $bottom,
+  /ITL/scene/page_38 $top
+);
+
+/ITL/scene/page_38 set img 'pages/trumpet/n38.png';
+/ITL/scene/page_38 date 145.5;
+/ITL/scene/page_38 duration 2.75;
+/ITL/scene/cursor watch timeEnter 145.5 148.25 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_38 show 1,
+  /ITL/scene/page_39 show 1,
+  /ITL/scene/page_38 $top,
+  /ITL/scene/page_39 $bottom
+);
+
+/ITL/scene/page_49 set img 'pages/trumpet/n49.png';
+/ITL/scene/page_49 date 148.25;
+/ITL/scene/page_49 duration 3.75;
+/ITL/scene/cursor watch timeEnter 148.25 152 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_49 show 1,
+  /ITL/scene/page_50 show 1,
+  /ITL/scene/page_49 $bottom,
+  /ITL/scene/page_50 $top
+);
+
+/ITL/scene/page_40 set img 'pages/trumpet/n40.png';
+/ITL/scene/page_40 date 152;
+/ITL/scene/page_40 duration 4.5;
+/ITL/scene/cursor watch timeEnter 152 156.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_40 show 1,
+  /ITL/scene/page_41 show 1,
+  /ITL/scene/page_40 $top,
+  /ITL/scene/page_41 $bottom
+);
+
+/ITL/scene/page_41 set img 'pages/trumpet/n41.png';
+/ITL/scene/page_41 date 156.5;
+/ITL/scene/page_41 duration 3.5;
+/ITL/scene/cursor watch timeEnter 156.5 160 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_41 show 1,
+  /ITL/scene/page_42 show 1,
+  /ITL/scene/page_41 $bottom,
+  /ITL/scene/page_42 $top
+);
+
+/ITL/scene/page_42 set img 'pages/trumpet/n42.png';
+/ITL/scene/page_42 date 160;
+/ITL/scene/page_42 duration 5.75;
+/ITL/scene/cursor watch timeEnter 160 165.75 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_42 show 1,
+  /ITL/scene/page_43 show 1,
+  /ITL/scene/page_42 $top,
+  /ITL/scene/page_43 $bottom
+);
+
+/ITL/scene/page_43 set img 'pages/trumpet/n43.png';
+/ITL/scene/page_43 date 165.5;
+/ITL/scene/page_43 duration 4.25;
+/ITL/scene/cursor watch timeEnter 165.5 169.75 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_43 show 1,
+  /ITL/scene/page_44 show 1,
+  /ITL/scene/page_43 $bottom,
+  /ITL/scene/page_44 $top
+);
+
+/ITL/scene/page_44 set img 'pages/trumpet/n44.png';
+/ITL/scene/page_44 date 170;
+/ITL/scene/page_44 duration 13;
+/ITL/scene/cursor watch timeEnter 170 183 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_44 show 1,
+  /ITL/scene/page_45 show 1,
+  /ITL/scene/page_44 $top,
+  /ITL/scene/page_45 $bottom
+);
+
+/ITL/scene/page_45 set img 'pages/trumpet/n45.png';
+/ITL/scene/page_45 date 183;
+/ITL/scene/page_45 duration 3.5;
+/ITL/scene/cursor watch timeEnter 183 186.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_45 show 1,
+  /ITL/scene/page_46 show 1,
+  /ITL/scene/page_45 $bottom,
+  /ITL/scene/page_46 $top
+);
+
+/ITL/scene/page_46 set img 'pages/trumpet/n46.png';
+/ITL/scene/page_46 date 186.5;
+/ITL/scene/page_46 duration 3.5;
+/ITL/scene/cursor watch timeEnter 186.5 190 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_46 show 1,
+  /ITL/scene/page_47 show 1,
+  /ITL/scene/page_46 $top,
+  /ITL/scene/page_47 $bottom
+);
+
+/ITL/scene/page_47 set img 'pages/trumpet/n47.png';
+/ITL/scene/page_47 date 190;
+/ITL/scene/page_47 duration 4;
+/ITL/scene/cursor watch timeEnter 190 194 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_47 show 1,
+  /ITL/scene/page_48 show 1,
+  /ITL/scene/page_47 $bottom,
+  /ITL/scene/page_48 $top
+);
+
+/ITL/scene/page_48 set img 'pages/trumpet/n48.png';
+/ITL/scene/page_48 date 194;
+/ITL/scene/page_48 duration 1.875;
+/ITL/scene/cursor watch timeEnter 194 195.875 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_48 show 1,
+  /ITL/scene/page_49 show 1,
+  /ITL/scene/page_48 $top,
+  /ITL/scene/page_49 $bottom
+);
+
+/ITL/scene/page_49 set img 'pages/trumpet/n49.png';
+/ITL/scene/page_49 date 195.875;
+/ITL/scene/page_49 duration 2.375;
+/ITL/scene/cursor watch timeEnter 195.875 198.25 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_49 show 1,
+  /ITL/scene/page_50 show 1,
+  /ITL/scene/page_49 $bottom,
+  /ITL/scene/page_50 $top
+);
+
+/ITL/scene/page_50 set img 'pages/trumpet/n50.png';
+/ITL/scene/page_50 date 198.25;
+/ITL/scene/page_50 duration 2.75;
+/ITL/scene/cursor watch timeEnter 198.25 201 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_50 show 1,
+  /ITL/scene/page_51 show 1,
+  /ITL/scene/page_50 $top,
+  /ITL/scene/page_51 $bottom
+);
+
+/ITL/scene/page_51 set img 'pages/trumpet/n51.png';
+/ITL/scene/page_51 date 201;
+/ITL/scene/page_51 duration 2;
+/ITL/scene/cursor watch timeEnter 201 203 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_51 show 1,
+  /ITL/scene/page_52 show 1,
+  /ITL/scene/page_51 $bottom,
+  /ITL/scene/page_52 $top
+);
+
+/ITL/scene/page_52 set img 'pages/trumpet/n52.png';
+/ITL/scene/page_52 date 203;
+/ITL/scene/page_52 duration 3.25;
+/ITL/scene/cursor watch timeEnter 203 206.25 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_52 show 1,
+  /ITL/scene/page_53 show 1,
+  /ITL/scene/page_52 $top,
+  /ITL/scene/page_53 $bottom
+);
+
+/ITL/scene/page_53 set img 'pages/trumpet/n53.png';
+/ITL/scene/page_53 date 206.25;
+/ITL/scene/page_53 duration 2.25;
+/ITL/scene/cursor watch timeEnter 206.25 208.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_53 show 1,
+  /ITL/scene/page_54 show 1,
+  /ITL/scene/page_53 $bottom,
+  /ITL/scene/page_54 $top
+);
+
+/ITL/scene/page_54 set img 'pages/trumpet/n54.png';
+/ITL/scene/page_54 date 208.5;
+/ITL/scene/page_54 duration 2.25;
+/ITL/scene/cursor watch timeEnter 208.5 210.75 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_54 show 1,
+  /ITL/scene/page_55 show 1,
+  /ITL/scene/page_54 $top,
+  /ITL/scene/page_55 $bottom
+);
+
+/ITL/scene/page_55 set img 'pages/trumpet/n55.png';
+/ITL/scene/page_55 date 210.75;
+/ITL/scene/page_55 duration 2.25;
+/ITL/scene/cursor watch timeEnter 210.75 213 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_55 show 1,
+  /ITL/scene/page_56 show 1,
+  /ITL/scene/page_55 $bottom,
+  /ITL/scene/page_56 $top
+);
+
+/ITL/scene/page_56 set img 'pages/trumpet/n56.png';
+/ITL/scene/page_56 date 213;
+/ITL/scene/page_56 duration 1.5;
+/ITL/scene/cursor watch timeEnter 213 214.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_56 show 1,
+  /ITL/scene/page_57 show 1,
+  /ITL/scene/page_56 $top,
+  /ITL/scene/page_57 $bottom
+);
+
+/ITL/scene/page_57 set img 'pages/trumpet/n57.png';
+/ITL/scene/page_57 date 214.5;
+/ITL/scene/page_57 duration 3.5;
+/ITL/scene/cursor watch timeEnter 214.5 218 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_57 show 1,
+  /ITL/scene/page_58 show 1,
+  /ITL/scene/page_57 $bottom,
+  /ITL/scene/page_58 $top
+);
+
+/ITL/scene/page_58 set img 'pages/trumpet/n58.png';
+/ITL/scene/page_58 date 218;
+/ITL/scene/page_58 duration 2;
+/ITL/scene/cursor watch timeEnter 218 220 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_58 show 1,
+  /ITL/scene/page_59 show 1,
+  /ITL/scene/page_58 $top,
+  /ITL/scene/page_59 $bottom
+);
+
+/ITL/scene/page_59 set img 'pages/trumpet/n59.png';
+/ITL/scene/page_59 date 220;
+/ITL/scene/page_59 duration 3;
+/ITL/scene/cursor watch timeEnter 220 223 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_59 show 1,
+  /ITL/scene/page_60 show 1,
+  /ITL/scene/page_59 $bottom,
+  /ITL/scene/page_60 $top
+);
+
+/ITL/scene/cursor watch timeEnter 223 323 ( /ITL/scene event STOP );
+
+/ITL/scene/page_* show 0;
+/ITL/scene/page_* width 1.95;
+/ITL/scene/page_00 show 1;
+/ITL/scene/page_01 show 1;
+/ITL/scene/page_00 $top;
+/ITL/scene/page_01 $bottom;
+/ITL/scene/page_* watch mouseDown ( /ITL/scene event GOTO '$date');
+/ITL/scene/page_* watch mouseMove ( /ITL/scene event GOTO '$date');
+/ITL/scene event PAGEREADY;
+#### ATTENTION ! Ne pas modifier : ce script est généré automatiquement
+top = yorigin 1.3;
+bottom = yorigin -1.3;
+
+/ITL/scene/page_00 set img 'pages/trumpet/n00.png';
+/ITL/scene/page_00 date -0.025;
+/ITL/scene/page_00 duration 1.9;
+/ITL/scene/cursor watch timeEnter -0.025 1.875 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_00 show 1,
+  /ITL/scene/page_01 show 1,
+  /ITL/scene/page_00 $top,
+  /ITL/scene/page_01 $bottom
+);
+
+/ITL/scene/page_01 set img 'pages/trumpet/n01.png';
+/ITL/scene/page_01 date 1.875;
+/ITL/scene/page_01 duration 17.625;
+/ITL/scene/cursor watch timeEnter 1.875 19.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_01 show 1,
+  /ITL/scene/page_02 show 1,
+  /ITL/scene/page_01 $bottom,
+  /ITL/scene/page_02 $top
+);
+
+/ITL/scene/page_02 set img 'pages/trumpet/n02.png';
+/ITL/scene/page_02 date 19.5;
+/ITL/scene/page_02 duration 1.875;
+/ITL/scene/cursor watch timeEnter 19.5 21.375 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_02 show 1,
+  /ITL/scene/page_03 show 1,
+  /ITL/scene/page_02 $top,
+  /ITL/scene/page_03 $bottom
+);
+
+/ITL/scene/page_03 set img 'pages/trumpet/n03.png';
+/ITL/scene/page_03 date 21.375;
+/ITL/scene/page_03 duration 3.475;
+/ITL/scene/cursor watch timeEnter 21.375 24.85 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_03 show 1,
+  /ITL/scene/page_04 show 1,
+  /ITL/scene/page_03 $bottom,
+  /ITL/scene/page_04 $top
+);
+
+/ITL/scene/page_04 set img 'pages/trumpet/n04.png';
+/ITL/scene/page_04 date 24.85;
+/ITL/scene/page_04 duration 5.35;
+/ITL/scene/cursor watch timeEnter 24.85 30.2 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_04 show 1,
+  /ITL/scene/page_05 show 1,
+  /ITL/scene/page_04 $top,
+  /ITL/scene/page_05 $bottom
+);
+
+/ITL/scene/page_05 set img 'pages/trumpet/n05.png';
+/ITL/scene/page_05 date 30.2;
+/ITL/scene/page_05 duration 7.3;
+/ITL/scene/cursor watch timeEnter 30.2 37.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_05 show 1,
+  /ITL/scene/page_06 show 1,
+  /ITL/scene/page_05 $bottom,
+  /ITL/scene/page_06 $top
+);
+
+/ITL/scene/page_06 set img 'pages/trumpet/n06.png';
+/ITL/scene/page_06 date 37.5;
+/ITL/scene/page_06 duration 3.75;
+/ITL/scene/cursor watch timeEnter 37.5 41.25 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_06 show 1,
+  /ITL/scene/page_07 show 1,
+  /ITL/scene/page_06 $top,
+  /ITL/scene/page_07 $bottom
+);
+
+/ITL/scene/page_07 set img 'pages/trumpet/n07.png';
+/ITL/scene/page_07 date 41.25;
+/ITL/scene/page_07 duration 4.75;
+/ITL/scene/cursor watch timeEnter 41.25 46 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_07 show 1,
+  /ITL/scene/page_08 show 1,
+  /ITL/scene/page_07 $bottom,
+  /ITL/scene/page_08 $top
+);
+
+/ITL/scene/page_08 set img 'pages/trumpet/n08.png';
+/ITL/scene/page_08 date 46;
+/ITL/scene/page_08 duration 2;
+/ITL/scene/cursor watch timeEnter 46 48 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_08 show 1,
+  /ITL/scene/page_09 show 1,
+  /ITL/scene/page_08 $top,
+  /ITL/scene/page_09 $bottom
+);
+
+/ITL/scene/page_19 set img 'pages/trumpet/n19.png';
+/ITL/scene/page_19 date 48;
+/ITL/scene/page_19 duration 3.25;
+/ITL/scene/cursor watch timeEnter 48 51.25 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_19 show 1,
+  /ITL/scene/page_20 show 1,
+  /ITL/scene/page_19 $bottom,
+  /ITL/scene/page_20 $top
+);
+
+/ITL/scene/page_10 set img 'pages/trumpet/n10.png';
+/ITL/scene/page_10 date 51.25;
+/ITL/scene/page_10 duration 3.75;
+/ITL/scene/cursor watch timeEnter 51.25 55 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_10 show 1,
+  /ITL/scene/page_11 show 1,
+  /ITL/scene/page_10 $top,
+  /ITL/scene/page_11 $bottom
+);
+
+/ITL/scene/page_11 set img 'pages/trumpet/n11.png';
+/ITL/scene/page_11 date 55;
+/ITL/scene/page_11 duration 6.5;
+/ITL/scene/cursor watch timeEnter 55 61.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_11 show 1,
+  /ITL/scene/page_12 show 1,
+  /ITL/scene/page_11 $bottom,
+  /ITL/scene/page_12 $top
+);
+
+/ITL/scene/page_12 set img 'pages/trumpet/n12.png';
+/ITL/scene/page_12 date 61.5;
+/ITL/scene/page_12 duration 3.5;
+/ITL/scene/cursor watch timeEnter 61.5 65 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_12 show 1,
+  /ITL/scene/page_13 show 1,
+  /ITL/scene/page_12 $top,
+  /ITL/scene/page_13 $bottom
+);
+
+/ITL/scene/page_13 set img 'pages/trumpet/n13.png';
+/ITL/scene/page_13 date 65;
+/ITL/scene/page_13 duration 6.25;
+/ITL/scene/cursor watch timeEnter 65 71.25 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_13 show 1,
+  /ITL/scene/page_14 show 1,
+  /ITL/scene/page_13 $bottom,
+  /ITL/scene/page_14 $top
+);
+
+/ITL/scene/page_14 set img 'pages/trumpet/n14.png';
+/ITL/scene/page_14 date 71.25;
+/ITL/scene/page_14 duration 2.5;
+/ITL/scene/cursor watch timeEnter 71.25 73.75 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_14 show 1,
+  /ITL/scene/page_15 show 1,
+  /ITL/scene/page_14 $top,
+  /ITL/scene/page_15 $bottom
+);
+
+/ITL/scene/page_15 set img 'pages/trumpet/n15.png';
+/ITL/scene/page_15 date 73.75;
+/ITL/scene/page_15 duration 5.25;
+/ITL/scene/cursor watch timeEnter 73.75 79 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_15 show 1,
+  /ITL/scene/page_16 show 1,
+  /ITL/scene/page_15 $bottom,
+  /ITL/scene/page_16 $top
+);
+
+/ITL/scene/page_16 set img 'pages/trumpet/n16.png';
+/ITL/scene/page_16 date 79;
+/ITL/scene/page_16 duration 2;
+/ITL/scene/cursor watch timeEnter 79 81 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_16 show 1,
+  /ITL/scene/page_17 show 1,
+  /ITL/scene/page_16 $top,
+  /ITL/scene/page_17 $bottom
+);
+
+/ITL/scene/page_17 set img 'pages/trumpet/n17.png';
+/ITL/scene/page_17 date 81;
+/ITL/scene/page_17 duration 12;
+/ITL/scene/cursor watch timeEnter 81 93 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_17 show 1,
+  /ITL/scene/page_18 show 1,
+  /ITL/scene/page_17 $bottom,
+  /ITL/scene/page_18 $top
+);
+
+/ITL/scene/page_18 set img 'pages/trumpet/n18.png';
+/ITL/scene/page_18 date 93;
+/ITL/scene/page_18 duration 1.5;
+/ITL/scene/cursor watch timeEnter 93 94.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_18 show 1,
+  /ITL/scene/page_19 show 1,
+  /ITL/scene/page_18 $top,
+  /ITL/scene/page_19 $bottom
+);
+
+/ITL/scene/page_29 set img 'pages/trumpet/n29.png';
+/ITL/scene/page_29 date 94.5;
+/ITL/scene/page_29 duration 1.75;
+/ITL/scene/cursor watch timeEnter 94.5 96.25 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_29 show 1,
+  /ITL/scene/page_30 show 1,
+  /ITL/scene/page_29 $bottom,
+  /ITL/scene/page_30 $top
+);
+
+/ITL/scene/page_20 set img 'pages/trumpet/n20.png';
+/ITL/scene/page_20 date 96.25;
+/ITL/scene/page_20 duration 1.75;
+/ITL/scene/cursor watch timeEnter 96.25 98 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_20 show 1,
+  /ITL/scene/page_21 show 1,
+  /ITL/scene/page_20 $top,
+  /ITL/scene/page_21 $bottom
+);
+
+/ITL/scene/page_21 set img 'pages/trumpet/n21.png';
+/ITL/scene/page_21 date 98;
+/ITL/scene/page_21 duration 4;
+/ITL/scene/cursor watch timeEnter 98 102 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_21 show 1,
+  /ITL/scene/page_22 show 1,
+  /ITL/scene/page_21 $bottom,
+  /ITL/scene/page_22 $top
+);
+
+/ITL/scene/page_22 set img 'pages/trumpet/n22.png';
+/ITL/scene/page_22 date 102;
+/ITL/scene/page_22 duration 2;
+/ITL/scene/cursor watch timeEnter 102 104 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_22 show 1,
+  /ITL/scene/page_23 show 1,
+  /ITL/scene/page_22 $top,
+  /ITL/scene/page_23 $bottom
+);
+
+/ITL/scene/page_23 set img 'pages/trumpet/n23.png';
+/ITL/scene/page_23 date 104;
+/ITL/scene/page_23 duration 7.25;
+/ITL/scene/cursor watch timeEnter 104 111.25 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_23 show 1,
+  /ITL/scene/page_24 show 1,
+  /ITL/scene/page_23 $bottom,
+  /ITL/scene/page_24 $top
+);
+
+/ITL/scene/page_24 set img 'pages/trumpet/n24.png';
+/ITL/scene/page_24 date 111.25;
+/ITL/scene/page_24 duration 2.5;
+/ITL/scene/cursor watch timeEnter 111.25 113.75 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_24 show 1,
+  /ITL/scene/page_25 show 1,
+  /ITL/scene/page_24 $top,
+  /ITL/scene/page_25 $bottom
+);
+
+/ITL/scene/page_25 set img 'pages/trumpet/n25.png';
+/ITL/scene/page_25 date 113.75;
+/ITL/scene/page_25 duration 2.25;
+/ITL/scene/cursor watch timeEnter 113.75 116 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_25 show 1,
+  /ITL/scene/page_26 show 1,
+  /ITL/scene/page_25 $bottom,
+  /ITL/scene/page_26 $top
+);
+
+/ITL/scene/page_26 set img 'pages/trumpet/n26.png';
+/ITL/scene/page_26 date 116;
+/ITL/scene/page_26 duration 1.5;
+/ITL/scene/cursor watch timeEnter 116 117.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_26 show 1,
+  /ITL/scene/page_27 show 1,
+  /ITL/scene/page_26 $top,
+  /ITL/scene/page_27 $bottom
+);
+
+/ITL/scene/page_27 set img 'pages/trumpet/n27.png';
+/ITL/scene/page_27 date 117.5;
+/ITL/scene/page_27 duration 1.75;
+/ITL/scene/cursor watch timeEnter 117.5 119.25 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_27 show 1,
+  /ITL/scene/page_28 show 1,
+  /ITL/scene/page_27 $bottom,
+  /ITL/scene/page_28 $top
+);
+
+/ITL/scene/page_28 set img 'pages/trumpet/n28.png';
+/ITL/scene/page_28 date 119.25;
+/ITL/scene/page_28 duration 2.5;
+/ITL/scene/cursor watch timeEnter 119.25 121.75 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_28 show 1,
+  /ITL/scene/page_29 show 1,
+  /ITL/scene/page_28 $top,
+  /ITL/scene/page_29 $bottom
+);
+
+/ITL/scene/page_39 set img 'pages/trumpet/n39.png';
+/ITL/scene/page_39 date 121.75;
+/ITL/scene/page_39 duration 3;
+/ITL/scene/cursor watch timeEnter 121.75 124.75 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_39 show 1,
+  /ITL/scene/page_40 show 1,
+  /ITL/scene/page_39 $bottom,
+  /ITL/scene/page_40 $top
+);
+
+/ITL/scene/page_30 set img 'pages/trumpet/n30.png';
+/ITL/scene/page_30 date 124.75;
+/ITL/scene/page_30 duration 2.25;
+/ITL/scene/cursor watch timeEnter 124.75 127 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_30 show 1,
+  /ITL/scene/page_31 show 1,
+  /ITL/scene/page_30 $top,
+  /ITL/scene/page_31 $bottom
+);
+
+/ITL/scene/page_31 set img 'pages/trumpet/n31.png';
+/ITL/scene/page_31 date 127;
+/ITL/scene/page_31 duration 3.25;
+/ITL/scene/cursor watch timeEnter 127 130.25 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_31 show 1,
+  /ITL/scene/page_32 show 1,
+  /ITL/scene/page_31 $bottom,
+  /ITL/scene/page_32 $top
+);
+
+/ITL/scene/page_32 set img 'pages/trumpet/n32.png';
+/ITL/scene/page_32 date 130.25;
+/ITL/scene/page_32 duration 2.75;
+/ITL/scene/cursor watch timeEnter 130.25 133 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_32 show 1,
+  /ITL/scene/page_33 show 1,
+  /ITL/scene/page_32 $top,
+  /ITL/scene/page_33 $bottom
+);
+
+/ITL/scene/page_33 set img 'pages/trumpet/n33.png';
+/ITL/scene/page_33 date 133;
+/ITL/scene/page_33 duration 2.5;
+/ITL/scene/cursor watch timeEnter 133 135.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_33 show 1,
+  /ITL/scene/page_34 show 1,
+  /ITL/scene/page_33 $bottom,
+  /ITL/scene/page_34 $top
+);
+
+/ITL/scene/page_34 set img 'pages/trumpet/n34.png';
+/ITL/scene/page_34 date 135.5;
+/ITL/scene/page_34 duration 2.5;
+/ITL/scene/cursor watch timeEnter 135.5 138 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_34 show 1,
+  /ITL/scene/page_35 show 1,
+  /ITL/scene/page_34 $top,
+  /ITL/scene/page_35 $bottom
+);
+
+/ITL/scene/page_35 set img 'pages/trumpet/n35.png';
+/ITL/scene/page_35 date 138;
+/ITL/scene/page_35 duration 2.25;
+/ITL/scene/cursor watch timeEnter 138 140.25 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_35 show 1,
+  /ITL/scene/page_36 show 1,
+  /ITL/scene/page_35 $bottom,
+  /ITL/scene/page_36 $top
+);
+
+/ITL/scene/page_36 set img 'pages/trumpet/n36.png';
+/ITL/scene/page_36 date 140.25;
+/ITL/scene/page_36 duration 2.25;
+/ITL/scene/cursor watch timeEnter 140.25 142.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_36 show 1,
+  /ITL/scene/page_37 show 1,
+  /ITL/scene/page_36 $top,
+  /ITL/scene/page_37 $bottom
+);
+
+/ITL/scene/page_37 set img 'pages/trumpet/n37.png';
+/ITL/scene/page_37 date 142.5;
+/ITL/scene/page_37 duration 3;
+/ITL/scene/cursor watch timeEnter 142.5 145.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_37 show 1,
+  /ITL/scene/page_38 show 1,
+  /ITL/scene/page_37 $bottom,
+  /ITL/scene/page_38 $top
+);
+
+/ITL/scene/page_38 set img 'pages/trumpet/n38.png';
+/ITL/scene/page_38 date 145.5;
+/ITL/scene/page_38 duration 2.75;
+/ITL/scene/cursor watch timeEnter 145.5 148.25 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_38 show 1,
+  /ITL/scene/page_39 show 1,
+  /ITL/scene/page_38 $top,
+  /ITL/scene/page_39 $bottom
+);
+
+/ITL/scene/page_39 set img 'pages/trumpet/n39.png';
+/ITL/scene/page_39 date 148.25;
+/ITL/scene/page_39 duration 3.75;
+/ITL/scene/cursor watch timeEnter 148.25 152 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_39 show 1,
+  /ITL/scene/page_40 show 1,
+  /ITL/scene/page_39 $bottom,
+  /ITL/scene/page_40 $top
+);
+
+/ITL/scene/page_40 set img 'pages/trumpet/n40.png';
+/ITL/scene/page_40 date 152;
+/ITL/scene/page_40 duration 4.5;
+/ITL/scene/cursor watch timeEnter 152 156.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_40 show 1,
+  /ITL/scene/page_41 show 1,
+  /ITL/scene/page_40 $top,
+  /ITL/scene/page_41 $bottom
+);
+
+/ITL/scene/page_41 set img 'pages/trumpet/n41.png';
+/ITL/scene/page_41 date 156.5;
+/ITL/scene/page_41 duration 3.5;
+/ITL/scene/cursor watch timeEnter 156.5 160 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_41 show 1,
+  /ITL/scene/page_42 show 1,
+  /ITL/scene/page_41 $bottom,
+  /ITL/scene/page_42 $top
+);
+
+/ITL/scene/page_42 set img 'pages/trumpet/n42.png';
+/ITL/scene/page_42 date 160;
+/ITL/scene/page_42 duration 5.75;
+/ITL/scene/cursor watch timeEnter 160 165.75 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_42 show 1,
+  /ITL/scene/page_43 show 1,
+  /ITL/scene/page_42 $top,
+  /ITL/scene/page_43 $bottom
+);
+
+/ITL/scene/page_43 set img 'pages/trumpet/n43.png';
+/ITL/scene/page_43 date 165.5;
+/ITL/scene/page_43 duration 4.25;
+/ITL/scene/cursor watch timeEnter 165.5 169.75 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_43 show 1,
+  /ITL/scene/page_44 show 1,
+  /ITL/scene/page_43 $bottom,
+  /ITL/scene/page_44 $top
+);
+
+/ITL/scene/page_44 set img 'pages/trumpet/n44.png';
+/ITL/scene/page_44 date 170;
+/ITL/scene/page_44 duration 13;
+/ITL/scene/cursor watch timeEnter 170 183 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_44 show 1,
+  /ITL/scene/page_45 show 1,
+  /ITL/scene/page_44 $top,
+  /ITL/scene/page_45 $bottom
+);
+
+/ITL/scene/page_45 set img 'pages/trumpet/n45.png';
+/ITL/scene/page_45 date 183;
+/ITL/scene/page_45 duration 3.5;
+/ITL/scene/cursor watch timeEnter 183 186.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_45 show 1,
+  /ITL/scene/page_46 show 1,
+  /ITL/scene/page_45 $bottom,
+  /ITL/scene/page_46 $top
+);
+
+/ITL/scene/page_46 set img 'pages/trumpet/n46.png';
+/ITL/scene/page_46 date 186.5;
+/ITL/scene/page_46 duration 3.5;
+/ITL/scene/cursor watch timeEnter 186.5 190 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_46 show 1,
+  /ITL/scene/page_47 show 1,
+  /ITL/scene/page_46 $top,
+  /ITL/scene/page_47 $bottom
+);
+
+/ITL/scene/page_47 set img 'pages/trumpet/n47.png';
+/ITL/scene/page_47 date 190;
+/ITL/scene/page_47 duration 4;
+/ITL/scene/cursor watch timeEnter 190 194 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_47 show 1,
+  /ITL/scene/page_48 show 1,
+  /ITL/scene/page_47 $bottom,
+  /ITL/scene/page_48 $top
+);
+
+/ITL/scene/page_48 set img 'pages/trumpet/n48.png';
+/ITL/scene/page_48 date 194;
+/ITL/scene/page_48 duration 1.875;
+/ITL/scene/cursor watch timeEnter 194 195.875 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_48 show 1,
+  /ITL/scene/page_49 show 1,
+  /ITL/scene/page_48 $top,
+  /ITL/scene/page_49 $bottom
+);
+
+/ITL/scene/page_49 set img 'pages/trumpet/n49.png';
+/ITL/scene/page_49 date 195.875;
+/ITL/scene/page_49 duration 2.375;
+/ITL/scene/cursor watch timeEnter 195.875 198.25 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_49 show 1,
+  /ITL/scene/page_50 show 1,
+  /ITL/scene/page_49 $bottom,
+  /ITL/scene/page_50 $top
+);
+
+/ITL/scene/page_50 set img 'pages/trumpet/n50.png';
+/ITL/scene/page_50 date 198.25;
+/ITL/scene/page_50 duration 2.75;
+/ITL/scene/cursor watch timeEnter 198.25 201 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_50 show 1,
+  /ITL/scene/page_51 show 1,
+  /ITL/scene/page_50 $top,
+  /ITL/scene/page_51 $bottom
+);
+
+/ITL/scene/page_51 set img 'pages/trumpet/n51.png';
+/ITL/scene/page_51 date 201;
+/ITL/scene/page_51 duration 2;
+/ITL/scene/cursor watch timeEnter 201 203 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_51 show 1,
+  /ITL/scene/page_52 show 1,
+  /ITL/scene/page_51 $bottom,
+  /ITL/scene/page_52 $top
+);
+
+/ITL/scene/page_52 set img 'pages/trumpet/n52.png';
+/ITL/scene/page_52 date 203;
+/ITL/scene/page_52 duration 3.25;
+/ITL/scene/cursor watch timeEnter 203 206.25 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_52 show 1,
+  /ITL/scene/page_53 show 1,
+  /ITL/scene/page_52 $top,
+  /ITL/scene/page_53 $bottom
+);
+
+/ITL/scene/page_53 set img 'pages/trumpet/n53.png';
+/ITL/scene/page_53 date 206.25;
+/ITL/scene/page_53 duration 2.25;
+/ITL/scene/cursor watch timeEnter 206.25 208.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_53 show 1,
+  /ITL/scene/page_54 show 1,
+  /ITL/scene/page_53 $bottom,
+  /ITL/scene/page_54 $top
+);
+
+/ITL/scene/page_54 set img 'pages/trumpet/n54.png';
+/ITL/scene/page_54 date 208.5;
+/ITL/scene/page_54 duration 2.25;
+/ITL/scene/cursor watch timeEnter 208.5 210.75 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_54 show 1,
+  /ITL/scene/page_55 show 1,
+  /ITL/scene/page_54 $top,
+  /ITL/scene/page_55 $bottom
+);
+
+/ITL/scene/page_55 set img 'pages/trumpet/n55.png';
+/ITL/scene/page_55 date 210.75;
+/ITL/scene/page_55 duration 2.25;
+/ITL/scene/cursor watch timeEnter 210.75 213 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_55 show 1,
+  /ITL/scene/page_56 show 1,
+  /ITL/scene/page_55 $bottom,
+  /ITL/scene/page_56 $top
+);
+
+/ITL/scene/page_56 set img 'pages/trumpet/n56.png';
+/ITL/scene/page_56 date 213;
+/ITL/scene/page_56 duration 1.5;
+/ITL/scene/cursor watch timeEnter 213 214.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_56 show 1,
+  /ITL/scene/page_57 show 1,
+  /ITL/scene/page_56 $top,
+  /ITL/scene/page_57 $bottom
+);
+
+/ITL/scene/page_57 set img 'pages/trumpet/n57.png';
+/ITL/scene/page_57 date 214.5;
+/ITL/scene/page_57 duration 3.5;
+/ITL/scene/cursor watch timeEnter 214.5 218 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_57 show 1,
+  /ITL/scene/page_58 show 1,
+  /ITL/scene/page_57 $bottom,
+  /ITL/scene/page_58 $top
+);
+
+/ITL/scene/page_58 set img 'pages/trumpet/n58.png';
+/ITL/scene/page_58 date 218;
+/ITL/scene/page_58 duration 2;
+/ITL/scene/cursor watch timeEnter 218 220 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_58 show 1,
+  /ITL/scene/page_59 show 1,
+  /ITL/scene/page_58 $top,
+  /ITL/scene/page_59 $bottom
+);
+
+/ITL/scene/page_59 set img 'pages/trumpet/n59.png';
+/ITL/scene/page_59 date 220;
+/ITL/scene/page_59 duration 3;
+/ITL/scene/cursor watch timeEnter 220 223 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_59 show 1,
+  /ITL/scene/page_60 show 1,
+  /ITL/scene/page_59 $bottom,
+  /ITL/scene/page_60 $top
+);
+
+
+/ITL/scene/page_* show 0;
+/ITL/scene/page_* width 1.95;
+/ITL/scene/page_00 show 1;
+/ITL/scene/page_01 show 1;
+/ITL/scene/page_00 $top;
+/ITL/scene/page_01 $bottom;
+/ITL/scene/page_* watch mouseDown ( /ITL/scene event GOTO '$date');
+/ITL/scene/page_* watch mouseMove ( /ITL/scene event GOTO '$date');
+/ITL/scene event PAGEREADY;
+#### ATTENTION ! Ne pas modifier : ce script est généré automatiquement
+top = yorigin 1.3;
+bottom = yorigin -1.3;
+
+/ITL/scene/page_00 set img 'pages/trumpet/n00.png';
+/ITL/scene/page_00 date -0.025;
+/ITL/scene/page_00 duration 1.9;
+/ITL/scene/cursor watch timeEnter -0.025 1.875 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_00 show 1,
+  /ITL/scene/page_01 show 1,
+  /ITL/scene/page_00 $top,
+  /ITL/scene/page_01 $bottom
+);
+
+/ITL/scene/page_01 set img 'pages/trumpet/n01.png';
+/ITL/scene/page_01 date 1.875;
+/ITL/scene/page_01 duration 17.625;
+/ITL/scene/cursor watch timeEnter 1.875 19.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_01 show 1,
+  /ITL/scene/page_02 show 1,
+  /ITL/scene/page_01 $bottom,
+  /ITL/scene/page_02 $top
+);
+
+/ITL/scene/page_02 set img 'pages/trumpet/n02.png';
+/ITL/scene/page_02 date 19.5;
+/ITL/scene/page_02 duration 1.875;
+/ITL/scene/cursor watch timeEnter 19.5 21.375 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_02 show 1,
+  /ITL/scene/page_03 show 1,
+  /ITL/scene/page_02 $top,
+  /ITL/scene/page_03 $bottom
+);
+
+/ITL/scene/page_03 set img 'pages/trumpet/n03.png';
+/ITL/scene/page_03 date 21.375;
+/ITL/scene/page_03 duration 3.475;
+/ITL/scene/cursor watch timeEnter 21.375 24.85 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_03 show 1,
+  /ITL/scene/page_04 show 1,
+  /ITL/scene/page_03 $bottom,
+  /ITL/scene/page_04 $top
+);
+
+/ITL/scene/page_04 set img 'pages/trumpet/n04.png';
+/ITL/scene/page_04 date 24.85;
+/ITL/scene/page_04 duration 5.35;
+/ITL/scene/cursor watch timeEnter 24.85 30.2 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_04 show 1,
+  /ITL/scene/page_05 show 1,
+  /ITL/scene/page_04 $top,
+  /ITL/scene/page_05 $bottom
+);
+
+/ITL/scene/page_05 set img 'pages/trumpet/n05.png';
+/ITL/scene/page_05 date 30.2;
+/ITL/scene/page_05 duration 7.3;
+/ITL/scene/cursor watch timeEnter 30.2 37.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_05 show 1,
+  /ITL/scene/page_06 show 1,
+  /ITL/scene/page_05 $bottom,
+  /ITL/scene/page_06 $top
+);
+
+/ITL/scene/page_06 set img 'pages/trumpet/n06.png';
+/ITL/scene/page_06 date 37.5;
+/ITL/scene/page_06 duration 3.75;
+/ITL/scene/cursor watch timeEnter 37.5 41.25 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_06 show 1,
+  /ITL/scene/page_07 show 1,
+  /ITL/scene/page_06 $top,
+  /ITL/scene/page_07 $bottom
+);
+
+/ITL/scene/page_07 set img 'pages/trumpet/n07.png';
+/ITL/scene/page_07 date 41.25;
+/ITL/scene/page_07 duration 4.75;
+/ITL/scene/cursor watch timeEnter 41.25 46 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_07 show 1,
+  /ITL/scene/page_08 show 1,
+  /ITL/scene/page_07 $bottom,
+  /ITL/scene/page_08 $top
+);
+
+/ITL/scene/page_08 set img 'pages/trumpet/n08.png';
+/ITL/scene/page_08 date 46;
+/ITL/scene/page_08 duration 2;
+/ITL/scene/cursor watch timeEnter 46 48 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_08 show 1,
+  /ITL/scene/page_09 show 1,
+  /ITL/scene/page_08 $top,
+  /ITL/scene/page_09 $bottom
+);
+
+/ITL/scene/page_19 set img 'pages/trumpet/n19.png';
+/ITL/scene/page_19 date 48;
+/ITL/scene/page_19 duration 3.25;
+/ITL/scene/cursor watch timeEnter 48 51.25 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_19 show 1,
+  /ITL/scene/page_20 show 1,
+  /ITL/scene/page_19 $bottom,
+  /ITL/scene/page_20 $top
+);
+
+/ITL/scene/page_10 set img 'pages/trumpet/n10.png';
+/ITL/scene/page_10 date 51.25;
+/ITL/scene/page_10 duration 3.75;
+/ITL/scene/cursor watch timeEnter 51.25 55 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_10 show 1,
+  /ITL/scene/page_11 show 1,
+  /ITL/scene/page_10 $top,
+  /ITL/scene/page_11 $bottom
+);
+
+/ITL/scene/page_11 set img 'pages/trumpet/n11.png';
+/ITL/scene/page_11 date 55;
+/ITL/scene/page_11 duration 6.5;
+/ITL/scene/cursor watch timeEnter 55 61.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_11 show 1,
+  /ITL/scene/page_12 show 1,
+  /ITL/scene/page_11 $bottom,
+  /ITL/scene/page_12 $top
+);
+
+/ITL/scene/page_12 set img 'pages/trumpet/n12.png';
+/ITL/scene/page_12 date 61.5;
+/ITL/scene/page_12 duration 3.5;
+/ITL/scene/cursor watch timeEnter 61.5 65 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_12 show 1,
+  /ITL/scene/page_13 show 1,
+  /ITL/scene/page_12 $top,
+  /ITL/scene/page_13 $bottom
+);
+
+/ITL/scene/page_13 set img 'pages/trumpet/n13.png';
+/ITL/scene/page_13 date 65;
+/ITL/scene/page_13 duration 6.25;
+/ITL/scene/cursor watch timeEnter 65 71.25 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_13 show 1,
+  /ITL/scene/page_14 show 1,
+  /ITL/scene/page_13 $bottom,
+  /ITL/scene/page_14 $top
+);
+
+/ITL/scene/page_14 set img 'pages/trumpet/n14.png';
+/ITL/scene/page_14 date 71.25;
+/ITL/scene/page_14 duration 2.5;
+/ITL/scene/cursor watch timeEnter 71.25 73.75 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_14 show 1,
+  /ITL/scene/page_15 show 1,
+  /ITL/scene/page_14 $top,
+  /ITL/scene/page_15 $bottom
+);
+
+/ITL/scene/page_15 set img 'pages/trumpet/n15.png';
+/ITL/scene/page_15 date 73.75;
+/ITL/scene/page_15 duration 5.25;
+/ITL/scene/cursor watch timeEnter 73.75 79 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_15 show 1,
+  /ITL/scene/page_16 show 1,
+  /ITL/scene/page_15 $bottom,
+  /ITL/scene/page_16 $top
+);
+
+/ITL/scene/page_16 set img 'pages/trumpet/n16.png';
+/ITL/scene/page_16 date 79;
+/ITL/scene/page_16 duration 2;
+/ITL/scene/cursor watch timeEnter 79 81 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_16 show 1,
+  /ITL/scene/page_17 show 1,
+  /ITL/scene/page_16 $top,
+  /ITL/scene/page_17 $bottom
+);
+
+/ITL/scene/page_17 set img 'pages/trumpet/n17.png';
+/ITL/scene/page_17 date 81;
+/ITL/scene/page_17 duration 12;
+/ITL/scene/cursor watch timeEnter 81 93 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_17 show 1,
+  /ITL/scene/page_18 show 1,
+  /ITL/scene/page_17 $bottom,
+  /ITL/scene/page_18 $top
+);
+
+/ITL/scene/page_18 set img 'pages/trumpet/n18.png';
+/ITL/scene/page_18 date 93;
+/ITL/scene/page_18 duration 1.5;
+/ITL/scene/cursor watch timeEnter 93 94.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_18 show 1,
+  /ITL/scene/page_19 show 1,
+  /ITL/scene/page_18 $top,
+  /ITL/scene/page_19 $bottom
+);
+
+/ITL/scene/page_29 set img 'pages/trumpet/n29.png';
+/ITL/scene/page_29 date 94.5;
+/ITL/scene/page_29 duration 1.75;
+/ITL/scene/cursor watch timeEnter 94.5 96.25 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_29 show 1,
+  /ITL/scene/page_30 show 1,
+  /ITL/scene/page_29 $bottom,
+  /ITL/scene/page_30 $top
+);
+
+/ITL/scene/page_20 set img 'pages/trumpet/n20.png';
+/ITL/scene/page_20 date 96.25;
+/ITL/scene/page_20 duration 1.75;
+/ITL/scene/cursor watch timeEnter 96.25 98 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_20 show 1,
+  /ITL/scene/page_21 show 1,
+  /ITL/scene/page_20 $top,
+  /ITL/scene/page_21 $bottom
+);
+
+/ITL/scene/page_21 set img 'pages/trumpet/n21.png';
+/ITL/scene/page_21 date 98;
+/ITL/scene/page_21 duration 4;
+/ITL/scene/cursor watch timeEnter 98 102 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_21 show 1,
+  /ITL/scene/page_22 show 1,
+  /ITL/scene/page_21 $bottom,
+  /ITL/scene/page_22 $top
+);
+
+/ITL/scene/page_22 set img 'pages/trumpet/n22.png';
+/ITL/scene/page_22 date 102;
+/ITL/scene/page_22 duration 2;
+/ITL/scene/cursor watch timeEnter 102 104 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_22 show 1,
+  /ITL/scene/page_23 show 1,
+  /ITL/scene/page_22 $top,
+  /ITL/scene/page_23 $bottom
+);
+
+/ITL/scene/page_23 set img 'pages/trumpet/n23.png';
+/ITL/scene/page_23 date 104;
+/ITL/scene/page_23 duration 7.25;
+/ITL/scene/cursor watch timeEnter 104 111.25 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_23 show 1,
+  /ITL/scene/page_24 show 1,
+  /ITL/scene/page_23 $bottom,
+  /ITL/scene/page_24 $top
+);
+
+/ITL/scene/page_24 set img 'pages/trumpet/n24.png';
+/ITL/scene/page_24 date 111.25;
+/ITL/scene/page_24 duration 2.5;
+/ITL/scene/cursor watch timeEnter 111.25 113.75 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_24 show 1,
+  /ITL/scene/page_25 show 1,
+  /ITL/scene/page_24 $top,
+  /ITL/scene/page_25 $bottom
+);
+
+/ITL/scene/page_25 set img 'pages/trumpet/n25.png';
+/ITL/scene/page_25 date 113.75;
+/ITL/scene/page_25 duration 2.25;
+/ITL/scene/cursor watch timeEnter 113.75 116 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_25 show 1,
+  /ITL/scene/page_26 show 1,
+  /ITL/scene/page_25 $bottom,
+  /ITL/scene/page_26 $top
+);
+
+/ITL/scene/page_26 set img 'pages/trumpet/n26.png';
+/ITL/scene/page_26 date 116;
+/ITL/scene/page_26 duration 1.5;
+/ITL/scene/cursor watch timeEnter 116 117.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_26 show 1,
+  /ITL/scene/page_27 show 1,
+  /ITL/scene/page_26 $top,
+  /ITL/scene/page_27 $bottom
+);
+
+/ITL/scene/page_27 set img 'pages/trumpet/n27.png';
+/ITL/scene/page_27 date 117.5;
+/ITL/scene/page_27 duration 1.75;
+/ITL/scene/cursor watch timeEnter 117.5 119.25 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_27 show 1,
+  /ITL/scene/page_28 show 1,
+  /ITL/scene/page_27 $bottom,
+  /ITL/scene/page_28 $top
+);
+
+/ITL/scene/page_28 set img 'pages/trumpet/n28.png';
+/ITL/scene/page_28 date 119.25;
+/ITL/scene/page_28 duration 2.5;
+/ITL/scene/cursor watch timeEnter 119.25 121.75 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_28 show 1,
+  /ITL/scene/page_29 show 1,
+  /ITL/scene/page_28 $top,
+  /ITL/scene/page_29 $bottom
+);
+
+/ITL/scene/page_39 set img 'pages/trumpet/n39.png';
+/ITL/scene/page_39 date 121.75;
+/ITL/scene/page_39 duration 3;
+/ITL/scene/cursor watch timeEnter 121.75 124.75 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_39 show 1,
+  /ITL/scene/page_40 show 1,
+  /ITL/scene/page_39 $bottom,
+  /ITL/scene/page_40 $top
+);
+
+/ITL/scene/page_30 set img 'pages/trumpet/n30.png';
+/ITL/scene/page_30 date 124.75;
+/ITL/scene/page_30 duration 2.25;
+/ITL/scene/cursor watch timeEnter 124.75 127 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_30 show 1,
+  /ITL/scene/page_31 show 1,
+  /ITL/scene/page_30 $top,
+  /ITL/scene/page_31 $bottom
+);
+
+/ITL/scene/page_31 set img 'pages/trumpet/n31.png';
+/ITL/scene/page_31 date 127;
+/ITL/scene/page_31 duration 3.25;
+/ITL/scene/cursor watch timeEnter 127 130.25 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_31 show 1,
+  /ITL/scene/page_32 show 1,
+  /ITL/scene/page_31 $bottom,
+  /ITL/scene/page_32 $top
+);
+
+/ITL/scene/page_32 set img 'pages/trumpet/n32.png';
+/ITL/scene/page_32 date 130.25;
+/ITL/scene/page_32 duration 2.75;
+/ITL/scene/cursor watch timeEnter 130.25 133 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_32 show 1,
+  /ITL/scene/page_33 show 1,
+  /ITL/scene/page_32 $top,
+  /ITL/scene/page_33 $bottom
+);
+
+/ITL/scene/page_33 set img 'pages/trumpet/n33.png';
+/ITL/scene/page_33 date 133;
+/ITL/scene/page_33 duration 2.5;
+/ITL/scene/cursor watch timeEnter 133 135.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_33 show 1,
+  /ITL/scene/page_34 show 1,
+  /ITL/scene/page_33 $bottom,
+  /ITL/scene/page_34 $top
+);
+
+/ITL/scene/page_34 set img 'pages/trumpet/n34.png';
+/ITL/scene/page_34 date 135.5;
+/ITL/scene/page_34 duration 2.5;
+/ITL/scene/cursor watch timeEnter 135.5 138 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_34 show 1,
+  /ITL/scene/page_35 show 1,
+  /ITL/scene/page_34 $top,
+  /ITL/scene/page_35 $bottom
+);
+
+/ITL/scene/page_35 set img 'pages/trumpet/n35.png';
+/ITL/scene/page_35 date 138;
+/ITL/scene/page_35 duration 2.25;
+/ITL/scene/cursor watch timeEnter 138 140.25 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_35 show 1,
+  /ITL/scene/page_36 show 1,
+  /ITL/scene/page_35 $bottom,
+  /ITL/scene/page_36 $top
+);
+
+/ITL/scene/page_36 set img 'pages/trumpet/n36.png';
+/ITL/scene/page_36 date 140.25;
+/ITL/scene/page_36 duration 2.25;
+/ITL/scene/cursor watch timeEnter 140.25 142.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_36 show 1,
+  /ITL/scene/page_37 show 1,
+  /ITL/scene/page_36 $top,
+  /ITL/scene/page_37 $bottom
+);
+
+/ITL/scene/page_37 set img 'pages/trumpet/n37.png';
+/ITL/scene/page_37 date 142.5;
+/ITL/scene/page_37 duration 3;
+/ITL/scene/cursor watch timeEnter 142.5 145.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_37 show 1,
+  /ITL/scene/page_38 show 1,
+  /ITL/scene/page_37 $bottom,
+  /ITL/scene/page_38 $top
+);
+
+/ITL/scene/page_38 set img 'pages/trumpet/n38.png';
+/ITL/scene/page_38 date 145.5;
+/ITL/scene/page_38 duration 2.75;
+/ITL/scene/cursor watch timeEnter 145.5 148.25 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_38 show 1,
+  /ITL/scene/page_39 show 1,
+  /ITL/scene/page_38 $top,
+  /ITL/scene/page_39 $bottom
+);
+
+/ITL/scene/page_39 set img 'pages/trumpet/n39.png';
+/ITL/scene/page_39 date 148.25;
+/ITL/scene/page_39 duration 3.75;
+/ITL/scene/cursor watch timeEnter 148.25 152 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_39 show 1,
+  /ITL/scene/page_40 show 1,
+  /ITL/scene/page_39 $bottom,
+  /ITL/scene/page_40 $top
+);
+
+/ITL/scene/page_40 set img 'pages/trumpet/n40.png';
+/ITL/scene/page_40 date 152;
+/ITL/scene/page_40 duration 4.5;
+/ITL/scene/cursor watch timeEnter 152 156.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_40 show 1,
+  /ITL/scene/page_41 show 1,
+  /ITL/scene/page_40 $top,
+  /ITL/scene/page_41 $bottom
+);
+
+/ITL/scene/page_41 set img 'pages/trumpet/n41.png';
+/ITL/scene/page_41 date 156.5;
+/ITL/scene/page_41 duration 3.5;
+/ITL/scene/cursor watch timeEnter 156.5 160 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_41 show 1,
+  /ITL/scene/page_42 show 1,
+  /ITL/scene/page_41 $bottom,
+  /ITL/scene/page_42 $top
+);
+
+/ITL/scene/page_42 set img 'pages/trumpet/n42.png';
+/ITL/scene/page_42 date 160;
+/ITL/scene/page_42 duration 5.75;
+/ITL/scene/cursor watch timeEnter 160 165.75 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_42 show 1,
+  /ITL/scene/page_43 show 1,
+  /ITL/scene/page_42 $top,
+  /ITL/scene/page_43 $bottom
+);
+
+/ITL/scene/page_43 set img 'pages/trumpet/n43.png';
+/ITL/scene/page_43 date 165.5;
+/ITL/scene/page_43 duration 4.25;
+/ITL/scene/cursor watch timeEnter 165.5 169.75 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_43 show 1,
+  /ITL/scene/page_44 show 1,
+  /ITL/scene/page_43 $bottom,
+  /ITL/scene/page_44 $top
+);
+
+/ITL/scene/page_44 set img 'pages/trumpet/n44.png';
+/ITL/scene/page_44 date 170;
+/ITL/scene/page_44 duration 13;
+/ITL/scene/cursor watch timeEnter 170 183 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_44 show 1,
+  /ITL/scene/page_45 show 1,
+  /ITL/scene/page_44 $top,
+  /ITL/scene/page_45 $bottom
+);
+
+/ITL/scene/page_45 set img 'pages/trumpet/n45.png';
+/ITL/scene/page_45 date 183;
+/ITL/scene/page_45 duration 3.5;
+/ITL/scene/cursor watch timeEnter 183 186.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_45 show 1,
+  /ITL/scene/page_46 show 1,
+  /ITL/scene/page_45 $bottom,
+  /ITL/scene/page_46 $top
+);
+
+/ITL/scene/page_46 set img 'pages/trumpet/n46.png';
+/ITL/scene/page_46 date 186.5;
+/ITL/scene/page_46 duration 3.5;
+/ITL/scene/cursor watch timeEnter 186.5 190 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_46 show 1,
+  /ITL/scene/page_47 show 1,
+  /ITL/scene/page_46 $top,
+  /ITL/scene/page_47 $bottom
+);
+
+/ITL/scene/page_47 set img 'pages/trumpet/n47.png';
+/ITL/scene/page_47 date 190;
+/ITL/scene/page_47 duration 4;
+/ITL/scene/cursor watch timeEnter 190 194 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_47 show 1,
+  /ITL/scene/page_48 show 1,
+  /ITL/scene/page_47 $bottom,
+  /ITL/scene/page_48 $top
+);
+
+/ITL/scene/page_48 set img 'pages/trumpet/n48.png';
+/ITL/scene/page_48 date 194;
+/ITL/scene/page_48 duration 1.875;
+/ITL/scene/cursor watch timeEnter 194 195.875 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_48 show 1,
+  /ITL/scene/page_49 show 1,
+  /ITL/scene/page_48 $top,
+  /ITL/scene/page_49 $bottom
+);
+
+/ITL/scene/page_49 set img 'pages/trumpet/n49.png';
+/ITL/scene/page_49 date 195.875;
+/ITL/scene/page_49 duration 2.375;
+/ITL/scene/cursor watch timeEnter 195.875 198.25 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_49 show 1,
+  /ITL/scene/page_50 show 1,
+  /ITL/scene/page_49 $bottom,
+  /ITL/scene/page_50 $top
+);
+
+/ITL/scene/page_50 set img 'pages/trumpet/n50.png';
+/ITL/scene/page_50 date 198.25;
+/ITL/scene/page_50 duration 2.75;
+/ITL/scene/cursor watch timeEnter 198.25 201 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_50 show 1,
+  /ITL/scene/page_51 show 1,
+  /ITL/scene/page_50 $top,
+  /ITL/scene/page_51 $bottom
+);
+
+/ITL/scene/page_51 set img 'pages/trumpet/n51.png';
+/ITL/scene/page_51 date 201;
+/ITL/scene/page_51 duration 2;
+/ITL/scene/cursor watch timeEnter 201 203 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_51 show 1,
+  /ITL/scene/page_52 show 1,
+  /ITL/scene/page_51 $bottom,
+  /ITL/scene/page_52 $top
+);
+
+/ITL/scene/page_52 set img 'pages/trumpet/n52.png';
+/ITL/scene/page_52 date 203;
+/ITL/scene/page_52 duration 3.25;
+/ITL/scene/cursor watch timeEnter 203 206.25 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_52 show 1,
+  /ITL/scene/page_53 show 1,
+  /ITL/scene/page_52 $top,
+  /ITL/scene/page_53 $bottom
+);
+
+/ITL/scene/page_53 set img 'pages/trumpet/n53.png';
+/ITL/scene/page_53 date 206.25;
+/ITL/scene/page_53 duration 2.25;
+/ITL/scene/cursor watch timeEnter 206.25 208.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_53 show 1,
+  /ITL/scene/page_54 show 1,
+  /ITL/scene/page_53 $bottom,
+  /ITL/scene/page_54 $top
+);
+
+/ITL/scene/page_54 set img 'pages/trumpet/n54.png';
+/ITL/scene/page_54 date 208.5;
+/ITL/scene/page_54 duration 2.25;
+/ITL/scene/cursor watch timeEnter 208.5 210.75 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_54 show 1,
+  /ITL/scene/page_55 show 1,
+  /ITL/scene/page_54 $top,
+  /ITL/scene/page_55 $bottom
+);
+
+/ITL/scene/page_55 set img 'pages/trumpet/n55.png';
+/ITL/scene/page_55 date 210.75;
+/ITL/scene/page_55 duration 2.25;
+/ITL/scene/cursor watch timeEnter 210.75 213 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_55 show 1,
+  /ITL/scene/page_56 show 1,
+  /ITL/scene/page_55 $bottom,
+  /ITL/scene/page_56 $top
+);
+
+/ITL/scene/page_56 set img 'pages/trumpet/n56.png';
+/ITL/scene/page_56 date 213;
+/ITL/scene/page_56 duration 1.5;
+/ITL/scene/cursor watch timeEnter 213 214.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_56 show 1,
+  /ITL/scene/page_57 show 1,
+  /ITL/scene/page_56 $top,
+  /ITL/scene/page_57 $bottom
+);
+
+/ITL/scene/page_57 set img 'pages/trumpet/n57.png';
+/ITL/scene/page_57 date 214.5;
+/ITL/scene/page_57 duration 3.5;
+/ITL/scene/cursor watch timeEnter 214.5 218 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_57 show 1,
+  /ITL/scene/page_58 show 1,
+  /ITL/scene/page_57 $bottom,
+  /ITL/scene/page_58 $top
+);
+
+/ITL/scene/page_58 set img 'pages/trumpet/n58.png';
+/ITL/scene/page_58 date 218;
+/ITL/scene/page_58 duration 2;
+/ITL/scene/cursor watch timeEnter 218 220 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_58 show 1,
+  /ITL/scene/page_59 show 1,
+  /ITL/scene/page_58 $top,
+  /ITL/scene/page_59 $bottom
+);
+
+/ITL/scene/page_59 set img 'pages/trumpet/n59.png';
+/ITL/scene/page_59 date 220;
+/ITL/scene/page_59 duration 3;
+/ITL/scene/cursor watch timeEnter 220 223 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_59 show 1,
+  /ITL/scene/page_60 show 1,
+  /ITL/scene/page_59 $bottom,
+  /ITL/scene/page_60 $top
+);
+
+
+/ITL/scene/page_* show 0;
+/ITL/scene/page_* width 1.95;
+/ITL/scene/page_00 show 1;
+/ITL/scene/page_01 show 1;
+/ITL/scene/page_00 $top;
+/ITL/scene/page_01 $bottom;
+/ITL/scene/page_* watch mouseDown ( /ITL/scene event GOTO '$date%f');
+/ITL/scene/page_* watch mouseMove ( /ITL/scene event GOTO '$date%f');
+/ITL/scene event PAGEREADY;
+#### ATTENTION ! Ne pas modifier : ce script est généré automatiquement
+top = yorigin 1.3;
+bottom = yorigin -1.3;
+
+/ITL/scene/page_00 set img 'pages/trumpet/n00.png';
+/ITL/scene/page_00 date -0.025;
+/ITL/scene/page_00 duration 1.9;
+/ITL/scene/cursor watch timeEnter -0.025 1.875 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_00 show 1,
+  /ITL/scene/page_01 show 1,
+  /ITL/scene/page_00 $top,
+  /ITL/scene/page_01 $bottom
+);
+
+/ITL/scene/page_01 set img 'pages/trumpet/n01.png';
+/ITL/scene/page_01 date 1.875;
+/ITL/scene/page_01 duration 17.625;
+/ITL/scene/cursor watch timeEnter 1.875 19.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_01 show 1,
+  /ITL/scene/page_02 show 1,
+  /ITL/scene/page_01 $bottom,
+  /ITL/scene/page_02 $top
+);
+
+/ITL/scene/page_02 set img 'pages/trumpet/n02.png';
+/ITL/scene/page_02 date 19.5;
+/ITL/scene/page_02 duration 1.875;
+/ITL/scene/cursor watch timeEnter 19.5 21.375 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_02 show 1,
+  /ITL/scene/page_03 show 1,
+  /ITL/scene/page_02 $top,
+  /ITL/scene/page_03 $bottom
+);
+
+/ITL/scene/page_03 set img 'pages/trumpet/n03.png';
+/ITL/scene/page_03 date 21.375;
+/ITL/scene/page_03 duration 3.475;
+/ITL/scene/cursor watch timeEnter 21.375 24.85 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_03 show 1,
+  /ITL/scene/page_04 show 1,
+  /ITL/scene/page_03 $bottom,
+  /ITL/scene/page_04 $top
+);
+
+/ITL/scene/page_04 set img 'pages/trumpet/n04.png';
+/ITL/scene/page_04 date 24.85;
+/ITL/scene/page_04 duration 5.35;
+/ITL/scene/cursor watch timeEnter 24.85 30.2 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_04 show 1,
+  /ITL/scene/page_05 show 1,
+  /ITL/scene/page_04 $top,
+  /ITL/scene/page_05 $bottom
+);
+
+/ITL/scene/page_05 set img 'pages/trumpet/n05.png';
+/ITL/scene/page_05 date 30.2;
+/ITL/scene/page_05 duration 7.3;
+/ITL/scene/cursor watch timeEnter 30.2 37.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_05 show 1,
+  /ITL/scene/page_06 show 1,
+  /ITL/scene/page_05 $bottom,
+  /ITL/scene/page_06 $top
+);
+
+/ITL/scene/page_06 set img 'pages/trumpet/n06.png';
+/ITL/scene/page_06 date 37.5;
+/ITL/scene/page_06 duration 3.75;
+/ITL/scene/cursor watch timeEnter 37.5 41.25 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_06 show 1,
+  /ITL/scene/page_07 show 1,
+  /ITL/scene/page_06 $top,
+  /ITL/scene/page_07 $bottom
+);
+
+/ITL/scene/page_07 set img 'pages/trumpet/n07.png';
+/ITL/scene/page_07 date 41.25;
+/ITL/scene/page_07 duration 4.75;
+/ITL/scene/cursor watch timeEnter 41.25 46 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_07 show 1,
+  /ITL/scene/page_08 show 1,
+  /ITL/scene/page_07 $bottom,
+  /ITL/scene/page_08 $top
+);
+
+/ITL/scene/page_08 set img 'pages/trumpet/n08.png';
+/ITL/scene/page_08 date 46;
+/ITL/scene/page_08 duration 2;
+/ITL/scene/cursor watch timeEnter 46 48 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_08 show 1,
+  /ITL/scene/page_09 show 1,
+  /ITL/scene/page_08 $top,
+  /ITL/scene/page_09 $bottom
+);
+
+/ITL/scene/page_19 set img 'pages/trumpet/n19.png';
+/ITL/scene/page_19 date 48;
+/ITL/scene/page_19 duration 3.25;
+/ITL/scene/cursor watch timeEnter 48 51.25 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_19 show 1,
+  /ITL/scene/page_20 show 1,
+  /ITL/scene/page_19 $bottom,
+  /ITL/scene/page_20 $top
+);
+
+/ITL/scene/page_10 set img 'pages/trumpet/n10.png';
+/ITL/scene/page_10 date 51.25;
+/ITL/scene/page_10 duration 3.75;
+/ITL/scene/cursor watch timeEnter 51.25 55 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_10 show 1,
+  /ITL/scene/page_11 show 1,
+  /ITL/scene/page_10 $top,
+  /ITL/scene/page_11 $bottom
+);
+
+/ITL/scene/page_11 set img 'pages/trumpet/n11.png';
+/ITL/scene/page_11 date 55;
+/ITL/scene/page_11 duration 6.5;
+/ITL/scene/cursor watch timeEnter 55 61.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_11 show 1,
+  /ITL/scene/page_12 show 1,
+  /ITL/scene/page_11 $bottom,
+  /ITL/scene/page_12 $top
+);
+
+/ITL/scene/page_12 set img 'pages/trumpet/n12.png';
+/ITL/scene/page_12 date 61.5;
+/ITL/scene/page_12 duration 3.5;
+/ITL/scene/cursor watch timeEnter 61.5 65 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_12 show 1,
+  /ITL/scene/page_13 show 1,
+  /ITL/scene/page_12 $top,
+  /ITL/scene/page_13 $bottom
+);
+
+/ITL/scene/page_13 set img 'pages/trumpet/n13.png';
+/ITL/scene/page_13 date 65;
+/ITL/scene/page_13 duration 6.25;
+/ITL/scene/cursor watch timeEnter 65 71.25 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_13 show 1,
+  /ITL/scene/page_14 show 1,
+  /ITL/scene/page_13 $bottom,
+  /ITL/scene/page_14 $top
+);
+
+/ITL/scene/page_14 set img 'pages/trumpet/n14.png';
+/ITL/scene/page_14 date 71.25;
+/ITL/scene/page_14 duration 2.5;
+/ITL/scene/cursor watch timeEnter 71.25 73.75 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_14 show 1,
+  /ITL/scene/page_15 show 1,
+  /ITL/scene/page_14 $top,
+  /ITL/scene/page_15 $bottom
+);
+
+/ITL/scene/page_15 set img 'pages/trumpet/n15.png';
+/ITL/scene/page_15 date 73.75;
+/ITL/scene/page_15 duration 5.25;
+/ITL/scene/cursor watch timeEnter 73.75 79 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_15 show 1,
+  /ITL/scene/page_16 show 1,
+  /ITL/scene/page_15 $bottom,
+  /ITL/scene/page_16 $top
+);
+
+/ITL/scene/page_16 set img 'pages/trumpet/n16.png';
+/ITL/scene/page_16 date 79;
+/ITL/scene/page_16 duration 2;
+/ITL/scene/cursor watch timeEnter 79 81 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_16 show 1,
+  /ITL/scene/page_17 show 1,
+  /ITL/scene/page_16 $top,
+  /ITL/scene/page_17 $bottom
+);
+
+/ITL/scene/page_17 set img 'pages/trumpet/n17.png';
+/ITL/scene/page_17 date 81;
+/ITL/scene/page_17 duration 12;
+/ITL/scene/cursor watch timeEnter 81 93 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_17 show 1,
+  /ITL/scene/page_18 show 1,
+  /ITL/scene/page_17 $bottom,
+  /ITL/scene/page_18 $top
+);
+
+/ITL/scene/page_18 set img 'pages/trumpet/n18.png';
+/ITL/scene/page_18 date 93;
+/ITL/scene/page_18 duration 1.5;
+/ITL/scene/cursor watch timeEnter 93 94.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_18 show 1,
+  /ITL/scene/page_19 show 1,
+  /ITL/scene/page_18 $top,
+  /ITL/scene/page_19 $bottom
+);
+
+/ITL/scene/page_29 set img 'pages/trumpet/n29.png';
+/ITL/scene/page_29 date 94.5;
+/ITL/scene/page_29 duration 1.75;
+/ITL/scene/cursor watch timeEnter 94.5 96.25 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_29 show 1,
+  /ITL/scene/page_30 show 1,
+  /ITL/scene/page_29 $bottom,
+  /ITL/scene/page_30 $top
+);
+
+/ITL/scene/page_20 set img 'pages/trumpet/n20.png';
+/ITL/scene/page_20 date 96.25;
+/ITL/scene/page_20 duration 1.75;
+/ITL/scene/cursor watch timeEnter 96.25 98 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_20 show 1,
+  /ITL/scene/page_21 show 1,
+  /ITL/scene/page_20 $top,
+  /ITL/scene/page_21 $bottom
+);
+
+/ITL/scene/page_21 set img 'pages/trumpet/n21.png';
+/ITL/scene/page_21 date 98;
+/ITL/scene/page_21 duration 4;
+/ITL/scene/cursor watch timeEnter 98 102 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_21 show 1,
+  /ITL/scene/page_22 show 1,
+  /ITL/scene/page_21 $bottom,
+  /ITL/scene/page_22 $top
+);
+
+/ITL/scene/page_22 set img 'pages/trumpet/n22.png';
+/ITL/scene/page_22 date 102;
+/ITL/scene/page_22 duration 2;
+/ITL/scene/cursor watch timeEnter 102 104 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_22 show 1,
+  /ITL/scene/page_23 show 1,
+  /ITL/scene/page_22 $top,
+  /ITL/scene/page_23 $bottom
+);
+
+/ITL/scene/page_23 set img 'pages/trumpet/n23.png';
+/ITL/scene/page_23 date 104;
+/ITL/scene/page_23 duration 7.25;
+/ITL/scene/cursor watch timeEnter 104 111.25 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_23 show 1,
+  /ITL/scene/page_24 show 1,
+  /ITL/scene/page_23 $bottom,
+  /ITL/scene/page_24 $top
+);
+
+/ITL/scene/page_24 set img 'pages/trumpet/n24.png';
+/ITL/scene/page_24 date 111.25;
+/ITL/scene/page_24 duration 2.5;
+/ITL/scene/cursor watch timeEnter 111.25 113.75 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_24 show 1,
+  /ITL/scene/page_25 show 1,
+  /ITL/scene/page_24 $top,
+  /ITL/scene/page_25 $bottom
+);
+
+/ITL/scene/page_25 set img 'pages/trumpet/n25.png';
+/ITL/scene/page_25 date 113.75;
+/ITL/scene/page_25 duration 2.25;
+/ITL/scene/cursor watch timeEnter 113.75 116 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_25 show 1,
+  /ITL/scene/page_26 show 1,
+  /ITL/scene/page_25 $bottom,
+  /ITL/scene/page_26 $top
+);
+
+/ITL/scene/page_26 set img 'pages/trumpet/n26.png';
+/ITL/scene/page_26 date 116;
+/ITL/scene/page_26 duration 1.5;
+/ITL/scene/cursor watch timeEnter 116 117.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_26 show 1,
+  /ITL/scene/page_27 show 1,
+  /ITL/scene/page_26 $top,
+  /ITL/scene/page_27 $bottom
+);
+
+/ITL/scene/page_27 set img 'pages/trumpet/n27.png';
+/ITL/scene/page_27 date 117.5;
+/ITL/scene/page_27 duration 1.75;
+/ITL/scene/cursor watch timeEnter 117.5 119.25 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_27 show 1,
+  /ITL/scene/page_28 show 1,
+  /ITL/scene/page_27 $bottom,
+  /ITL/scene/page_28 $top
+);
+
+/ITL/scene/page_28 set img 'pages/trumpet/n28.png';
+/ITL/scene/page_28 date 119.25;
+/ITL/scene/page_28 duration 2.5;
+/ITL/scene/cursor watch timeEnter 119.25 121.75 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_28 show 1,
+  /ITL/scene/page_29 show 1,
+  /ITL/scene/page_28 $top,
+  /ITL/scene/page_29 $bottom
+);
+
+/ITL/scene/page_39 set img 'pages/trumpet/n39.png';
+/ITL/scene/page_39 date 121.75;
+/ITL/scene/page_39 duration 3;
+/ITL/scene/cursor watch timeEnter 121.75 124.75 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_39 show 1,
+  /ITL/scene/page_40 show 1,
+  /ITL/scene/page_39 $bottom,
+  /ITL/scene/page_40 $top
+);
+
+/ITL/scene/page_30 set img 'pages/trumpet/n30.png';
+/ITL/scene/page_30 date 124.75;
+/ITL/scene/page_30 duration 2.25;
+/ITL/scene/cursor watch timeEnter 124.75 127 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_30 show 1,
+  /ITL/scene/page_31 show 1,
+  /ITL/scene/page_30 $top,
+  /ITL/scene/page_31 $bottom
+);
+
+/ITL/scene/page_31 set img 'pages/trumpet/n31.png';
+/ITL/scene/page_31 date 127;
+/ITL/scene/page_31 duration 3.25;
+/ITL/scene/cursor watch timeEnter 127 130.25 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_31 show 1,
+  /ITL/scene/page_32 show 1,
+  /ITL/scene/page_31 $bottom,
+  /ITL/scene/page_32 $top
+);
+
+/ITL/scene/page_32 set img 'pages/trumpet/n32.png';
+/ITL/scene/page_32 date 130.25;
+/ITL/scene/page_32 duration 2.75;
+/ITL/scene/cursor watch timeEnter 130.25 133 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_32 show 1,
+  /ITL/scene/page_33 show 1,
+  /ITL/scene/page_32 $top,
+  /ITL/scene/page_33 $bottom
+);
+
+/ITL/scene/page_33 set img 'pages/trumpet/n33.png';
+/ITL/scene/page_33 date 133;
+/ITL/scene/page_33 duration 2.5;
+/ITL/scene/cursor watch timeEnter 133 135.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_33 show 1,
+  /ITL/scene/page_34 show 1,
+  /ITL/scene/page_33 $bottom,
+  /ITL/scene/page_34 $top
+);
+
+/ITL/scene/page_34 set img 'pages/trumpet/n34.png';
+/ITL/scene/page_34 date 135.5;
+/ITL/scene/page_34 duration 2.5;
+/ITL/scene/cursor watch timeEnter 135.5 138 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_34 show 1,
+  /ITL/scene/page_35 show 1,
+  /ITL/scene/page_34 $top,
+  /ITL/scene/page_35 $bottom
+);
+
+/ITL/scene/page_35 set img 'pages/trumpet/n35.png';
+/ITL/scene/page_35 date 138;
+/ITL/scene/page_35 duration 2.25;
+/ITL/scene/cursor watch timeEnter 138 140.25 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_35 show 1,
+  /ITL/scene/page_36 show 1,
+  /ITL/scene/page_35 $bottom,
+  /ITL/scene/page_36 $top
+);
+
+/ITL/scene/page_36 set img 'pages/trumpet/n36.png';
+/ITL/scene/page_36 date 140.25;
+/ITL/scene/page_36 duration 2.25;
+/ITL/scene/cursor watch timeEnter 140.25 142.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_36 show 1,
+  /ITL/scene/page_37 show 1,
+  /ITL/scene/page_36 $top,
+  /ITL/scene/page_37 $bottom
+);
+
+/ITL/scene/page_37 set img 'pages/trumpet/n37.png';
+/ITL/scene/page_37 date 142.5;
+/ITL/scene/page_37 duration 3;
+/ITL/scene/cursor watch timeEnter 142.5 145.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_37 show 1,
+  /ITL/scene/page_38 show 1,
+  /ITL/scene/page_37 $bottom,
+  /ITL/scene/page_38 $top
+);
+
+/ITL/scene/page_38 set img 'pages/trumpet/n38.png';
+/ITL/scene/page_38 date 145.5;
+/ITL/scene/page_38 duration 2.75;
+/ITL/scene/cursor watch timeEnter 145.5 148.25 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_38 show 1,
+  /ITL/scene/page_39 show 1,
+  /ITL/scene/page_38 $top,
+  /ITL/scene/page_39 $bottom
+);
+
+/ITL/scene/page_39 set img 'pages/trumpet/n39.png';
+/ITL/scene/page_39 date 148.25;
+/ITL/scene/page_39 duration 3.75;
+/ITL/scene/cursor watch timeEnter 148.25 152 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_39 show 1,
+  /ITL/scene/page_40 show 1,
+  /ITL/scene/page_39 $bottom,
+  /ITL/scene/page_40 $top
+);
+
+/ITL/scene/page_40 set img 'pages/trumpet/n40.png';
+/ITL/scene/page_40 date 152;
+/ITL/scene/page_40 duration 4.5;
+/ITL/scene/cursor watch timeEnter 152 156.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_40 show 1,
+  /ITL/scene/page_41 show 1,
+  /ITL/scene/page_40 $top,
+  /ITL/scene/page_41 $bottom
+);
+
+/ITL/scene/page_41 set img 'pages/trumpet/n41.png';
+/ITL/scene/page_41 date 156.5;
+/ITL/scene/page_41 duration 3.5;
+/ITL/scene/cursor watch timeEnter 156.5 160 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_41 show 1,
+  /ITL/scene/page_42 show 1,
+  /ITL/scene/page_41 $bottom,
+  /ITL/scene/page_42 $top
+);
+
+/ITL/scene/page_42 set img 'pages/trumpet/n42.png';
+/ITL/scene/page_42 date 160;
+/ITL/scene/page_42 duration 5.75;
+/ITL/scene/cursor watch timeEnter 160 165.75 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_42 show 1,
+  /ITL/scene/page_43 show 1,
+  /ITL/scene/page_42 $top,
+  /ITL/scene/page_43 $bottom
+);
+
+/ITL/scene/page_43 set img 'pages/trumpet/n43.png';
+/ITL/scene/page_43 date 165.5;
+/ITL/scene/page_43 duration 4.25;
+/ITL/scene/cursor watch timeEnter 165.5 169.75 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_43 show 1,
+  /ITL/scene/page_44 show 1,
+  /ITL/scene/page_43 $bottom,
+  /ITL/scene/page_44 $top
+);
+
+/ITL/scene/page_44 set img 'pages/trumpet/n44.png';
+/ITL/scene/page_44 date 170;
+/ITL/scene/page_44 duration 13;
+/ITL/scene/cursor watch timeEnter 170 183 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_44 show 1,
+  /ITL/scene/page_45 show 1,
+  /ITL/scene/page_44 $top,
+  /ITL/scene/page_45 $bottom
+);
+
+/ITL/scene/page_45 set img 'pages/trumpet/n45.png';
+/ITL/scene/page_45 date 183;
+/ITL/scene/page_45 duration 3.5;
+/ITL/scene/cursor watch timeEnter 183 186.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_45 show 1,
+  /ITL/scene/page_46 show 1,
+  /ITL/scene/page_45 $bottom,
+  /ITL/scene/page_46 $top
+);
+
+/ITL/scene/page_46 set img 'pages/trumpet/n46.png';
+/ITL/scene/page_46 date 186.5;
+/ITL/scene/page_46 duration 3.5;
+/ITL/scene/cursor watch timeEnter 186.5 190 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_46 show 1,
+  /ITL/scene/page_47 show 1,
+  /ITL/scene/page_46 $top,
+  /ITL/scene/page_47 $bottom
+);
+
+/ITL/scene/page_47 set img 'pages/trumpet/n47.png';
+/ITL/scene/page_47 date 190;
+/ITL/scene/page_47 duration 4;
+/ITL/scene/cursor watch timeEnter 190 194 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_47 show 1,
+  /ITL/scene/page_48 show 1,
+  /ITL/scene/page_47 $bottom,
+  /ITL/scene/page_48 $top
+);
+
+/ITL/scene/page_48 set img 'pages/trumpet/n48.png';
+/ITL/scene/page_48 date 194;
+/ITL/scene/page_48 duration 1.875;
+/ITL/scene/cursor watch timeEnter 194 195.875 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_48 show 1,
+  /ITL/scene/page_49 show 1,
+  /ITL/scene/page_48 $top,
+  /ITL/scene/page_49 $bottom
+);
+
+/ITL/scene/page_49 set img 'pages/trumpet/n49.png';
+/ITL/scene/page_49 date 195.875;
+/ITL/scene/page_49 duration 2.375;
+/ITL/scene/cursor watch timeEnter 195.875 198.25 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_49 show 1,
+  /ITL/scene/page_50 show 1,
+  /ITL/scene/page_49 $bottom,
+  /ITL/scene/page_50 $top
+);
+
+/ITL/scene/page_50 set img 'pages/trumpet/n50.png';
+/ITL/scene/page_50 date 198.25;
+/ITL/scene/page_50 duration 2.75;
+/ITL/scene/cursor watch timeEnter 198.25 201 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_50 show 1,
+  /ITL/scene/page_51 show 1,
+  /ITL/scene/page_50 $top,
+  /ITL/scene/page_51 $bottom
+);
+
+/ITL/scene/page_51 set img 'pages/trumpet/n51.png';
+/ITL/scene/page_51 date 201;
+/ITL/scene/page_51 duration 2;
+/ITL/scene/cursor watch timeEnter 201 203 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_51 show 1,
+  /ITL/scene/page_52 show 1,
+  /ITL/scene/page_51 $bottom,
+  /ITL/scene/page_52 $top
+);
+
+/ITL/scene/page_52 set img 'pages/trumpet/n52.png';
+/ITL/scene/page_52 date 203;
+/ITL/scene/page_52 duration 3.25;
+/ITL/scene/cursor watch timeEnter 203 206.25 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_52 show 1,
+  /ITL/scene/page_53 show 1,
+  /ITL/scene/page_52 $top,
+  /ITL/scene/page_53 $bottom
+);
+
+/ITL/scene/page_53 set img 'pages/trumpet/n53.png';
+/ITL/scene/page_53 date 206.25;
+/ITL/scene/page_53 duration 2.25;
+/ITL/scene/cursor watch timeEnter 206.25 208.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_53 show 1,
+  /ITL/scene/page_54 show 1,
+  /ITL/scene/page_53 $bottom,
+  /ITL/scene/page_54 $top
+);
+
+/ITL/scene/page_54 set img 'pages/trumpet/n54.png';
+/ITL/scene/page_54 date 208.5;
+/ITL/scene/page_54 duration 2.25;
+/ITL/scene/cursor watch timeEnter 208.5 210.75 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_54 show 1,
+  /ITL/scene/page_55 show 1,
+  /ITL/scene/page_54 $top,
+  /ITL/scene/page_55 $bottom
+);
+
+/ITL/scene/page_55 set img 'pages/trumpet/n55.png';
+/ITL/scene/page_55 date 210.75;
+/ITL/scene/page_55 duration 2.25;
+/ITL/scene/cursor watch timeEnter 210.75 213 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_55 show 1,
+  /ITL/scene/page_56 show 1,
+  /ITL/scene/page_55 $bottom,
+  /ITL/scene/page_56 $top
+);
+
+/ITL/scene/page_56 set img 'pages/trumpet/n56.png';
+/ITL/scene/page_56 date 213;
+/ITL/scene/page_56 duration 1.5;
+/ITL/scene/cursor watch timeEnter 213 214.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_56 show 1,
+  /ITL/scene/page_57 show 1,
+  /ITL/scene/page_56 $top,
+  /ITL/scene/page_57 $bottom
+);
+
+/ITL/scene/page_57 set img 'pages/trumpet/n57.png';
+/ITL/scene/page_57 date 214.5;
+/ITL/scene/page_57 duration 3.5;
+/ITL/scene/cursor watch timeEnter 214.5 218 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_57 show 1,
+  /ITL/scene/page_58 show 1,
+  /ITL/scene/page_57 $bottom,
+  /ITL/scene/page_58 $top
+);
+
+/ITL/scene/page_58 set img 'pages/trumpet/n58.png';
+/ITL/scene/page_58 date 218;
+/ITL/scene/page_58 duration 2;
+/ITL/scene/cursor watch timeEnter 218 220 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_58 show 1,
+  /ITL/scene/page_59 show 1,
+  /ITL/scene/page_58 $top,
+  /ITL/scene/page_59 $bottom
+);
+
+/ITL/scene/page_59 set img 'pages/trumpet/n59.png';
+/ITL/scene/page_59 date 220;
+/ITL/scene/page_59 duration 3;
+/ITL/scene/cursor watch timeEnter 220 223 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_59 show 1,
+  /ITL/scene/page_60 show 1,
+  /ITL/scene/page_59 $bottom,
+  /ITL/scene/page_60 $top
+);
+
+/ITL/scene/cursor watch timeEnter 223 323 ( /ITL/scene event STOP );
+
+/ITL/scene/page_* show 0;
+/ITL/scene/page_* width 1.95;
+/ITL/scene/page_00 show 1;
+/ITL/scene/page_01 show 1;
+/ITL/scene/page_00 $top;
+/ITL/scene/page_01 $bottom;
+/ITL/scene/page_* watch mouseDown ( /ITL/scene event GOTO '$date');
+/ITL/scene/page_* watch mouseMove ( /ITL/scene event GOTO '$date');
+/ITL/scene event PAGEREADY;

@@ -1,0 +1,862 @@
+#### ATTENTION ! Ne pas modifier : ce script est généré automatiquement
+top = yorigin 1.3;
+bottom = yorigin -1.3;
+
+/ITL/scene/page_00 set img 'pages/violin/n00.png';
+/ITL/scene/page_00 date 0.;
+/ITL/scene/page_00 duration 1.5 ;
+/ITL/scene/cursor watch timeEnter 0. 1.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_00 show 1,
+  /ITL/scene/page_01 show 1,
+  /ITL/scene/page_00 $top,
+  /ITL/scene/page_01 $bottom
+);
+
+/ITL/scene/page_01 set img 'pages/violin/n01.png';
+/ITL/scene/page_01 date 1.5;
+/ITL/scene/page_01 duration 2.5 ;
+/ITL/scene/cursor watch timeEnter 1.5 4 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_01 show 1,
+  /ITL/scene/page_02 show 1,
+  /ITL/scene/page_01 $bottom,
+  /ITL/scene/page_02 $top
+);
+
+/ITL/scene/page_02 set img 'pages/violin/n02.png';
+/ITL/scene/page_02 date 4.;
+/ITL/scene/page_02 duration 2. ;
+/ITL/scene/cursor watch timeEnter 4. 6 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_02 show 1,
+  /ITL/scene/page_03 show 1,
+  /ITL/scene/page_02 $top,
+  /ITL/scene/page_03 $bottom
+);
+
+/ITL/scene/page_03 set img 'pages/violin/n03.png';
+/ITL/scene/page_03 date 6.;
+/ITL/scene/page_03 duration 3.5 ;
+/ITL/scene/cursor watch timeEnter 6. 9.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_03 show 1,
+  /ITL/scene/page_04 show 1,
+  /ITL/scene/page_03 $bottom,
+  /ITL/scene/page_04 $top
+);
+
+/ITL/scene/page_04 set img 'pages/violin/n04.png';
+/ITL/scene/page_04 date 9.5;
+/ITL/scene/page_04 duration 2.25 ;
+/ITL/scene/cursor watch timeEnter 9.5 11.75 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_04 show 1,
+  /ITL/scene/page_05 show 1,
+  /ITL/scene/page_04 $top,
+  /ITL/scene/page_05 $bottom
+);
+
+/ITL/scene/page_05 set img 'pages/violin/n05.png';
+/ITL/scene/page_05 date 11.75;
+/ITL/scene/page_05 duration 2. ;
+/ITL/scene/cursor watch timeEnter 11.75 13.75 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_05 show 1,
+  /ITL/scene/page_06 show 1,
+  /ITL/scene/page_05 $bottom,
+  /ITL/scene/page_06 $top
+);
+
+/ITL/scene/page_06 set img 'pages/violin/n06.png';
+/ITL/scene/page_06 date 13.75;
+/ITL/scene/page_06 duration 2.5 ;
+/ITL/scene/cursor watch timeEnter 13.75 16.25 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_06 show 1,
+  /ITL/scene/page_07 show 1,
+  /ITL/scene/page_06 $top,
+  /ITL/scene/page_07 $bottom
+);
+
+/ITL/scene/page_07 set img 'pages/violin/n07.png';
+/ITL/scene/page_07 date 16.25;
+/ITL/scene/page_07 duration 2.5 ;
+/ITL/scene/cursor watch timeEnter 16.25 18.75 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_07 show 1,
+  /ITL/scene/page_08 show 1,
+  /ITL/scene/page_07 $bottom,
+  /ITL/scene/page_08 $top
+);
+
+/ITL/scene/page_08 set img 'pages/violin/n08.png';
+/ITL/scene/page_08 date 18.75;
+/ITL/scene/page_08 duration 5.5 ;
+/ITL/scene/cursor watch timeEnter 18.75 24.25 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_08 show 1,
+  /ITL/scene/page_09 show 1,
+  /ITL/scene/page_08 $top,
+  /ITL/scene/page_09 $bottom
+);
+
+/ITL/scene/page_09 set img 'pages/violin/n09.png';
+/ITL/scene/page_09 date 24.25;
+/ITL/scene/page_09 duration 4.25 ;
+/ITL/scene/cursor watch timeEnter 24.25 28.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_09 show 1,
+  /ITL/scene/page_10 show 1,
+  /ITL/scene/page_09 $bottom,
+  /ITL/scene/page_10 $top
+);
+
+/ITL/scene/page_10 set img 'pages/violin/n10.png';
+/ITL/scene/page_10 date 28.5;
+/ITL/scene/page_10 duration 4.25 ;
+/ITL/scene/cursor watch timeEnter 28.5 32.75 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_10 show 1,
+  /ITL/scene/page_11 show 1,
+  /ITL/scene/page_10 $top,
+  /ITL/scene/page_11 $bottom
+);
+
+/ITL/scene/page_11 set img 'pages/violin/n11.png';
+/ITL/scene/page_11 date 32.75;
+/ITL/scene/page_11 duration 2.75 ;
+/ITL/scene/cursor watch timeEnter 32.75 35.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_11 show 1,
+  /ITL/scene/page_12 show 1,
+  /ITL/scene/page_11 $bottom,
+  /ITL/scene/page_12 $top
+);
+
+/ITL/scene/page_12 set img 'pages/violin/n12.png';
+/ITL/scene/page_12 date 35.5;
+/ITL/scene/page_12 duration 2.75 ;
+/ITL/scene/cursor watch timeEnter 35.5 38.25 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_12 show 1,
+  /ITL/scene/page_13 show 1,
+  /ITL/scene/page_12 $top,
+  /ITL/scene/page_13 $bottom
+);
+
+/ITL/scene/page_13 set img 'pages/violin/n13.png';
+/ITL/scene/page_13 date 38.25;
+/ITL/scene/page_13 duration 4. ;
+/ITL/scene/cursor watch timeEnter 38.25 42.25 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_13 show 1,
+  /ITL/scene/page_14 show 1,
+  /ITL/scene/page_13 $bottom,
+  /ITL/scene/page_14 $top
+);
+
+/ITL/scene/page_14 set img 'pages/violin/n14.png';
+/ITL/scene/page_14 date 42.25;
+/ITL/scene/page_14 duration 2.5 ;
+/ITL/scene/cursor watch timeEnter 42.25 44.75 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_14 show 1,
+  /ITL/scene/page_15 show 1,
+  /ITL/scene/page_14 $top,
+  /ITL/scene/page_15 $bottom
+);
+
+/ITL/scene/page_15 set img 'pages/violin/n15.png';
+/ITL/scene/page_15 date 44.75;
+/ITL/scene/page_15 duration 2.75 ;
+/ITL/scene/cursor watch timeEnter 44.75 47.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_15 show 1,
+  /ITL/scene/page_16 show 1,
+  /ITL/scene/page_15 $bottom,
+  /ITL/scene/page_16 $top
+);
+
+/ITL/scene/page_16 set img 'pages/violin/n16.png';
+/ITL/scene/page_16 date 47.5;
+/ITL/scene/page_16 duration 4. ;
+/ITL/scene/cursor watch timeEnter 47.5 51.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_16 show 1,
+  /ITL/scene/page_17 show 1,
+  /ITL/scene/page_16 $top,
+  /ITL/scene/page_17 $bottom
+);
+
+/ITL/scene/page_17 set img 'pages/violin/n17.png';
+/ITL/scene/page_17 date 51.5;
+/ITL/scene/page_17 duration 5.25 ;
+/ITL/scene/cursor watch timeEnter 51.5 56.75 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_17 show 1,
+  /ITL/scene/page_18 show 1,
+  /ITL/scene/page_17 $bottom,
+  /ITL/scene/page_18 $top
+);
+
+/ITL/scene/page_18 set img 'pages/violin/n18.png';
+/ITL/scene/page_18 date 56.75;
+/ITL/scene/page_18 duration 3.25 ;
+/ITL/scene/cursor watch timeEnter 56.75 60 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_18 show 1,
+  /ITL/scene/page_19 show 1,
+  /ITL/scene/page_18 $top,
+  /ITL/scene/page_19 $bottom
+);
+
+/ITL/scene/page_19 set img 'pages/violin/n19.png';
+/ITL/scene/page_19 date 60.;
+/ITL/scene/page_19 duration 2. ;
+/ITL/scene/cursor watch timeEnter 60. 62 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_19 show 1,
+  /ITL/scene/page_20 show 1,
+  /ITL/scene/page_19 $bottom,
+  /ITL/scene/page_20 $top
+);
+
+/ITL/scene/page_20 set img 'pages/violin/n20.png';
+/ITL/scene/page_20 date 62.;
+/ITL/scene/page_20 duration 2.5 ;
+/ITL/scene/cursor watch timeEnter 62. 64.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_20 show 1,
+  /ITL/scene/page_21 show 1,
+  /ITL/scene/page_20 $top,
+  /ITL/scene/page_21 $bottom
+);
+
+/ITL/scene/page_21 set img 'pages/violin/n21.png';
+/ITL/scene/page_21 date 64.5;
+/ITL/scene/page_21 duration 2.5 ;
+/ITL/scene/cursor watch timeEnter 64.5 67 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_21 show 1,
+  /ITL/scene/page_22 show 1,
+  /ITL/scene/page_21 $bottom,
+  /ITL/scene/page_22 $top
+);
+
+/ITL/scene/page_22 set img 'pages/violin/n22.png';
+/ITL/scene/page_22 date 67.;
+/ITL/scene/page_22 duration 5.5 ;
+/ITL/scene/cursor watch timeEnter 67. 72.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_22 show 1,
+  /ITL/scene/page_23 show 1,
+  /ITL/scene/page_22 $top,
+  /ITL/scene/page_23 $bottom
+);
+
+/ITL/scene/page_23 set img 'pages/violin/n23.png';
+/ITL/scene/page_23 date 72.5;
+/ITL/scene/page_23 duration 5. ;
+/ITL/scene/cursor watch timeEnter 72.5 77.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_23 show 1,
+  /ITL/scene/page_24 show 1,
+  /ITL/scene/page_23 $bottom,
+  /ITL/scene/page_24 $top
+);
+
+/ITL/scene/page_24 set img 'pages/violin/n24.png';
+/ITL/scene/page_24 date 77.5;
+/ITL/scene/page_24 duration 2.5 ;
+/ITL/scene/cursor watch timeEnter 77.5 80 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_24 show 1,
+  /ITL/scene/page_25 show 1,
+  /ITL/scene/page_24 $top,
+  /ITL/scene/page_25 $bottom
+);
+
+/ITL/scene/page_25 set img 'pages/violin/n25.png';
+/ITL/scene/page_25 date 80.;
+/ITL/scene/page_25 duration 3.75 ;
+/ITL/scene/cursor watch timeEnter 80. 83.75 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_25 show 1,
+  /ITL/scene/page_26 show 1,
+  /ITL/scene/page_25 $bottom,
+  /ITL/scene/page_26 $top
+);
+
+/ITL/scene/page_26 set img 'pages/violin/n26.png';
+/ITL/scene/page_26 date 83.75;
+/ITL/scene/page_26 duration 3.75 ;
+/ITL/scene/cursor watch timeEnter 83.75 87.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_26 show 1,
+  /ITL/scene/page_27 show 1,
+  /ITL/scene/page_26 $top,
+  /ITL/scene/page_27 $bottom
+);
+
+/ITL/scene/page_27 set img 'pages/violin/n27.png';
+/ITL/scene/page_27 date 87.5;
+/ITL/scene/page_27 duration 5.5 ;
+/ITL/scene/cursor watch timeEnter 87.5 93 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_27 show 1,
+  /ITL/scene/page_28 show 1,
+  /ITL/scene/page_27 $bottom,
+  /ITL/scene/page_28 $top
+);
+
+/ITL/scene/page_28 set img 'pages/violin/n28.png';
+/ITL/scene/page_28 date 93.;
+/ITL/scene/page_28 duration 2.5 ;
+/ITL/scene/cursor watch timeEnter 93. 95.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_28 show 1,
+  /ITL/scene/page_29 show 1,
+  /ITL/scene/page_28 $top,
+  /ITL/scene/page_29 $bottom
+);
+
+/ITL/scene/page_29 set img 'pages/violin/n29.png';
+/ITL/scene/page_29 date 95.5;
+/ITL/scene/page_29 duration 1.875 ;
+/ITL/scene/cursor watch timeEnter 95.5 97.375 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_29 show 1,
+  /ITL/scene/page_30 show 1,
+  /ITL/scene/page_29 $bottom,
+  /ITL/scene/page_30 $top
+);
+
+/ITL/scene/page_30 set img 'pages/violin/n30.png';
+/ITL/scene/page_30 date 97.375;
+/ITL/scene/page_30 duration 1.5 ;
+/ITL/scene/cursor watch timeEnter 97.375 98.875 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_30 show 1,
+  /ITL/scene/page_31 show 1,
+  /ITL/scene/page_30 $top,
+  /ITL/scene/page_31 $bottom
+);
+
+/ITL/scene/page_31 set img 'pages/violin/n31.png';
+/ITL/scene/page_31 date 98.875;
+/ITL/scene/page_31 duration 1.55 ;
+/ITL/scene/cursor watch timeEnter 98.875 100.425 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_31 show 1,
+  /ITL/scene/page_32 show 1,
+  /ITL/scene/page_31 $bottom,
+  /ITL/scene/page_32 $top
+);
+
+/ITL/scene/page_32 set img 'pages/violin/n32.png';
+/ITL/scene/page_32 date 100.425;
+/ITL/scene/page_32 duration 3.075 ;
+/ITL/scene/cursor watch timeEnter 100.425 103.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_32 show 1,
+  /ITL/scene/page_33 show 1,
+  /ITL/scene/page_32 $top,
+  /ITL/scene/page_33 $bottom
+);
+
+/ITL/scene/page_33 set img 'pages/violin/n33.png';
+/ITL/scene/page_33 date 103.5;
+/ITL/scene/page_33 duration 4. ;
+/ITL/scene/cursor watch timeEnter 103.5 107.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_33 show 1,
+  /ITL/scene/page_34 show 1,
+  /ITL/scene/page_33 $bottom,
+  /ITL/scene/page_34 $top
+);
+
+/ITL/scene/page_34 set img 'pages/violin/n34.png';
+/ITL/scene/page_34 date 107.5;
+/ITL/scene/page_34 duration 2. ;
+/ITL/scene/cursor watch timeEnter 107.5 109.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_34 show 1,
+  /ITL/scene/page_35 show 1,
+  /ITL/scene/page_34 $top,
+  /ITL/scene/page_35 $bottom
+);
+
+/ITL/scene/page_35 set img 'pages/violin/n35.png';
+/ITL/scene/page_35 date 109.5;
+/ITL/scene/page_35 duration 3.25 ;
+/ITL/scene/cursor watch timeEnter 109.5 112.75 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_35 show 1,
+  /ITL/scene/page_36 show 1,
+  /ITL/scene/page_35 $bottom,
+  /ITL/scene/page_36 $top
+);
+
+/ITL/scene/page_36 set img 'pages/violin/n36.png';
+/ITL/scene/page_36 date 112.75;
+/ITL/scene/page_36 duration 2.25 ;
+/ITL/scene/cursor watch timeEnter 112.75 115 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_36 show 1,
+  /ITL/scene/page_37 show 1,
+  /ITL/scene/page_36 $top,
+  /ITL/scene/page_37 $bottom
+);
+
+/ITL/scene/page_37 set img 'pages/violin/n37.png';
+/ITL/scene/page_37 date 115.;
+/ITL/scene/page_37 duration 1.5 ;
+/ITL/scene/cursor watch timeEnter 115. 116.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_37 show 1,
+  /ITL/scene/page_38 show 1,
+  /ITL/scene/page_37 $bottom,
+  /ITL/scene/page_38 $top
+);
+
+/ITL/scene/page_38 set img 'pages/violin/n38.png';
+/ITL/scene/page_38 date 116.5;
+/ITL/scene/page_38 duration 2. ;
+/ITL/scene/cursor watch timeEnter 116.5 118.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_38 show 1,
+  /ITL/scene/page_39 show 1,
+  /ITL/scene/page_38 $top,
+  /ITL/scene/page_39 $bottom
+);
+
+/ITL/scene/page_39 set img 'pages/violin/n39.png';
+/ITL/scene/page_39 date 118.5;
+/ITL/scene/page_39 duration 2. ;
+/ITL/scene/cursor watch timeEnter 118.5 120.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_39 show 1,
+  /ITL/scene/page_40 show 1,
+  /ITL/scene/page_39 $bottom,
+  /ITL/scene/page_40 $top
+);
+
+/ITL/scene/page_40 set img 'pages/violin/n40.png';
+/ITL/scene/page_40 date 120.5;
+/ITL/scene/page_40 duration 4. ;
+/ITL/scene/cursor watch timeEnter 120.5 124.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_40 show 1,
+  /ITL/scene/page_41 show 1,
+  /ITL/scene/page_40 $top,
+  /ITL/scene/page_41 $bottom
+);
+
+/ITL/scene/page_41 set img 'pages/violin/n41.png';
+/ITL/scene/page_41 date 124.5;
+/ITL/scene/page_41 duration 3.75 ;
+/ITL/scene/cursor watch timeEnter 124.5 128.25 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_41 show 1,
+  /ITL/scene/page_42 show 1,
+  /ITL/scene/page_41 $bottom,
+  /ITL/scene/page_42 $top
+);
+
+/ITL/scene/page_42 set img 'pages/violin/n42.png';
+/ITL/scene/page_42 date 128.25;
+/ITL/scene/page_42 duration 3. ;
+/ITL/scene/cursor watch timeEnter 128.25 131.25 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_42 show 1,
+  /ITL/scene/page_43 show 1,
+  /ITL/scene/page_42 $top,
+  /ITL/scene/page_43 $bottom
+);
+
+/ITL/scene/page_43 set img 'pages/violin/n43.png';
+/ITL/scene/page_43 date 131.25;
+/ITL/scene/page_43 duration 2.75 ;
+/ITL/scene/cursor watch timeEnter 131.25 134 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_43 show 1,
+  /ITL/scene/page_44 show 1,
+  /ITL/scene/page_43 $bottom,
+  /ITL/scene/page_44 $top
+);
+
+/ITL/scene/page_44 set img 'pages/violin/n44.png';
+/ITL/scene/page_44 date 134.;
+/ITL/scene/page_44 duration 5.25 ;
+/ITL/scene/cursor watch timeEnter 134. 139.25 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_44 show 1,
+  /ITL/scene/page_45 show 1,
+  /ITL/scene/page_44 $top,
+  /ITL/scene/page_45 $bottom
+);
+
+/ITL/scene/page_45 set img 'pages/violin/n45.png';
+/ITL/scene/page_45 date 139.25;
+/ITL/scene/page_45 duration 3.65 ;
+/ITL/scene/cursor watch timeEnter 139.25 142.9 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_45 show 1,
+  /ITL/scene/page_46 show 1,
+  /ITL/scene/page_45 $bottom,
+  /ITL/scene/page_46 $top
+);
+
+/ITL/scene/page_46 set img 'pages/violin/n46.png';
+/ITL/scene/page_46 date 142.9;
+/ITL/scene/page_46 duration 1.6 ;
+/ITL/scene/cursor watch timeEnter 142.9 144.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_46 show 1,
+  /ITL/scene/page_47 show 1,
+  /ITL/scene/page_46 $top,
+  /ITL/scene/page_47 $bottom
+);
+
+/ITL/scene/page_47 set img 'pages/violin/n47.png';
+/ITL/scene/page_47 date 144.5;
+/ITL/scene/page_47 duration 6.75 ;
+/ITL/scene/cursor watch timeEnter 144.5 151.25 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_47 show 1,
+  /ITL/scene/page_48 show 1,
+  /ITL/scene/page_47 $bottom,
+  /ITL/scene/page_48 $top
+);
+
+/ITL/scene/page_48 set img 'pages/violin/n48.png';
+/ITL/scene/page_48 date 151.25;
+/ITL/scene/page_48 duration 4.25 ;
+/ITL/scene/cursor watch timeEnter 151.25 155.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_48 show 1,
+  /ITL/scene/page_49 show 1,
+  /ITL/scene/page_48 $top,
+  /ITL/scene/page_49 $bottom
+);
+
+/ITL/scene/page_49 set img 'pages/violin/n49.png';
+/ITL/scene/page_49 date 155.5;
+/ITL/scene/page_49 duration 2.25 ;
+/ITL/scene/cursor watch timeEnter 155.5 157.75 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_49 show 1,
+  /ITL/scene/page_50 show 1,
+  /ITL/scene/page_49 $bottom,
+  /ITL/scene/page_50 $top
+);
+
+/ITL/scene/page_50 set img 'pages/violin/n50.png';
+/ITL/scene/page_50 date 157.75;
+/ITL/scene/page_50 duration 4.25 ;
+/ITL/scene/cursor watch timeEnter 157.75 162 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_50 show 1,
+  /ITL/scene/page_51 show 1,
+  /ITL/scene/page_50 $top,
+  /ITL/scene/page_51 $bottom
+);
+
+/ITL/scene/page_51 set img 'pages/violin/n51.png';
+/ITL/scene/page_51 date 162.;
+/ITL/scene/page_51 duration 4.25 ;
+/ITL/scene/cursor watch timeEnter 162. 166.25 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_51 show 1,
+  /ITL/scene/page_52 show 1,
+  /ITL/scene/page_51 $bottom,
+  /ITL/scene/page_52 $top
+);
+
+/ITL/scene/page_52 set img 'pages/violin/n52.png';
+/ITL/scene/page_52 date 166.25;
+/ITL/scene/page_52 duration 1.75 ;
+/ITL/scene/cursor watch timeEnter 166.25 168 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_52 show 1,
+  /ITL/scene/page_53 show 1,
+  /ITL/scene/page_52 $top,
+  /ITL/scene/page_53 $bottom
+);
+
+/ITL/scene/page_53 set img 'pages/violin/n53.png';
+/ITL/scene/page_53 date 168.;
+/ITL/scene/page_53 duration 1.25 ;
+/ITL/scene/cursor watch timeEnter 168. 169.25 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_53 show 1,
+  /ITL/scene/page_54 show 1,
+  /ITL/scene/page_53 $bottom,
+  /ITL/scene/page_54 $top
+);
+
+/ITL/scene/page_54 set img 'pages/violin/n54.png';
+/ITL/scene/page_54 date 169.25;
+/ITL/scene/page_54 duration 2.5 ;
+/ITL/scene/cursor watch timeEnter 169.25 171.75 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_54 show 1,
+  /ITL/scene/page_55 show 1,
+  /ITL/scene/page_54 $top,
+  /ITL/scene/page_55 $bottom
+);
+
+/ITL/scene/page_55 set img 'pages/violin/n55.png';
+/ITL/scene/page_55 date 171.75;
+/ITL/scene/page_55 duration 3.5 ;
+/ITL/scene/cursor watch timeEnter 171.75 175.25 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_55 show 1,
+  /ITL/scene/page_56 show 1,
+  /ITL/scene/page_55 $bottom,
+  /ITL/scene/page_56 $top
+);
+
+/ITL/scene/page_56 set img 'pages/violin/n56.png';
+/ITL/scene/page_56 date 175.25;
+/ITL/scene/page_56 duration 2.5 ;
+/ITL/scene/cursor watch timeEnter 175.25 177.75 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_56 show 1,
+  /ITL/scene/page_57 show 1,
+  /ITL/scene/page_56 $top,
+  /ITL/scene/page_57 $bottom
+);
+
+/ITL/scene/page_57 set img 'pages/violin/n57.png';
+/ITL/scene/page_57 date 177.75;
+/ITL/scene/page_57 duration 4.25 ;
+/ITL/scene/cursor watch timeEnter 177.75 182 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_57 show 1,
+  /ITL/scene/page_58 show 1,
+  /ITL/scene/page_57 $bottom,
+  /ITL/scene/page_58 $top
+);
+
+/ITL/scene/page_58 set img 'pages/violin/n58.png';
+/ITL/scene/page_58 date 182.;
+/ITL/scene/page_58 duration 2.25 ;
+/ITL/scene/cursor watch timeEnter 182. 184.25 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_58 show 1,
+  /ITL/scene/page_59 show 1,
+  /ITL/scene/page_58 $top,
+  /ITL/scene/page_59 $bottom
+);
+
+/ITL/scene/page_59 set img 'pages/violin/n59.png';
+/ITL/scene/page_59 date 184.25;
+/ITL/scene/page_59 duration 2.25 ;
+/ITL/scene/cursor watch timeEnter 184.25 186.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_59 show 1,
+  /ITL/scene/page_60 show 1,
+  /ITL/scene/page_59 $bottom,
+  /ITL/scene/page_60 $top
+);
+
+/ITL/scene/page_60 set img 'pages/violin/n60.png';
+/ITL/scene/page_60 date 186.5;
+/ITL/scene/page_60 duration 2. ;
+/ITL/scene/cursor watch timeEnter 186.5 188.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_60 show 1,
+  /ITL/scene/page_61 show 1,
+  /ITL/scene/page_60 $top,
+  /ITL/scene/page_61 $bottom
+);
+
+/ITL/scene/page_61 set img 'pages/violin/n61.png';
+/ITL/scene/page_61 date 188.5;
+/ITL/scene/page_61 duration 4. ;
+/ITL/scene/cursor watch timeEnter 188.5 192.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_61 show 1,
+  /ITL/scene/page_62 show 1,
+  /ITL/scene/page_61 $bottom,
+  /ITL/scene/page_62 $top
+);
+
+/ITL/scene/page_62 set img 'pages/violin/n62.png';
+/ITL/scene/page_62 date 192.5;
+/ITL/scene/page_62 duration 4.5 ;
+/ITL/scene/cursor watch timeEnter 192.5 197 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_62 show 1,
+  /ITL/scene/page_63 show 1,
+  /ITL/scene/page_62 $top,
+  /ITL/scene/page_63 $bottom
+);
+
+/ITL/scene/page_63 set img 'pages/violin/n63.png';
+/ITL/scene/page_63 date 197.;
+/ITL/scene/page_63 duration 2.5 ;
+/ITL/scene/cursor watch timeEnter 197. 199.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_63 show 1,
+  /ITL/scene/page_64 show 1,
+  /ITL/scene/page_63 $bottom,
+  /ITL/scene/page_64 $top
+);
+
+/ITL/scene/page_64 set img 'pages/violin/n64.png';
+/ITL/scene/page_64 date 199.5;
+/ITL/scene/page_64 duration 3. ;
+/ITL/scene/cursor watch timeEnter 199.5 202.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_64 show 1,
+  /ITL/scene/page_65 show 1,
+  /ITL/scene/page_64 $top,
+  /ITL/scene/page_65 $bottom
+);
+
+/ITL/scene/page_65 set img 'pages/violin/n65.png';
+/ITL/scene/page_65 date 202.5;
+/ITL/scene/page_65 duration 3.5 ;
+/ITL/scene/cursor watch timeEnter 202.5 206 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_65 show 1,
+  /ITL/scene/page_66 show 1,
+  /ITL/scene/page_65 $bottom,
+  /ITL/scene/page_66 $top
+);
+
+/ITL/scene/page_66 set img 'pages/violin/n66.png';
+/ITL/scene/page_66 date 206.;
+/ITL/scene/page_66 duration 3. ;
+/ITL/scene/cursor watch timeEnter 206. 209 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_66 show 1,
+  /ITL/scene/page_67 show 1,
+  /ITL/scene/page_66 $top,
+  /ITL/scene/page_67 $bottom
+);
+
+/ITL/scene/page_67 set img 'pages/violin/n67.png';
+/ITL/scene/page_67 date 209.;
+/ITL/scene/page_67 duration 2. ;
+/ITL/scene/cursor watch timeEnter 209. 211 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_67 show 1,
+  /ITL/scene/page_68 show 1,
+  /ITL/scene/page_67 $bottom,
+  /ITL/scene/page_68 $top
+);
+
+/ITL/scene/page_68 set img 'pages/violin/n68.png';
+/ITL/scene/page_68 date 211.;
+/ITL/scene/page_68 duration 2.5 ;
+/ITL/scene/cursor watch timeEnter 211. 213.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_68 show 1,
+  /ITL/scene/page_69 show 1,
+  /ITL/scene/page_68 $top,
+  /ITL/scene/page_69 $bottom
+);
+
+/ITL/scene/page_69 set img 'pages/violin/n69.png';
+/ITL/scene/page_69 date 213.5;
+/ITL/scene/page_69 duration 4. ;
+/ITL/scene/cursor watch timeEnter 213.5 217.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_69 show 1,
+  /ITL/scene/page_70 show 1,
+  /ITL/scene/page_69 $bottom,
+  /ITL/scene/page_70 $top
+);
+
+/ITL/scene/page_70 set img 'pages/violin/n70.png';
+/ITL/scene/page_70 date 217.5;
+/ITL/scene/page_70 duration 3. ;
+/ITL/scene/cursor watch timeEnter 217.5 220.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_70 show 1,
+  /ITL/scene/page_71 show 1,
+  /ITL/scene/page_70 $top,
+  /ITL/scene/page_71 $bottom
+);
+
+/ITL/scene/page_71 set img 'pages/violin/n71.png';
+/ITL/scene/page_71 date 220.5;
+/ITL/scene/page_71 duration 2.25 ;
+/ITL/scene/cursor watch timeEnter 220.5 222.75 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_71 show 1,
+  /ITL/scene/page_72 show 1,
+  /ITL/scene/page_71 $bottom,
+  /ITL/scene/page_72 $top
+);
+
+/ITL/scene/page_72 set img 'pages/violin/n72.png';
+/ITL/scene/page_72 date 222.75;
+/ITL/scene/page_72 duration 6.25 ;
+/ITL/scene/cursor watch timeEnter 222.75 229 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_72 show 1,
+  /ITL/scene/page_73 show 1,
+  /ITL/scene/page_72 $top,
+  /ITL/scene/page_73 $bottom
+);
+
+/ITL/scene/page_73 set img 'pages/violin/n73.png';
+/ITL/scene/page_73 date 229.;
+/ITL/scene/page_73 duration 7. ;
+/ITL/scene/cursor watch timeEnter 229. 236 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_73 show 1,
+  /ITL/scene/page_74 show 1,
+  /ITL/scene/page_73 $bottom,
+  /ITL/scene/page_74 $top
+);
+
+/ITL/scene/page_74 set img 'pages/violin/n74.png';
+/ITL/scene/page_74 date 236.;
+/ITL/scene/page_74 duration 2.75 ;
+/ITL/scene/cursor watch timeEnter 236. 238.75 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_74 show 1,
+  /ITL/scene/page_75 show 1,
+  /ITL/scene/page_74 $top,
+  /ITL/scene/page_75 $bottom
+);
+
+/ITL/scene/page_75 set img 'pages/violin/n75.png';
+/ITL/scene/page_75 date 238.75;
+/ITL/scene/page_75 duration 2.75 ;
+/ITL/scene/cursor watch timeEnter 238.75 241.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_75 show 1,
+  /ITL/scene/page_76 show 1,
+  /ITL/scene/page_75 $bottom,
+  /ITL/scene/page_76 $top
+);
+
+/ITL/scene/page_76 set img 'pages/violin/n76.png';
+/ITL/scene/page_76 date 241.5;
+/ITL/scene/page_76 duration 3.5 ;
+/ITL/scene/cursor watch timeEnter 241.5 245 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_76 show 1,
+  /ITL/scene/page_77 show 1,
+  /ITL/scene/page_76 $top,
+  /ITL/scene/page_77 $bottom
+);
+
+/ITL/scene/cursor watch timeEnter 245 345 ( /ITL/scene event STOP );
+
+/ITL/scene/page_* show 0;
+/ITL/scene/page_* width 1.95;
+/ITL/scene/page_00 show 1;
+/ITL/scene/page_01 show 1;
+/ITL/scene/page_00 $top;
+/ITL/scene/page_01 $bottom;
+/ITL/scene/page_* watch mouseDown ( /ITL/scene event GOTO '$date');
+/ITL/scene/page_* watch mouseMove ( /ITL/scene event GOTO '$date');
+/ITL/scene event PAGEREADY;

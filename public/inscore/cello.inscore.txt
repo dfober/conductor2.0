@@ -1,0 +1,2223 @@
+#### ATTENTION ! Ne pas modifier : ce script est généré automatiquement
+top = yorigin 1.3;
+bottom = yorigin -1.3;
+
+/ITL/scene/page_00 set img 'pages/cello/n00.png';
+/ITL/scene/page_00 date 0.;
+/ITL/scene/page_00 duration 1.5 ;
+/ITL/scene/cursor watch timeEnter 0. 1.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_00 show 1,
+  /ITL/scene/page_01 show 1,
+  /ITL/scene/page_00 $top,
+  /ITL/scene/page_01 $bottom
+);
+
+/ITL/scene/page_01 set img 'pages/cello/n01.png';
+/ITL/scene/page_01 date 1.5;
+/ITL/scene/page_01 duration 2.25 ;
+/ITL/scene/cursor watch timeEnter 1.5 3.75 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_01 show 1,
+  /ITL/scene/page_02 show 1,
+  /ITL/scene/page_01 $bottom,
+  /ITL/scene/page_02 $top
+);
+
+/ITL/scene/page_02 set img 'pages/cello/n02.png';
+/ITL/scene/page_02 date 3.75;
+/ITL/scene/page_02 duration 1.5 ;
+/ITL/scene/cursor watch timeEnter 3.75 5.25 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_02 show 1,
+  /ITL/scene/page_03 show 1,
+  /ITL/scene/page_02 $top,
+  /ITL/scene/page_03 $bottom
+);
+
+/ITL/scene/page_03 set img 'pages/cello/n03.png';
+/ITL/scene/page_03 date 5.25;
+/ITL/scene/page_03 duration 2.25 ;
+/ITL/scene/cursor watch timeEnter 5.25 7.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_03 show 1,
+  /ITL/scene/page_04 show 1,
+  /ITL/scene/page_03 $bottom,
+  /ITL/scene/page_04 $top
+);
+
+/ITL/scene/page_04 set img 'pages/cello/n04.png';
+/ITL/scene/page_04 date 7.5;
+/ITL/scene/page_04 duration 3. ;
+/ITL/scene/cursor watch timeEnter 7.5 10.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_04 show 1,
+  /ITL/scene/page_05 show 1,
+  /ITL/scene/page_04 $top,
+  /ITL/scene/page_05 $bottom
+);
+
+/ITL/scene/page_05 set img 'pages/cello/n05.png';
+/ITL/scene/page_05 date 10.5;
+/ITL/scene/page_05 duration 3. ;
+/ITL/scene/cursor watch timeEnter 10.5 13.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_05 show 1,
+  /ITL/scene/page_06 show 1,
+  /ITL/scene/page_05 $bottom,
+  /ITL/scene/page_06 $top
+);
+
+/ITL/scene/page_06 set img 'pages/cello/n06.png';
+/ITL/scene/page_06 date 13.5;
+/ITL/scene/page_06 duration 1.75 ;
+/ITL/scene/cursor watch timeEnter 13.5 15.25 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_06 show 1,
+  /ITL/scene/page_07 show 1,
+  /ITL/scene/page_06 $top,
+  /ITL/scene/page_07 $bottom
+);
+
+/ITL/scene/page_07 set img 'pages/cello/n07.png';
+/ITL/scene/page_07 date 15.25;
+/ITL/scene/page_07 duration 2.75 ;
+/ITL/scene/cursor watch timeEnter 15.25 18 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_07 show 1,
+  /ITL/scene/page_08 show 1,
+  /ITL/scene/page_07 $bottom,
+  /ITL/scene/page_08 $top
+);
+
+/ITL/scene/page_08 set img 'pages/cello/n08.png';
+/ITL/scene/page_08 date 18.;
+/ITL/scene/page_08 duration 2. ;
+/ITL/scene/cursor watch timeEnter 18. 20 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_08 show 1,
+  /ITL/scene/page_09 show 1,
+  /ITL/scene/page_08 $top,
+  /ITL/scene/page_09 $bottom
+);
+
+/ITL/scene/page_09 set img 'pages/cello/n09.png';
+/ITL/scene/page_09 date 20.;
+/ITL/scene/page_09 duration 3.5 ;
+/ITL/scene/cursor watch timeEnter 20. 23.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_09 show 1,
+  /ITL/scene/page_10 show 1,
+  /ITL/scene/page_09 $bottom,
+  /ITL/scene/page_10 $top
+);
+
+/ITL/scene/page_10 set img 'pages/cello/n10.png';
+/ITL/scene/page_10 date 23.5;
+/ITL/scene/page_10 duration 4.5 ;
+/ITL/scene/cursor watch timeEnter 23.5 28 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_10 show 1,
+  /ITL/scene/page_11 show 1,
+  /ITL/scene/page_10 $top,
+  /ITL/scene/page_11 $bottom
+);
+
+/ITL/scene/page_11 set img 'pages/cello/n11.png';
+/ITL/scene/page_11 date 28.;
+/ITL/scene/page_11 duration 3. ;
+/ITL/scene/cursor watch timeEnter 28. 31 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_11 show 1,
+  /ITL/scene/page_12 show 1,
+  /ITL/scene/page_11 $bottom,
+  /ITL/scene/page_12 $top
+);
+
+/ITL/scene/page_12 set img 'pages/cello/n12.png';
+/ITL/scene/page_12 date 31.;
+/ITL/scene/page_12 duration 4. ;
+/ITL/scene/cursor watch timeEnter 31. 35 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_12 show 1,
+  /ITL/scene/page_13 show 1,
+  /ITL/scene/page_12 $top,
+  /ITL/scene/page_13 $bottom
+);
+
+/ITL/scene/page_13 set img 'pages/cello/n13.png';
+/ITL/scene/page_13 date 35.;
+/ITL/scene/page_13 duration 3. ;
+/ITL/scene/cursor watch timeEnter 35. 38 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_13 show 1,
+  /ITL/scene/page_14 show 1,
+  /ITL/scene/page_13 $bottom,
+  /ITL/scene/page_14 $top
+);
+
+/ITL/scene/page_14 set img 'pages/cello/n14.png';
+/ITL/scene/page_14 date 38.;
+/ITL/scene/page_14 duration 4.25 ;
+/ITL/scene/cursor watch timeEnter 38. 42.25 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_14 show 1,
+  /ITL/scene/page_15 show 1,
+  /ITL/scene/page_14 $top,
+  /ITL/scene/page_15 $bottom
+);
+
+/ITL/scene/page_15 set img 'pages/cello/n15.png';
+/ITL/scene/page_15 date 42.25;
+/ITL/scene/page_15 duration 5. ;
+/ITL/scene/cursor watch timeEnter 42.25 47.25 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_15 show 1,
+  /ITL/scene/page_16 show 1,
+  /ITL/scene/page_15 $bottom,
+  /ITL/scene/page_16 $top
+);
+
+/ITL/scene/page_16 set img 'pages/cello/n16.png';
+/ITL/scene/page_16 date 47.25;
+/ITL/scene/page_16 duration 8.25 ;
+/ITL/scene/cursor watch timeEnter 47.25 55.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_16 show 1,
+  /ITL/scene/page_17 show 1,
+  /ITL/scene/page_16 $top,
+  /ITL/scene/page_17 $bottom
+);
+
+/ITL/scene/page_17 set img 'pages/cello/n17.png';
+/ITL/scene/page_17 date 55.5;
+/ITL/scene/page_17 duration 2. ;
+/ITL/scene/cursor watch timeEnter 55.5 57.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_17 show 1,
+  /ITL/scene/page_18 show 1,
+  /ITL/scene/page_17 $bottom,
+  /ITL/scene/page_18 $top
+);
+
+/ITL/scene/page_18 set img 'pages/cello/n18.png';
+/ITL/scene/page_18 date 57.5;
+/ITL/scene/page_18 duration 2.5 ;
+/ITL/scene/cursor watch timeEnter 57.5 60 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_18 show 1,
+  /ITL/scene/page_19 show 1,
+  /ITL/scene/page_18 $top,
+  /ITL/scene/page_19 $bottom
+);
+
+/ITL/scene/page_19 set img 'pages/cello/n19.png';
+/ITL/scene/page_19 date 60.;
+/ITL/scene/page_19 duration 2. ;
+/ITL/scene/cursor watch timeEnter 60. 62 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_19 show 1,
+  /ITL/scene/page_20 show 1,
+  /ITL/scene/page_19 $bottom,
+  /ITL/scene/page_20 $top
+);
+
+/ITL/scene/page_20 set img 'pages/cello/n20.png';
+/ITL/scene/page_20 date 62.;
+/ITL/scene/page_20 duration 2. ;
+/ITL/scene/cursor watch timeEnter 62. 64 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_20 show 1,
+  /ITL/scene/page_21 show 1,
+  /ITL/scene/page_20 $top,
+  /ITL/scene/page_21 $bottom
+);
+
+/ITL/scene/page_21 set img 'pages/cello/n21.png';
+/ITL/scene/page_21 date 64.;
+/ITL/scene/page_21 duration 4. ;
+/ITL/scene/cursor watch timeEnter 64. 68 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_21 show 1,
+  /ITL/scene/page_22 show 1,
+  /ITL/scene/page_21 $bottom,
+  /ITL/scene/page_22 $top
+);
+
+/ITL/scene/page_22 set img 'pages/cello/n22.png';
+/ITL/scene/page_22 date 68.;
+/ITL/scene/page_22 duration 6.5 ;
+/ITL/scene/cursor watch timeEnter 68. 74.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_22 show 1,
+  /ITL/scene/page_23 show 1,
+  /ITL/scene/page_22 $top,
+  /ITL/scene/page_23 $bottom
+);
+
+/ITL/scene/page_23 set img 'pages/cello/n23.png';
+/ITL/scene/page_23 date 74.5;
+/ITL/scene/page_23 duration 2.75 ;
+/ITL/scene/cursor watch timeEnter 74.5 77.25 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_23 show 1,
+  /ITL/scene/page_24 show 1,
+  /ITL/scene/page_23 $bottom,
+  /ITL/scene/page_24 $top
+);
+
+/ITL/scene/page_24 set img 'pages/cello/n24.png';
+/ITL/scene/page_24 date 77.25;
+/ITL/scene/page_24 duration 3.25 ;
+/ITL/scene/cursor watch timeEnter 77.25 80.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_24 show 1,
+  /ITL/scene/page_25 show 1,
+  /ITL/scene/page_24 $top,
+  /ITL/scene/page_25 $bottom
+);
+
+/ITL/scene/page_25 set img 'pages/cello/n25.png';
+/ITL/scene/page_25 date 80.5;
+/ITL/scene/page_25 duration 3.5 ;
+/ITL/scene/cursor watch timeEnter 80.5 84 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_25 show 1,
+  /ITL/scene/page_26 show 1,
+  /ITL/scene/page_25 $bottom,
+  /ITL/scene/page_26 $top
+);
+
+/ITL/scene/page_26 set img 'pages/cello/n26.png';
+/ITL/scene/page_26 date 84.;
+/ITL/scene/page_26 duration 4. ;
+/ITL/scene/cursor watch timeEnter 84. 88 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_26 show 1,
+  /ITL/scene/page_27 show 1,
+  /ITL/scene/page_26 $top,
+  /ITL/scene/page_27 $bottom
+);
+
+/ITL/scene/page_27 set img 'pages/cello/n27.png';
+/ITL/scene/page_27 date 88.;
+/ITL/scene/page_27 duration 4.5 ;
+/ITL/scene/cursor watch timeEnter 88. 92.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_27 show 1,
+  /ITL/scene/page_28 show 1,
+  /ITL/scene/page_27 $bottom,
+  /ITL/scene/page_28 $top
+);
+
+/ITL/scene/page_28 set img 'pages/cello/n28.png';
+/ITL/scene/page_28 date 92.5;
+/ITL/scene/page_28 duration 6. ;
+/ITL/scene/cursor watch timeEnter 92.5 98.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_28 show 1,
+  /ITL/scene/page_29 show 1,
+  /ITL/scene/page_28 $top,
+  /ITL/scene/page_29 $bottom
+);
+
+/ITL/scene/page_29 set img 'pages/cello/n29.png';
+/ITL/scene/page_29 date 98.5;
+/ITL/scene/page_29 duration 5. ;
+/ITL/scene/cursor watch timeEnter 98.5 103.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_29 show 1,
+  /ITL/scene/page_30 show 1,
+  /ITL/scene/page_29 $bottom,
+  /ITL/scene/page_30 $top
+);
+
+/ITL/scene/page_30 set img 'pages/cello/n30.png';
+/ITL/scene/page_30 date 103.5;
+/ITL/scene/page_30 duration 3.5 ;
+/ITL/scene/cursor watch timeEnter 103.5 107 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_30 show 1,
+  /ITL/scene/page_31 show 1,
+  /ITL/scene/page_30 $top,
+  /ITL/scene/page_31 $bottom
+);
+
+/ITL/scene/page_31 set img 'pages/cello/n31.png';
+/ITL/scene/page_31 date 107.;
+/ITL/scene/page_31 duration 5.5 ;
+/ITL/scene/cursor watch timeEnter 107. 112.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_31 show 1,
+  /ITL/scene/page_32 show 1,
+  /ITL/scene/page_31 $bottom,
+  /ITL/scene/page_32 $top
+);
+
+/ITL/scene/page_32 set img 'pages/cello/n32.png';
+/ITL/scene/page_32 date 112.5;
+/ITL/scene/page_32 duration 6. ;
+/ITL/scene/cursor watch timeEnter 112.5 118.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_32 show 1,
+  /ITL/scene/page_33 show 1,
+  /ITL/scene/page_32 $top,
+  /ITL/scene/page_33 $bottom
+);
+
+/ITL/scene/page_33 set img 'pages/cello/n33.png';
+/ITL/scene/page_33 date 118.5;
+/ITL/scene/page_33 duration 4.5 ;
+/ITL/scene/cursor watch timeEnter 118.5 123 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_33 show 1,
+  /ITL/scene/page_34 show 1,
+  /ITL/scene/page_33 $bottom,
+  /ITL/scene/page_34 $top
+);
+
+/ITL/scene/page_34 set img 'pages/cello/n34.png';
+/ITL/scene/page_34 date 123.;
+/ITL/scene/page_34 duration 5. ;
+/ITL/scene/cursor watch timeEnter 123. 128 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_34 show 1,
+  /ITL/scene/page_35 show 1,
+  /ITL/scene/page_34 $top,
+  /ITL/scene/page_35 $bottom
+);
+
+/ITL/scene/page_35 set img 'pages/cello/n35.png';
+/ITL/scene/page_35 date 128.;
+/ITL/scene/page_35 duration 4. ;
+/ITL/scene/cursor watch timeEnter 128. 132 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_35 show 1,
+  /ITL/scene/page_36 show 1,
+  /ITL/scene/page_35 $bottom,
+  /ITL/scene/page_36 $top
+);
+
+/ITL/scene/page_36 set img 'pages/cello/n36.png';
+/ITL/scene/page_36 date 132.;
+/ITL/scene/page_36 duration 3. ;
+/ITL/scene/cursor watch timeEnter 132. 135 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_36 show 1,
+  /ITL/scene/page_37 show 1,
+  /ITL/scene/page_36 $top,
+  /ITL/scene/page_37 $bottom
+);
+
+/ITL/scene/page_37 set img 'pages/cello/n37.png';
+/ITL/scene/page_37 date 135.;
+/ITL/scene/page_37 duration 4.5 ;
+/ITL/scene/cursor watch timeEnter 135. 139.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_37 show 1,
+  /ITL/scene/page_38 show 1,
+  /ITL/scene/page_37 $bottom,
+  /ITL/scene/page_38 $top
+);
+
+/ITL/scene/page_38 set img 'pages/cello/n38.png';
+/ITL/scene/page_38 date 139.5;
+/ITL/scene/page_38 duration 5. ;
+/ITL/scene/cursor watch timeEnter 139.5 144.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_38 show 1,
+  /ITL/scene/page_39 show 1,
+  /ITL/scene/page_38 $top,
+  /ITL/scene/page_39 $bottom
+);
+
+/ITL/scene/page_39 set img 'pages/cello/n39.png';
+/ITL/scene/page_39 date 144.5;
+/ITL/scene/page_39 duration 7.5 ;
+/ITL/scene/cursor watch timeEnter 144.5 152 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_39 show 1,
+  /ITL/scene/page_40 show 1,
+  /ITL/scene/page_39 $bottom,
+  /ITL/scene/page_40 $top
+);
+
+/ITL/scene/page_40 set img 'pages/cello/n40.png';
+/ITL/scene/page_40 date 152.;
+/ITL/scene/page_40 duration 3. ;
+/ITL/scene/cursor watch timeEnter 152. 155 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_40 show 1,
+  /ITL/scene/page_41 show 1,
+  /ITL/scene/page_40 $top,
+  /ITL/scene/page_41 $bottom
+);
+
+/ITL/scene/page_41 set img 'pages/cello/n41.png';
+/ITL/scene/page_41 date 155.;
+/ITL/scene/page_41 duration 2.75 ;
+/ITL/scene/cursor watch timeEnter 155. 157.75 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_41 show 1,
+  /ITL/scene/page_42 show 1,
+  /ITL/scene/page_41 $bottom,
+  /ITL/scene/page_42 $top
+);
+
+/ITL/scene/page_42 set img 'pages/cello/n42.png';
+/ITL/scene/page_42 date 157.75;
+/ITL/scene/page_42 duration 5. ;
+/ITL/scene/cursor watch timeEnter 157.75 162.75 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_42 show 1,
+  /ITL/scene/page_43 show 1,
+  /ITL/scene/page_42 $top,
+  /ITL/scene/page_43 $bottom
+);
+
+/ITL/scene/page_43 set img 'pages/cello/n43.png';
+/ITL/scene/page_43 date 162.75;
+/ITL/scene/page_43 duration 3.75 ;
+/ITL/scene/cursor watch timeEnter 162.75 166.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_43 show 1,
+  /ITL/scene/page_44 show 1,
+  /ITL/scene/page_43 $bottom,
+  /ITL/scene/page_44 $top
+);
+
+/ITL/scene/page_44 set img 'pages/cello/n44.png';
+/ITL/scene/page_44 date 166.5;
+/ITL/scene/page_44 duration 1.5 ;
+/ITL/scene/cursor watch timeEnter 166.5 168 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_44 show 1,
+  /ITL/scene/page_45 show 1,
+  /ITL/scene/page_44 $top,
+  /ITL/scene/page_45 $bottom
+);
+
+/ITL/scene/page_45 set img 'pages/cello/n45.png';
+/ITL/scene/page_45 date 168.;
+/ITL/scene/page_45 duration 2.625 ;
+/ITL/scene/cursor watch timeEnter 168. 170.625 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_45 show 1,
+  /ITL/scene/page_46 show 1,
+  /ITL/scene/page_45 $bottom,
+  /ITL/scene/page_46 $top
+);
+
+/ITL/scene/page_46 set img 'pages/cello/n46.png';
+/ITL/scene/page_46 date 170.625;
+/ITL/scene/page_46 duration 2.375 ;
+/ITL/scene/cursor watch timeEnter 170.625 173 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_46 show 1,
+  /ITL/scene/page_47 show 1,
+  /ITL/scene/page_46 $top,
+  /ITL/scene/page_47 $bottom
+);
+
+/ITL/scene/page_47 set img 'pages/cello/n47.png';
+/ITL/scene/page_47 date 173.;
+/ITL/scene/page_47 duration 2. ;
+/ITL/scene/cursor watch timeEnter 173. 175 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_47 show 1,
+  /ITL/scene/page_48 show 1,
+  /ITL/scene/page_47 $bottom,
+  /ITL/scene/page_48 $top
+);
+
+/ITL/scene/page_48 set img 'pages/cello/n48.png';
+/ITL/scene/page_48 date 175.;
+/ITL/scene/page_48 duration 2.875 ;
+/ITL/scene/cursor watch timeEnter 175. 177.875 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_48 show 1,
+  /ITL/scene/page_49 show 1,
+  /ITL/scene/page_48 $top,
+  /ITL/scene/page_49 $bottom
+);
+
+/ITL/scene/page_49 set img 'pages/cello/n49.png';
+/ITL/scene/page_49 date 177.875;
+/ITL/scene/page_49 duration 3.125 ;
+/ITL/scene/cursor watch timeEnter 177.875 181 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_49 show 1,
+  /ITL/scene/page_50 show 1,
+  /ITL/scene/page_49 $bottom,
+  /ITL/scene/page_50 $top
+);
+
+/ITL/scene/page_50 set img 'pages/cello/n50.png';
+/ITL/scene/page_50 date 181.;
+/ITL/scene/page_50 duration 3.5 ;
+/ITL/scene/cursor watch timeEnter 181. 184.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_50 show 1,
+  /ITL/scene/page_51 show 1,
+  /ITL/scene/page_50 $top,
+  /ITL/scene/page_51 $bottom
+);
+
+/ITL/scene/page_51 set img 'pages/cello/n51.png';
+/ITL/scene/page_51 date 184.5;
+/ITL/scene/page_51 duration 18. ;
+/ITL/scene/cursor watch timeEnter 184.5 202.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_51 show 1,
+  /ITL/scene/page_52 show 1,
+  /ITL/scene/page_51 $bottom,
+  /ITL/scene/page_52 $top
+);
+
+/ITL/scene/page_52 set img 'pages/cello/n52.png';
+/ITL/scene/page_52 date 202.5;
+/ITL/scene/page_52 duration 3.5 ;
+/ITL/scene/cursor watch timeEnter 202.5 206 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_52 show 1,
+  /ITL/scene/page_53 show 1,
+  /ITL/scene/page_52 $top,
+  /ITL/scene/page_53 $bottom
+);
+
+/ITL/scene/page_53 set img 'pages/cello/n53.png';
+/ITL/scene/page_53 date 206.;
+/ITL/scene/page_53 duration 4.5 ;
+/ITL/scene/cursor watch timeEnter 206. 210.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_53 show 1,
+  /ITL/scene/page_54 show 1,
+  /ITL/scene/page_53 $bottom,
+  /ITL/scene/page_54 $top
+);
+
+/ITL/scene/page_54 set img 'pages/cello/n54.png';
+/ITL/scene/page_54 date 210.5;
+/ITL/scene/page_54 duration 3. ;
+/ITL/scene/cursor watch timeEnter 210.5 213.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_54 show 1,
+  /ITL/scene/page_55 show 1,
+  /ITL/scene/page_54 $top,
+  /ITL/scene/page_55 $bottom
+);
+
+/ITL/scene/page_55 set img 'pages/cello/n55.png';
+/ITL/scene/page_55 date 213.5;
+/ITL/scene/page_55 duration 4. ;
+/ITL/scene/cursor watch timeEnter 213.5 217.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_55 show 1,
+  /ITL/scene/page_56 show 1,
+  /ITL/scene/page_55 $bottom,
+  /ITL/scene/page_56 $top
+);
+
+/ITL/scene/page_56 set img 'pages/cello/n56.png';
+/ITL/scene/page_56 date 217.5;
+/ITL/scene/page_56 duration 3. ;
+/ITL/scene/cursor watch timeEnter 217.5 220.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_56 show 1,
+  /ITL/scene/page_57 show 1,
+  /ITL/scene/page_56 $top,
+  /ITL/scene/page_57 $bottom
+);
+
+/ITL/scene/page_57 set img 'pages/cello/n57.png';
+/ITL/scene/page_57 date 220.5;
+/ITL/scene/page_57 duration 2.25 ;
+/ITL/scene/cursor watch timeEnter 220.5 222.75 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_57 show 1,
+  /ITL/scene/page_58 show 1,
+  /ITL/scene/page_57 $bottom,
+  /ITL/scene/page_58 $top
+);
+
+/ITL/scene/page_58 set img 'pages/cello/n58.png';
+/ITL/scene/page_58 date 222.75;
+/ITL/scene/page_58 duration 2.75 ;
+/ITL/scene/cursor watch timeEnter 222.75 225.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_58 show 1,
+  /ITL/scene/page_59 show 1,
+  /ITL/scene/page_58 $top,
+  /ITL/scene/page_59 $bottom
+);
+
+/ITL/scene/page_59 set img 'pages/cello/n59.png';
+/ITL/scene/page_59 date 225.5;
+/ITL/scene/page_59 duration 3.5 ;
+/ITL/scene/cursor watch timeEnter 225.5 229 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_59 show 1,
+  /ITL/scene/page_60 show 1,
+  /ITL/scene/page_59 $bottom,
+  /ITL/scene/page_60 $top
+);
+
+/ITL/scene/page_60 set img 'pages/cello/n60.png';
+/ITL/scene/page_60 date 229.;
+/ITL/scene/page_60 duration 7. ;
+/ITL/scene/cursor watch timeEnter 229. 236 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_60 show 1,
+  /ITL/scene/page_61 show 1,
+  /ITL/scene/page_60 $top,
+  /ITL/scene/page_61 $bottom
+);
+
+/ITL/scene/page_61 set img 'pages/cello/n61.png';
+/ITL/scene/page_61 date 236.;
+/ITL/scene/page_61 duration 2.25 ;
+/ITL/scene/cursor watch timeEnter 236. 238.25 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_61 show 1,
+  /ITL/scene/page_62 show 1,
+  /ITL/scene/page_61 $bottom,
+  /ITL/scene/page_62 $top
+);
+
+/ITL/scene/page_62 set img 'pages/cello/n62.png';
+/ITL/scene/page_62 date 238.25;
+/ITL/scene/page_62 duration 3.25 ;
+/ITL/scene/cursor watch timeEnter 238.25 241.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_62 show 1,
+  /ITL/scene/page_63 show 1,
+  /ITL/scene/page_62 $top,
+  /ITL/scene/page_63 $bottom
+);
+
+/ITL/scene/page_63 set img 'pages/cello/n63.png';
+/ITL/scene/page_63 date 241.5;
+/ITL/scene/page_63 duration 2.5 ;
+/ITL/scene/cursor watch timeEnter 241.5 244 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_63 show 1,
+  /ITL/scene/page_64 show 1,
+  /ITL/scene/page_63 $bottom,
+  /ITL/scene/page_64 $top
+);
+
+/ITL/scene/page_64 set img 'pages/cello/n64.png';
+/ITL/scene/page_64 date 244.;
+/ITL/scene/page_64 duration 16. ;
+/ITL/scene/cursor watch timeEnter 244. 260 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_64 show 1,
+  /ITL/scene/page_65 show 1,
+  /ITL/scene/page_64 $top,
+  /ITL/scene/page_65 $bottom
+);
+
+/ITL/scene/page_65 set img 'pages/cello/n65.png';
+/ITL/scene/page_65 date 260.;
+/ITL/scene/page_65 duration 8. ;
+/ITL/scene/cursor watch timeEnter 260. 268 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_65 show 1,
+  /ITL/scene/page_66 show 1,
+  /ITL/scene/page_65 $bottom,
+  /ITL/scene/page_66 $top
+);
+
+/ITL/scene/cursor watch timeEnter 268 368 ( /ITL/scene event STOP );
+
+/ITL/scene/page_* show 0;
+/ITL/scene/page_* width 1.95;
+/ITL/scene/page_00 show 1;
+/ITL/scene/page_01 show 1;
+/ITL/scene/page_00 $top;
+/ITL/scene/page_01 $bottom;
+/ITL/scene/page_* watch mouseDown ( /ITL/scene event GOTO '$date');
+/ITL/scene/page_* watch mouseMove ( /ITL/scene event GOTO '$date');
+/ITL/scene event PAGEREADY;
+#### ATTENTION ! Ne pas modifier : ce script est généré automatiquement
+top = yorigin 1.3;
+bottom = yorigin -1.3;
+
+/ITL/scene/page_00 set img 'pages/cello/n00.png';
+/ITL/scene/page_00 date 0.;
+/ITL/scene/page_00 duration 1.5 ;
+/ITL/scene/cursor watch timeEnter 0. 1.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_00 show 1,
+  /ITL/scene/page_01 show 1,
+  /ITL/scene/page_00 $top,
+  /ITL/scene/page_01 $bottom
+);
+
+/ITL/scene/page_01 set img 'pages/cello/n01.png';
+/ITL/scene/page_01 date 1.5;
+/ITL/scene/page_01 duration 2.25 ;
+/ITL/scene/cursor watch timeEnter 1.5 3.75 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_01 show 1,
+  /ITL/scene/page_02 show 1,
+  /ITL/scene/page_01 $bottom,
+  /ITL/scene/page_02 $top
+);
+
+/ITL/scene/page_02 set img 'pages/cello/n02.png';
+/ITL/scene/page_02 date 3.75;
+/ITL/scene/page_02 duration 1.5 ;
+/ITL/scene/cursor watch timeEnter 3.75 5.25 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_02 show 1,
+  /ITL/scene/page_03 show 1,
+  /ITL/scene/page_02 $top,
+  /ITL/scene/page_03 $bottom
+);
+
+/ITL/scene/page_03 set img 'pages/cello/n03.png';
+/ITL/scene/page_03 date 5.25;
+/ITL/scene/page_03 duration 2.25 ;
+/ITL/scene/cursor watch timeEnter 5.25 7.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_03 show 1,
+  /ITL/scene/page_04 show 1,
+  /ITL/scene/page_03 $bottom,
+  /ITL/scene/page_04 $top
+);
+
+/ITL/scene/page_04 set img 'pages/cello/n04.png';
+/ITL/scene/page_04 date 7.5;
+/ITL/scene/page_04 duration 3. ;
+/ITL/scene/cursor watch timeEnter 7.5 10.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_04 show 1,
+  /ITL/scene/page_05 show 1,
+  /ITL/scene/page_04 $top,
+  /ITL/scene/page_05 $bottom
+);
+
+/ITL/scene/page_05 set img 'pages/cello/n05.png';
+/ITL/scene/page_05 date 10.5;
+/ITL/scene/page_05 duration 3. ;
+/ITL/scene/cursor watch timeEnter 10.5 13.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_05 show 1,
+  /ITL/scene/page_06 show 1,
+  /ITL/scene/page_05 $bottom,
+  /ITL/scene/page_06 $top
+);
+
+/ITL/scene/page_06 set img 'pages/cello/n06.png';
+/ITL/scene/page_06 date 13.5;
+/ITL/scene/page_06 duration 1.75 ;
+/ITL/scene/cursor watch timeEnter 13.5 15.25 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_06 show 1,
+  /ITL/scene/page_07 show 1,
+  /ITL/scene/page_06 $top,
+  /ITL/scene/page_07 $bottom
+);
+
+/ITL/scene/page_07 set img 'pages/cello/n07.png';
+/ITL/scene/page_07 date 15.25;
+/ITL/scene/page_07 duration 2.75 ;
+/ITL/scene/cursor watch timeEnter 15.25 18 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_07 show 1,
+  /ITL/scene/page_08 show 1,
+  /ITL/scene/page_07 $bottom,
+  /ITL/scene/page_08 $top
+);
+
+/ITL/scene/page_08 set img 'pages/cello/n08.png';
+/ITL/scene/page_08 date 18.;
+/ITL/scene/page_08 duration 2. ;
+/ITL/scene/cursor watch timeEnter 18. 20 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_08 show 1,
+  /ITL/scene/page_09 show 1,
+  /ITL/scene/page_08 $top,
+  /ITL/scene/page_09 $bottom
+);
+
+/ITL/scene/page_09 set img 'pages/cello/n09.png';
+/ITL/scene/page_09 date 20.;
+/ITL/scene/page_09 duration 3.5 ;
+/ITL/scene/cursor watch timeEnter 20. 23.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_09 show 1,
+  /ITL/scene/page_10 show 1,
+  /ITL/scene/page_09 $bottom,
+  /ITL/scene/page_10 $top
+);
+
+/ITL/scene/page_10 set img 'pages/cello/n10.png';
+/ITL/scene/page_10 date 23.5;
+/ITL/scene/page_10 duration 4.5 ;
+/ITL/scene/cursor watch timeEnter 23.5 28 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_10 show 1,
+  /ITL/scene/page_11 show 1,
+  /ITL/scene/page_10 $top,
+  /ITL/scene/page_11 $bottom
+);
+
+/ITL/scene/page_11 set img 'pages/cello/n11.png';
+/ITL/scene/page_11 date 28.;
+/ITL/scene/page_11 duration 3. ;
+/ITL/scene/cursor watch timeEnter 28. 31 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_11 show 1,
+  /ITL/scene/page_12 show 1,
+  /ITL/scene/page_11 $bottom,
+  /ITL/scene/page_12 $top
+);
+
+/ITL/scene/page_12 set img 'pages/cello/n12.png';
+/ITL/scene/page_12 date 31.;
+/ITL/scene/page_12 duration 4. ;
+/ITL/scene/cursor watch timeEnter 31. 35 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_12 show 1,
+  /ITL/scene/page_13 show 1,
+  /ITL/scene/page_12 $top,
+  /ITL/scene/page_13 $bottom
+);
+
+/ITL/scene/page_13 set img 'pages/cello/n13.png';
+/ITL/scene/page_13 date 35.;
+/ITL/scene/page_13 duration 3. ;
+/ITL/scene/cursor watch timeEnter 35. 38 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_13 show 1,
+  /ITL/scene/page_14 show 1,
+  /ITL/scene/page_13 $bottom,
+  /ITL/scene/page_14 $top
+);
+
+/ITL/scene/page_14 set img 'pages/cello/n14.png';
+/ITL/scene/page_14 date 38.;
+/ITL/scene/page_14 duration 4.25 ;
+/ITL/scene/cursor watch timeEnter 38. 42.25 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_14 show 1,
+  /ITL/scene/page_15 show 1,
+  /ITL/scene/page_14 $top,
+  /ITL/scene/page_15 $bottom
+);
+
+/ITL/scene/page_15 set img 'pages/cello/n15.png';
+/ITL/scene/page_15 date 42.25;
+/ITL/scene/page_15 duration 5. ;
+/ITL/scene/cursor watch timeEnter 42.25 47.25 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_15 show 1,
+  /ITL/scene/page_16 show 1,
+  /ITL/scene/page_15 $bottom,
+  /ITL/scene/page_16 $top
+);
+
+/ITL/scene/page_16 set img 'pages/cello/n16.png';
+/ITL/scene/page_16 date 47.25;
+/ITL/scene/page_16 duration 8.25 ;
+/ITL/scene/cursor watch timeEnter 47.25 55.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_16 show 1,
+  /ITL/scene/page_17 show 1,
+  /ITL/scene/page_16 $top,
+  /ITL/scene/page_17 $bottom
+);
+
+/ITL/scene/page_17 set img 'pages/cello/n17.png';
+/ITL/scene/page_17 date 55.5;
+/ITL/scene/page_17 duration 2. ;
+/ITL/scene/cursor watch timeEnter 55.5 57.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_17 show 1,
+  /ITL/scene/page_18 show 1,
+  /ITL/scene/page_17 $bottom,
+  /ITL/scene/page_18 $top
+);
+
+/ITL/scene/page_18 set img 'pages/cello/n18.png';
+/ITL/scene/page_18 date 57.5;
+/ITL/scene/page_18 duration 2.5 ;
+/ITL/scene/cursor watch timeEnter 57.5 60 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_18 show 1,
+  /ITL/scene/page_19 show 1,
+  /ITL/scene/page_18 $top,
+  /ITL/scene/page_19 $bottom
+);
+
+/ITL/scene/page_19 set img 'pages/cello/n19.png';
+/ITL/scene/page_19 date 60.;
+/ITL/scene/page_19 duration 2. ;
+/ITL/scene/cursor watch timeEnter 60. 62 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_19 show 1,
+  /ITL/scene/page_20 show 1,
+  /ITL/scene/page_19 $bottom,
+  /ITL/scene/page_20 $top
+);
+
+/ITL/scene/page_20 set img 'pages/cello/n20.png';
+/ITL/scene/page_20 date 62.;
+/ITL/scene/page_20 duration 2. ;
+/ITL/scene/cursor watch timeEnter 62. 64 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_20 show 1,
+  /ITL/scene/page_21 show 1,
+  /ITL/scene/page_20 $top,
+  /ITL/scene/page_21 $bottom
+);
+
+/ITL/scene/page_21 set img 'pages/cello/n21.png';
+/ITL/scene/page_21 date 64.;
+/ITL/scene/page_21 duration 4. ;
+/ITL/scene/cursor watch timeEnter 64. 68 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_21 show 1,
+  /ITL/scene/page_22 show 1,
+  /ITL/scene/page_21 $bottom,
+  /ITL/scene/page_22 $top
+);
+
+/ITL/scene/page_22 set img 'pages/cello/n22.png';
+/ITL/scene/page_22 date 68.;
+/ITL/scene/page_22 duration 6.5 ;
+/ITL/scene/cursor watch timeEnter 68. 74.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_22 show 1,
+  /ITL/scene/page_23 show 1,
+  /ITL/scene/page_22 $top,
+  /ITL/scene/page_23 $bottom
+);
+
+/ITL/scene/page_23 set img 'pages/cello/n23.png';
+/ITL/scene/page_23 date 74.5;
+/ITL/scene/page_23 duration 2.75 ;
+/ITL/scene/cursor watch timeEnter 74.5 77.25 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_23 show 1,
+  /ITL/scene/page_24 show 1,
+  /ITL/scene/page_23 $bottom,
+  /ITL/scene/page_24 $top
+);
+
+/ITL/scene/page_24 set img 'pages/cello/n24.png';
+/ITL/scene/page_24 date 77.25;
+/ITL/scene/page_24 duration 3.25 ;
+/ITL/scene/cursor watch timeEnter 77.25 80.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_24 show 1,
+  /ITL/scene/page_25 show 1,
+  /ITL/scene/page_24 $top,
+  /ITL/scene/page_25 $bottom
+);
+
+/ITL/scene/page_25 set img 'pages/cello/n25.png';
+/ITL/scene/page_25 date 80.5;
+/ITL/scene/page_25 duration 3.5 ;
+/ITL/scene/cursor watch timeEnter 80.5 84 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_25 show 1,
+  /ITL/scene/page_26 show 1,
+  /ITL/scene/page_25 $bottom,
+  /ITL/scene/page_26 $top
+);
+
+/ITL/scene/page_26 set img 'pages/cello/n26.png';
+/ITL/scene/page_26 date 84.;
+/ITL/scene/page_26 duration 4. ;
+/ITL/scene/cursor watch timeEnter 84. 88 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_26 show 1,
+  /ITL/scene/page_27 show 1,
+  /ITL/scene/page_26 $top,
+  /ITL/scene/page_27 $bottom
+);
+
+/ITL/scene/page_27 set img 'pages/cello/n27.png';
+/ITL/scene/page_27 date 88.;
+/ITL/scene/page_27 duration 4.5 ;
+/ITL/scene/cursor watch timeEnter 88. 92.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_27 show 1,
+  /ITL/scene/page_28 show 1,
+  /ITL/scene/page_27 $bottom,
+  /ITL/scene/page_28 $top
+);
+
+/ITL/scene/page_28 set img 'pages/cello/n28.png';
+/ITL/scene/page_28 date 92.5;
+/ITL/scene/page_28 duration 6. ;
+/ITL/scene/cursor watch timeEnter 92.5 98.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_28 show 1,
+  /ITL/scene/page_29 show 1,
+  /ITL/scene/page_28 $top,
+  /ITL/scene/page_29 $bottom
+);
+
+/ITL/scene/page_29 set img 'pages/cello/n29.png';
+/ITL/scene/page_29 date 98.5;
+/ITL/scene/page_29 duration 5. ;
+/ITL/scene/cursor watch timeEnter 98.5 103.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_29 show 1,
+  /ITL/scene/page_30 show 1,
+  /ITL/scene/page_29 $bottom,
+  /ITL/scene/page_30 $top
+);
+
+/ITL/scene/page_30 set img 'pages/cello/n30.png';
+/ITL/scene/page_30 date 103.5;
+/ITL/scene/page_30 duration 3.5 ;
+/ITL/scene/cursor watch timeEnter 103.5 107 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_30 show 1,
+  /ITL/scene/page_31 show 1,
+  /ITL/scene/page_30 $top,
+  /ITL/scene/page_31 $bottom
+);
+
+/ITL/scene/page_31 set img 'pages/cello/n31.png';
+/ITL/scene/page_31 date 107.;
+/ITL/scene/page_31 duration 5.5 ;
+/ITL/scene/cursor watch timeEnter 107. 112.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_31 show 1,
+  /ITL/scene/page_32 show 1,
+  /ITL/scene/page_31 $bottom,
+  /ITL/scene/page_32 $top
+);
+
+/ITL/scene/page_32 set img 'pages/cello/n32.png';
+/ITL/scene/page_32 date 112.5;
+/ITL/scene/page_32 duration 6. ;
+/ITL/scene/cursor watch timeEnter 112.5 118.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_32 show 1,
+  /ITL/scene/page_33 show 1,
+  /ITL/scene/page_32 $top,
+  /ITL/scene/page_33 $bottom
+);
+
+/ITL/scene/page_33 set img 'pages/cello/n33.png';
+/ITL/scene/page_33 date 118.5;
+/ITL/scene/page_33 duration 4.5 ;
+/ITL/scene/cursor watch timeEnter 118.5 123 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_33 show 1,
+  /ITL/scene/page_34 show 1,
+  /ITL/scene/page_33 $bottom,
+  /ITL/scene/page_34 $top
+);
+
+/ITL/scene/page_34 set img 'pages/cello/n34.png';
+/ITL/scene/page_34 date 123.;
+/ITL/scene/page_34 duration 5. ;
+/ITL/scene/cursor watch timeEnter 123. 128 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_34 show 1,
+  /ITL/scene/page_35 show 1,
+  /ITL/scene/page_34 $top,
+  /ITL/scene/page_35 $bottom
+);
+
+/ITL/scene/page_35 set img 'pages/cello/n35.png';
+/ITL/scene/page_35 date 128.;
+/ITL/scene/page_35 duration 4. ;
+/ITL/scene/cursor watch timeEnter 128. 132 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_35 show 1,
+  /ITL/scene/page_36 show 1,
+  /ITL/scene/page_35 $bottom,
+  /ITL/scene/page_36 $top
+);
+
+/ITL/scene/page_36 set img 'pages/cello/n36.png';
+/ITL/scene/page_36 date 132.;
+/ITL/scene/page_36 duration 3. ;
+/ITL/scene/cursor watch timeEnter 132. 135 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_36 show 1,
+  /ITL/scene/page_37 show 1,
+  /ITL/scene/page_36 $top,
+  /ITL/scene/page_37 $bottom
+);
+
+/ITL/scene/page_37 set img 'pages/cello/n37.png';
+/ITL/scene/page_37 date 135.;
+/ITL/scene/page_37 duration 4.5 ;
+/ITL/scene/cursor watch timeEnter 135. 139.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_37 show 1,
+  /ITL/scene/page_38 show 1,
+  /ITL/scene/page_37 $bottom,
+  /ITL/scene/page_38 $top
+);
+
+/ITL/scene/page_38 set img 'pages/cello/n38.png';
+/ITL/scene/page_38 date 139.5;
+/ITL/scene/page_38 duration 5. ;
+/ITL/scene/cursor watch timeEnter 139.5 144.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_38 show 1,
+  /ITL/scene/page_39 show 1,
+  /ITL/scene/page_38 $top,
+  /ITL/scene/page_39 $bottom
+);
+
+/ITL/scene/page_39 set img 'pages/cello/n39.png';
+/ITL/scene/page_39 date 144.5;
+/ITL/scene/page_39 duration 7.5 ;
+/ITL/scene/cursor watch timeEnter 144.5 152 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_39 show 1,
+  /ITL/scene/page_40 show 1,
+  /ITL/scene/page_39 $bottom,
+  /ITL/scene/page_40 $top
+);
+
+/ITL/scene/page_40 set img 'pages/cello/n40.png';
+/ITL/scene/page_40 date 152.;
+/ITL/scene/page_40 duration 3. ;
+/ITL/scene/cursor watch timeEnter 152. 155 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_40 show 1,
+  /ITL/scene/page_41 show 1,
+  /ITL/scene/page_40 $top,
+  /ITL/scene/page_41 $bottom
+);
+
+/ITL/scene/page_41 set img 'pages/cello/n41.png';
+/ITL/scene/page_41 date 155.;
+/ITL/scene/page_41 duration 2.75 ;
+/ITL/scene/cursor watch timeEnter 155. 157.75 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_41 show 1,
+  /ITL/scene/page_42 show 1,
+  /ITL/scene/page_41 $bottom,
+  /ITL/scene/page_42 $top
+);
+
+/ITL/scene/page_42 set img 'pages/cello/n42.png';
+/ITL/scene/page_42 date 157.75;
+/ITL/scene/page_42 duration 5. ;
+/ITL/scene/cursor watch timeEnter 157.75 162.75 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_42 show 1,
+  /ITL/scene/page_43 show 1,
+  /ITL/scene/page_42 $top,
+  /ITL/scene/page_43 $bottom
+);
+
+/ITL/scene/page_43 set img 'pages/cello/n43.png';
+/ITL/scene/page_43 date 162.75;
+/ITL/scene/page_43 duration 3.75 ;
+/ITL/scene/cursor watch timeEnter 162.75 166.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_43 show 1,
+  /ITL/scene/page_44 show 1,
+  /ITL/scene/page_43 $bottom,
+  /ITL/scene/page_44 $top
+);
+
+/ITL/scene/page_44 set img 'pages/cello/n44.png';
+/ITL/scene/page_44 date 166.5;
+/ITL/scene/page_44 duration 1.5 ;
+/ITL/scene/cursor watch timeEnter 166.5 168 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_44 show 1,
+  /ITL/scene/page_45 show 1,
+  /ITL/scene/page_44 $top,
+  /ITL/scene/page_45 $bottom
+);
+
+/ITL/scene/page_45 set img 'pages/cello/n45.png';
+/ITL/scene/page_45 date 168.;
+/ITL/scene/page_45 duration 2.625 ;
+/ITL/scene/cursor watch timeEnter 168. 170.625 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_45 show 1,
+  /ITL/scene/page_46 show 1,
+  /ITL/scene/page_45 $bottom,
+  /ITL/scene/page_46 $top
+);
+
+/ITL/scene/page_46 set img 'pages/cello/n46.png';
+/ITL/scene/page_46 date 170.625;
+/ITL/scene/page_46 duration 2.375 ;
+/ITL/scene/cursor watch timeEnter 170.625 173 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_46 show 1,
+  /ITL/scene/page_47 show 1,
+  /ITL/scene/page_46 $top,
+  /ITL/scene/page_47 $bottom
+);
+
+/ITL/scene/page_47 set img 'pages/cello/n47.png';
+/ITL/scene/page_47 date 173.;
+/ITL/scene/page_47 duration 2. ;
+/ITL/scene/cursor watch timeEnter 173. 175 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_47 show 1,
+  /ITL/scene/page_48 show 1,
+  /ITL/scene/page_47 $bottom,
+  /ITL/scene/page_48 $top
+);
+
+/ITL/scene/page_48 set img 'pages/cello/n48.png';
+/ITL/scene/page_48 date 175.;
+/ITL/scene/page_48 duration 2.875 ;
+/ITL/scene/cursor watch timeEnter 175. 177.875 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_48 show 1,
+  /ITL/scene/page_49 show 1,
+  /ITL/scene/page_48 $top,
+  /ITL/scene/page_49 $bottom
+);
+
+/ITL/scene/page_49 set img 'pages/cello/n49.png';
+/ITL/scene/page_49 date 177.875;
+/ITL/scene/page_49 duration 3.125 ;
+/ITL/scene/cursor watch timeEnter 177.875 181 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_49 show 1,
+  /ITL/scene/page_50 show 1,
+  /ITL/scene/page_49 $bottom,
+  /ITL/scene/page_50 $top
+);
+
+/ITL/scene/page_50 set img 'pages/cello/n50.png';
+/ITL/scene/page_50 date 181.;
+/ITL/scene/page_50 duration 3.5 ;
+/ITL/scene/cursor watch timeEnter 181. 184.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_50 show 1,
+  /ITL/scene/page_51 show 1,
+  /ITL/scene/page_50 $top,
+  /ITL/scene/page_51 $bottom
+);
+
+/ITL/scene/page_51 set img 'pages/cello/n51.png';
+/ITL/scene/page_51 date 184.5;
+/ITL/scene/page_51 duration 18. ;
+/ITL/scene/cursor watch timeEnter 184.5 202.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_51 show 1,
+  /ITL/scene/page_52 show 1,
+  /ITL/scene/page_51 $bottom,
+  /ITL/scene/page_52 $top
+);
+
+/ITL/scene/page_52 set img 'pages/cello/n52.png';
+/ITL/scene/page_52 date 202.5;
+/ITL/scene/page_52 duration 3.5 ;
+/ITL/scene/cursor watch timeEnter 202.5 206 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_52 show 1,
+  /ITL/scene/page_53 show 1,
+  /ITL/scene/page_52 $top,
+  /ITL/scene/page_53 $bottom
+);
+
+/ITL/scene/page_53 set img 'pages/cello/n53.png';
+/ITL/scene/page_53 date 206.;
+/ITL/scene/page_53 duration 4.5 ;
+/ITL/scene/cursor watch timeEnter 206. 210.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_53 show 1,
+  /ITL/scene/page_54 show 1,
+  /ITL/scene/page_53 $bottom,
+  /ITL/scene/page_54 $top
+);
+
+/ITL/scene/page_54 set img 'pages/cello/n54.png';
+/ITL/scene/page_54 date 210.5;
+/ITL/scene/page_54 duration 3. ;
+/ITL/scene/cursor watch timeEnter 210.5 213.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_54 show 1,
+  /ITL/scene/page_55 show 1,
+  /ITL/scene/page_54 $top,
+  /ITL/scene/page_55 $bottom
+);
+
+/ITL/scene/page_55 set img 'pages/cello/n55.png';
+/ITL/scene/page_55 date 213.5;
+/ITL/scene/page_55 duration 4. ;
+/ITL/scene/cursor watch timeEnter 213.5 217.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_55 show 1,
+  /ITL/scene/page_56 show 1,
+  /ITL/scene/page_55 $bottom,
+  /ITL/scene/page_56 $top
+);
+
+/ITL/scene/page_56 set img 'pages/cello/n56.png';
+/ITL/scene/page_56 date 217.5;
+/ITL/scene/page_56 duration 3. ;
+/ITL/scene/cursor watch timeEnter 217.5 220.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_56 show 1,
+  /ITL/scene/page_57 show 1,
+  /ITL/scene/page_56 $top,
+  /ITL/scene/page_57 $bottom
+);
+
+/ITL/scene/page_57 set img 'pages/cello/n57.png';
+/ITL/scene/page_57 date 220.5;
+/ITL/scene/page_57 duration 2.25 ;
+/ITL/scene/cursor watch timeEnter 220.5 222.75 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_57 show 1,
+  /ITL/scene/page_58 show 1,
+  /ITL/scene/page_57 $bottom,
+  /ITL/scene/page_58 $top
+);
+
+/ITL/scene/page_58 set img 'pages/cello/n58.png';
+/ITL/scene/page_58 date 222.75;
+/ITL/scene/page_58 duration 2.75 ;
+/ITL/scene/cursor watch timeEnter 222.75 225.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_58 show 1,
+  /ITL/scene/page_59 show 1,
+  /ITL/scene/page_58 $top,
+  /ITL/scene/page_59 $bottom
+);
+
+/ITL/scene/page_59 set img 'pages/cello/n59.png';
+/ITL/scene/page_59 date 225.5;
+/ITL/scene/page_59 duration 3.5 ;
+/ITL/scene/cursor watch timeEnter 225.5 229 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_59 show 1,
+  /ITL/scene/page_60 show 1,
+  /ITL/scene/page_59 $bottom,
+  /ITL/scene/page_60 $top
+);
+
+/ITL/scene/page_60 set img 'pages/cello/n60.png';
+/ITL/scene/page_60 date 229.;
+/ITL/scene/page_60 duration 7. ;
+/ITL/scene/cursor watch timeEnter 229. 236 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_60 show 1,
+  /ITL/scene/page_61 show 1,
+  /ITL/scene/page_60 $top,
+  /ITL/scene/page_61 $bottom
+);
+
+/ITL/scene/page_61 set img 'pages/cello/n61.png';
+/ITL/scene/page_61 date 236.;
+/ITL/scene/page_61 duration 2.25 ;
+/ITL/scene/cursor watch timeEnter 236. 238.25 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_61 show 1,
+  /ITL/scene/page_62 show 1,
+  /ITL/scene/page_61 $bottom,
+  /ITL/scene/page_62 $top
+);
+
+/ITL/scene/page_62 set img 'pages/cello/n62.png';
+/ITL/scene/page_62 date 238.25;
+/ITL/scene/page_62 duration 3.25 ;
+/ITL/scene/cursor watch timeEnter 238.25 241.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_62 show 1,
+  /ITL/scene/page_63 show 1,
+  /ITL/scene/page_62 $top,
+  /ITL/scene/page_63 $bottom
+);
+
+/ITL/scene/page_63 set img 'pages/cello/n63.png';
+/ITL/scene/page_63 date 241.5;
+/ITL/scene/page_63 duration 2.5 ;
+/ITL/scene/cursor watch timeEnter 241.5 244 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_63 show 1,
+  /ITL/scene/page_64 show 1,
+  /ITL/scene/page_63 $bottom,
+  /ITL/scene/page_64 $top
+);
+
+/ITL/scene/page_64 set img 'pages/cello/n64.png';
+/ITL/scene/page_64 date 244.;
+/ITL/scene/page_64 duration 16. ;
+/ITL/scene/cursor watch timeEnter 244. 260 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_64 show 1,
+  /ITL/scene/page_65 show 1,
+  /ITL/scene/page_64 $top,
+  /ITL/scene/page_65 $bottom
+);
+
+/ITL/scene/page_65 set img 'pages/cello/n65.png';
+/ITL/scene/page_65 date 260.;
+/ITL/scene/page_65 duration 8. ;
+/ITL/scene/cursor watch timeEnter 260. 268 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_65 show 1,
+  /ITL/scene/page_66 show 1,
+  /ITL/scene/page_65 $bottom,
+  /ITL/scene/page_66 $top
+);
+
+/ITL/scene/cursor watch timeEnter 268 368 ( /ITL/scene event STOP );
+
+/ITL/scene/page_* show 0;
+/ITL/scene/page_* width 1.95;
+/ITL/scene/page_00 show 1;
+/ITL/scene/page_01 show 1;
+/ITL/scene/page_00 $top;
+/ITL/scene/page_01 $bottom;
+/ITL/scene/page_* watch mouseDown ( /ITL/scene event GOTO '$date%f');
+/ITL/scene/page_* watch mouseMove ( /ITL/scene event GOTO '$date%f');
+/ITL/scene event PAGEREADY;
+#### ATTENTION ! Ne pas modifier : ce script est généré automatiquement
+top = yorigin 1.3;
+bottom = yorigin -1.3;
+
+/ITL/scene/page_00 set img 'pages/cello/n00.png';
+/ITL/scene/page_00 date 0.;
+/ITL/scene/page_00 duration 1.5 ;
+/ITL/scene/cursor watch timeEnter 0. 1.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_00 show 1,
+  /ITL/scene/page_01 show 1,
+  /ITL/scene/page_00 $top,
+  /ITL/scene/page_01 $bottom
+);
+
+/ITL/scene/page_01 set img 'pages/cello/n01.png';
+/ITL/scene/page_01 date 1.5;
+/ITL/scene/page_01 duration 2.25 ;
+/ITL/scene/cursor watch timeEnter 1.5 3.75 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_01 show 1,
+  /ITL/scene/page_02 show 1,
+  /ITL/scene/page_01 $bottom,
+  /ITL/scene/page_02 $top
+);
+
+/ITL/scene/page_02 set img 'pages/cello/n02.png';
+/ITL/scene/page_02 date 3.75;
+/ITL/scene/page_02 duration 1.5 ;
+/ITL/scene/cursor watch timeEnter 3.75 5.25 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_02 show 1,
+  /ITL/scene/page_03 show 1,
+  /ITL/scene/page_02 $top,
+  /ITL/scene/page_03 $bottom
+);
+
+/ITL/scene/page_03 set img 'pages/cello/n03.png';
+/ITL/scene/page_03 date 5.25;
+/ITL/scene/page_03 duration 2.25 ;
+/ITL/scene/cursor watch timeEnter 5.25 7.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_03 show 1,
+  /ITL/scene/page_04 show 1,
+  /ITL/scene/page_03 $bottom,
+  /ITL/scene/page_04 $top
+);
+
+/ITL/scene/page_04 set img 'pages/cello/n04.png';
+/ITL/scene/page_04 date 7.5;
+/ITL/scene/page_04 duration 3. ;
+/ITL/scene/cursor watch timeEnter 7.5 10.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_04 show 1,
+  /ITL/scene/page_05 show 1,
+  /ITL/scene/page_04 $top,
+  /ITL/scene/page_05 $bottom
+);
+
+/ITL/scene/page_05 set img 'pages/cello/n05.png';
+/ITL/scene/page_05 date 10.5;
+/ITL/scene/page_05 duration 3. ;
+/ITL/scene/cursor watch timeEnter 10.5 13.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_05 show 1,
+  /ITL/scene/page_06 show 1,
+  /ITL/scene/page_05 $bottom,
+  /ITL/scene/page_06 $top
+);
+
+/ITL/scene/page_06 set img 'pages/cello/n06.png';
+/ITL/scene/page_06 date 13.5;
+/ITL/scene/page_06 duration 1.75 ;
+/ITL/scene/cursor watch timeEnter 13.5 15.25 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_06 show 1,
+  /ITL/scene/page_07 show 1,
+  /ITL/scene/page_06 $top,
+  /ITL/scene/page_07 $bottom
+);
+
+/ITL/scene/page_07 set img 'pages/cello/n07.png';
+/ITL/scene/page_07 date 15.25;
+/ITL/scene/page_07 duration 2.75 ;
+/ITL/scene/cursor watch timeEnter 15.25 18 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_07 show 1,
+  /ITL/scene/page_08 show 1,
+  /ITL/scene/page_07 $bottom,
+  /ITL/scene/page_08 $top
+);
+
+/ITL/scene/page_08 set img 'pages/cello/n08.png';
+/ITL/scene/page_08 date 18.;
+/ITL/scene/page_08 duration 2. ;
+/ITL/scene/cursor watch timeEnter 18. 20 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_08 show 1,
+  /ITL/scene/page_09 show 1,
+  /ITL/scene/page_08 $top,
+  /ITL/scene/page_09 $bottom
+);
+
+/ITL/scene/page_09 set img 'pages/cello/n09.png';
+/ITL/scene/page_09 date 20.;
+/ITL/scene/page_09 duration 3.5 ;
+/ITL/scene/cursor watch timeEnter 20. 23.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_09 show 1,
+  /ITL/scene/page_10 show 1,
+  /ITL/scene/page_09 $bottom,
+  /ITL/scene/page_10 $top
+);
+
+/ITL/scene/page_10 set img 'pages/cello/n10.png';
+/ITL/scene/page_10 date 23.5;
+/ITL/scene/page_10 duration 4.5 ;
+/ITL/scene/cursor watch timeEnter 23.5 28 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_10 show 1,
+  /ITL/scene/page_11 show 1,
+  /ITL/scene/page_10 $top,
+  /ITL/scene/page_11 $bottom
+);
+
+/ITL/scene/page_11 set img 'pages/cello/n11.png';
+/ITL/scene/page_11 date 28.;
+/ITL/scene/page_11 duration 3. ;
+/ITL/scene/cursor watch timeEnter 28. 31 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_11 show 1,
+  /ITL/scene/page_12 show 1,
+  /ITL/scene/page_11 $bottom,
+  /ITL/scene/page_12 $top
+);
+
+/ITL/scene/page_12 set img 'pages/cello/n12.png';
+/ITL/scene/page_12 date 31.;
+/ITL/scene/page_12 duration 4. ;
+/ITL/scene/cursor watch timeEnter 31. 35 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_12 show 1,
+  /ITL/scene/page_13 show 1,
+  /ITL/scene/page_12 $top,
+  /ITL/scene/page_13 $bottom
+);
+
+/ITL/scene/page_13 set img 'pages/cello/n13.png';
+/ITL/scene/page_13 date 35.;
+/ITL/scene/page_13 duration 3. ;
+/ITL/scene/cursor watch timeEnter 35. 38 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_13 show 1,
+  /ITL/scene/page_14 show 1,
+  /ITL/scene/page_13 $bottom,
+  /ITL/scene/page_14 $top
+);
+
+/ITL/scene/page_14 set img 'pages/cello/n14.png';
+/ITL/scene/page_14 date 38.;
+/ITL/scene/page_14 duration 4.25 ;
+/ITL/scene/cursor watch timeEnter 38. 42.25 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_14 show 1,
+  /ITL/scene/page_15 show 1,
+  /ITL/scene/page_14 $top,
+  /ITL/scene/page_15 $bottom
+);
+
+/ITL/scene/page_15 set img 'pages/cello/n15.png';
+/ITL/scene/page_15 date 42.25;
+/ITL/scene/page_15 duration 5. ;
+/ITL/scene/cursor watch timeEnter 42.25 47.25 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_15 show 1,
+  /ITL/scene/page_16 show 1,
+  /ITL/scene/page_15 $bottom,
+  /ITL/scene/page_16 $top
+);
+
+/ITL/scene/page_16 set img 'pages/cello/n16.png';
+/ITL/scene/page_16 date 47.25;
+/ITL/scene/page_16 duration 8.25 ;
+/ITL/scene/cursor watch timeEnter 47.25 55.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_16 show 1,
+  /ITL/scene/page_17 show 1,
+  /ITL/scene/page_16 $top,
+  /ITL/scene/page_17 $bottom
+);
+
+/ITL/scene/page_17 set img 'pages/cello/n17.png';
+/ITL/scene/page_17 date 55.5;
+/ITL/scene/page_17 duration 2. ;
+/ITL/scene/cursor watch timeEnter 55.5 57.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_17 show 1,
+  /ITL/scene/page_18 show 1,
+  /ITL/scene/page_17 $bottom,
+  /ITL/scene/page_18 $top
+);
+
+/ITL/scene/page_18 set img 'pages/cello/n18.png';
+/ITL/scene/page_18 date 57.5;
+/ITL/scene/page_18 duration 2.5 ;
+/ITL/scene/cursor watch timeEnter 57.5 60 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_18 show 1,
+  /ITL/scene/page_19 show 1,
+  /ITL/scene/page_18 $top,
+  /ITL/scene/page_19 $bottom
+);
+
+/ITL/scene/page_19 set img 'pages/cello/n19.png';
+/ITL/scene/page_19 date 60.;
+/ITL/scene/page_19 duration 2. ;
+/ITL/scene/cursor watch timeEnter 60. 62 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_19 show 1,
+  /ITL/scene/page_20 show 1,
+  /ITL/scene/page_19 $bottom,
+  /ITL/scene/page_20 $top
+);
+
+/ITL/scene/page_20 set img 'pages/cello/n20.png';
+/ITL/scene/page_20 date 62.;
+/ITL/scene/page_20 duration 2. ;
+/ITL/scene/cursor watch timeEnter 62. 64 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_20 show 1,
+  /ITL/scene/page_21 show 1,
+  /ITL/scene/page_20 $top,
+  /ITL/scene/page_21 $bottom
+);
+
+/ITL/scene/page_21 set img 'pages/cello/n21.png';
+/ITL/scene/page_21 date 64.;
+/ITL/scene/page_21 duration 4. ;
+/ITL/scene/cursor watch timeEnter 64. 68 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_21 show 1,
+  /ITL/scene/page_22 show 1,
+  /ITL/scene/page_21 $bottom,
+  /ITL/scene/page_22 $top
+);
+
+/ITL/scene/page_22 set img 'pages/cello/n22.png';
+/ITL/scene/page_22 date 68.;
+/ITL/scene/page_22 duration 6.5 ;
+/ITL/scene/cursor watch timeEnter 68. 74.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_22 show 1,
+  /ITL/scene/page_23 show 1,
+  /ITL/scene/page_22 $top,
+  /ITL/scene/page_23 $bottom
+);
+
+/ITL/scene/page_23 set img 'pages/cello/n23.png';
+/ITL/scene/page_23 date 74.5;
+/ITL/scene/page_23 duration 2.75 ;
+/ITL/scene/cursor watch timeEnter 74.5 77.25 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_23 show 1,
+  /ITL/scene/page_24 show 1,
+  /ITL/scene/page_23 $bottom,
+  /ITL/scene/page_24 $top
+);
+
+/ITL/scene/page_24 set img 'pages/cello/n24.png';
+/ITL/scene/page_24 date 77.25;
+/ITL/scene/page_24 duration 3.25 ;
+/ITL/scene/cursor watch timeEnter 77.25 80.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_24 show 1,
+  /ITL/scene/page_25 show 1,
+  /ITL/scene/page_24 $top,
+  /ITL/scene/page_25 $bottom
+);
+
+/ITL/scene/page_25 set img 'pages/cello/n25.png';
+/ITL/scene/page_25 date 80.5;
+/ITL/scene/page_25 duration 3.5 ;
+/ITL/scene/cursor watch timeEnter 80.5 84 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_25 show 1,
+  /ITL/scene/page_26 show 1,
+  /ITL/scene/page_25 $bottom,
+  /ITL/scene/page_26 $top
+);
+
+/ITL/scene/page_26 set img 'pages/cello/n26.png';
+/ITL/scene/page_26 date 84.;
+/ITL/scene/page_26 duration 4. ;
+/ITL/scene/cursor watch timeEnter 84. 88 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_26 show 1,
+  /ITL/scene/page_27 show 1,
+  /ITL/scene/page_26 $top,
+  /ITL/scene/page_27 $bottom
+);
+
+/ITL/scene/page_27 set img 'pages/cello/n27.png';
+/ITL/scene/page_27 date 88.;
+/ITL/scene/page_27 duration 4.5 ;
+/ITL/scene/cursor watch timeEnter 88. 92.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_27 show 1,
+  /ITL/scene/page_28 show 1,
+  /ITL/scene/page_27 $bottom,
+  /ITL/scene/page_28 $top
+);
+
+/ITL/scene/page_28 set img 'pages/cello/n28.png';
+/ITL/scene/page_28 date 92.5;
+/ITL/scene/page_28 duration 6. ;
+/ITL/scene/cursor watch timeEnter 92.5 98.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_28 show 1,
+  /ITL/scene/page_29 show 1,
+  /ITL/scene/page_28 $top,
+  /ITL/scene/page_29 $bottom
+);
+
+/ITL/scene/page_29 set img 'pages/cello/n29.png';
+/ITL/scene/page_29 date 98.5;
+/ITL/scene/page_29 duration 5. ;
+/ITL/scene/cursor watch timeEnter 98.5 103.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_29 show 1,
+  /ITL/scene/page_30 show 1,
+  /ITL/scene/page_29 $bottom,
+  /ITL/scene/page_30 $top
+);
+
+/ITL/scene/page_30 set img 'pages/cello/n30.png';
+/ITL/scene/page_30 date 103.5;
+/ITL/scene/page_30 duration 3.5 ;
+/ITL/scene/cursor watch timeEnter 103.5 107 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_30 show 1,
+  /ITL/scene/page_31 show 1,
+  /ITL/scene/page_30 $top,
+  /ITL/scene/page_31 $bottom
+);
+
+/ITL/scene/page_31 set img 'pages/cello/n31.png';
+/ITL/scene/page_31 date 107.;
+/ITL/scene/page_31 duration 5.5 ;
+/ITL/scene/cursor watch timeEnter 107. 112.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_31 show 1,
+  /ITL/scene/page_32 show 1,
+  /ITL/scene/page_31 $bottom,
+  /ITL/scene/page_32 $top
+);
+
+/ITL/scene/page_32 set img 'pages/cello/n32.png';
+/ITL/scene/page_32 date 112.5;
+/ITL/scene/page_32 duration 6. ;
+/ITL/scene/cursor watch timeEnter 112.5 118.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_32 show 1,
+  /ITL/scene/page_33 show 1,
+  /ITL/scene/page_32 $top,
+  /ITL/scene/page_33 $bottom
+);
+
+/ITL/scene/page_33 set img 'pages/cello/n33.png';
+/ITL/scene/page_33 date 118.5;
+/ITL/scene/page_33 duration 4.5 ;
+/ITL/scene/cursor watch timeEnter 118.5 123 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_33 show 1,
+  /ITL/scene/page_34 show 1,
+  /ITL/scene/page_33 $bottom,
+  /ITL/scene/page_34 $top
+);
+
+/ITL/scene/page_34 set img 'pages/cello/n34.png';
+/ITL/scene/page_34 date 123.;
+/ITL/scene/page_34 duration 5. ;
+/ITL/scene/cursor watch timeEnter 123. 128 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_34 show 1,
+  /ITL/scene/page_35 show 1,
+  /ITL/scene/page_34 $top,
+  /ITL/scene/page_35 $bottom
+);
+
+/ITL/scene/page_35 set img 'pages/cello/n35.png';
+/ITL/scene/page_35 date 128.;
+/ITL/scene/page_35 duration 4. ;
+/ITL/scene/cursor watch timeEnter 128. 132 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_35 show 1,
+  /ITL/scene/page_36 show 1,
+  /ITL/scene/page_35 $bottom,
+  /ITL/scene/page_36 $top
+);
+
+/ITL/scene/page_36 set img 'pages/cello/n36.png';
+/ITL/scene/page_36 date 132.;
+/ITL/scene/page_36 duration 3. ;
+/ITL/scene/cursor watch timeEnter 132. 135 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_36 show 1,
+  /ITL/scene/page_37 show 1,
+  /ITL/scene/page_36 $top,
+  /ITL/scene/page_37 $bottom
+);
+
+/ITL/scene/page_37 set img 'pages/cello/n37.png';
+/ITL/scene/page_37 date 135.;
+/ITL/scene/page_37 duration 4.5 ;
+/ITL/scene/cursor watch timeEnter 135. 139.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_37 show 1,
+  /ITL/scene/page_38 show 1,
+  /ITL/scene/page_37 $bottom,
+  /ITL/scene/page_38 $top
+);
+
+/ITL/scene/page_38 set img 'pages/cello/n38.png';
+/ITL/scene/page_38 date 139.5;
+/ITL/scene/page_38 duration 5. ;
+/ITL/scene/cursor watch timeEnter 139.5 144.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_38 show 1,
+  /ITL/scene/page_39 show 1,
+  /ITL/scene/page_38 $top,
+  /ITL/scene/page_39 $bottom
+);
+
+/ITL/scene/page_39 set img 'pages/cello/n39.png';
+/ITL/scene/page_39 date 144.5;
+/ITL/scene/page_39 duration 7.5 ;
+/ITL/scene/cursor watch timeEnter 144.5 152 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_39 show 1,
+  /ITL/scene/page_40 show 1,
+  /ITL/scene/page_39 $bottom,
+  /ITL/scene/page_40 $top
+);
+
+/ITL/scene/page_40 set img 'pages/cello/n40.png';
+/ITL/scene/page_40 date 152.;
+/ITL/scene/page_40 duration 3. ;
+/ITL/scene/cursor watch timeEnter 152. 155 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_40 show 1,
+  /ITL/scene/page_41 show 1,
+  /ITL/scene/page_40 $top,
+  /ITL/scene/page_41 $bottom
+);
+
+/ITL/scene/page_41 set img 'pages/cello/n41.png';
+/ITL/scene/page_41 date 155.;
+/ITL/scene/page_41 duration 2.75 ;
+/ITL/scene/cursor watch timeEnter 155. 157.75 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_41 show 1,
+  /ITL/scene/page_42 show 1,
+  /ITL/scene/page_41 $bottom,
+  /ITL/scene/page_42 $top
+);
+
+/ITL/scene/page_42 set img 'pages/cello/n42.png';
+/ITL/scene/page_42 date 157.75;
+/ITL/scene/page_42 duration 5. ;
+/ITL/scene/cursor watch timeEnter 157.75 162.75 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_42 show 1,
+  /ITL/scene/page_43 show 1,
+  /ITL/scene/page_42 $top,
+  /ITL/scene/page_43 $bottom
+);
+
+/ITL/scene/page_43 set img 'pages/cello/n43.png';
+/ITL/scene/page_43 date 162.75;
+/ITL/scene/page_43 duration 3.75 ;
+/ITL/scene/cursor watch timeEnter 162.75 166.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_43 show 1,
+  /ITL/scene/page_44 show 1,
+  /ITL/scene/page_43 $bottom,
+  /ITL/scene/page_44 $top
+);
+
+/ITL/scene/page_44 set img 'pages/cello/n44.png';
+/ITL/scene/page_44 date 166.5;
+/ITL/scene/page_44 duration 1.5 ;
+/ITL/scene/cursor watch timeEnter 166.5 168 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_44 show 1,
+  /ITL/scene/page_45 show 1,
+  /ITL/scene/page_44 $top,
+  /ITL/scene/page_45 $bottom
+);
+
+/ITL/scene/page_45 set img 'pages/cello/n45.png';
+/ITL/scene/page_45 date 168.;
+/ITL/scene/page_45 duration 2.625 ;
+/ITL/scene/cursor watch timeEnter 168. 170.625 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_45 show 1,
+  /ITL/scene/page_46 show 1,
+  /ITL/scene/page_45 $bottom,
+  /ITL/scene/page_46 $top
+);
+
+/ITL/scene/page_46 set img 'pages/cello/n46.png';
+/ITL/scene/page_46 date 170.625;
+/ITL/scene/page_46 duration 2.375 ;
+/ITL/scene/cursor watch timeEnter 170.625 173 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_46 show 1,
+  /ITL/scene/page_47 show 1,
+  /ITL/scene/page_46 $top,
+  /ITL/scene/page_47 $bottom
+);
+
+/ITL/scene/page_47 set img 'pages/cello/n47.png';
+/ITL/scene/page_47 date 173.;
+/ITL/scene/page_47 duration 2. ;
+/ITL/scene/cursor watch timeEnter 173. 175 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_47 show 1,
+  /ITL/scene/page_48 show 1,
+  /ITL/scene/page_47 $bottom,
+  /ITL/scene/page_48 $top
+);
+
+/ITL/scene/page_48 set img 'pages/cello/n48.png';
+/ITL/scene/page_48 date 175.;
+/ITL/scene/page_48 duration 2.875 ;
+/ITL/scene/cursor watch timeEnter 175. 177.875 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_48 show 1,
+  /ITL/scene/page_49 show 1,
+  /ITL/scene/page_48 $top,
+  /ITL/scene/page_49 $bottom
+);
+
+/ITL/scene/page_49 set img 'pages/cello/n49.png';
+/ITL/scene/page_49 date 177.875;
+/ITL/scene/page_49 duration 3.125 ;
+/ITL/scene/cursor watch timeEnter 177.875 181 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_49 show 1,
+  /ITL/scene/page_50 show 1,
+  /ITL/scene/page_49 $bottom,
+  /ITL/scene/page_50 $top
+);
+
+/ITL/scene/page_50 set img 'pages/cello/n50.png';
+/ITL/scene/page_50 date 181.;
+/ITL/scene/page_50 duration 3.5 ;
+/ITL/scene/cursor watch timeEnter 181. 184.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_50 show 1,
+  /ITL/scene/page_51 show 1,
+  /ITL/scene/page_50 $top,
+  /ITL/scene/page_51 $bottom
+);
+
+/ITL/scene/page_51 set img 'pages/cello/n51.png';
+/ITL/scene/page_51 date 184.5;
+/ITL/scene/page_51 duration 18. ;
+/ITL/scene/cursor watch timeEnter 184.5 202.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_51 show 1,
+  /ITL/scene/page_52 show 1,
+  /ITL/scene/page_51 $bottom,
+  /ITL/scene/page_52 $top
+);
+
+/ITL/scene/page_52 set img 'pages/cello/n52.png';
+/ITL/scene/page_52 date 202.5;
+/ITL/scene/page_52 duration 3.5 ;
+/ITL/scene/cursor watch timeEnter 202.5 206 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_52 show 1,
+  /ITL/scene/page_53 show 1,
+  /ITL/scene/page_52 $top,
+  /ITL/scene/page_53 $bottom
+);
+
+/ITL/scene/page_53 set img 'pages/cello/n53.png';
+/ITL/scene/page_53 date 206.;
+/ITL/scene/page_53 duration 4.5 ;
+/ITL/scene/cursor watch timeEnter 206. 210.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_53 show 1,
+  /ITL/scene/page_54 show 1,
+  /ITL/scene/page_53 $bottom,
+  /ITL/scene/page_54 $top
+);
+
+/ITL/scene/page_54 set img 'pages/cello/n54.png';
+/ITL/scene/page_54 date 210.5;
+/ITL/scene/page_54 duration 3. ;
+/ITL/scene/cursor watch timeEnter 210.5 213.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_54 show 1,
+  /ITL/scene/page_55 show 1,
+  /ITL/scene/page_54 $top,
+  /ITL/scene/page_55 $bottom
+);
+
+/ITL/scene/page_55 set img 'pages/cello/n55.png';
+/ITL/scene/page_55 date 213.5;
+/ITL/scene/page_55 duration 4. ;
+/ITL/scene/cursor watch timeEnter 213.5 217.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_55 show 1,
+  /ITL/scene/page_56 show 1,
+  /ITL/scene/page_55 $bottom,
+  /ITL/scene/page_56 $top
+);
+
+/ITL/scene/page_56 set img 'pages/cello/n56.png';
+/ITL/scene/page_56 date 217.5;
+/ITL/scene/page_56 duration 3. ;
+/ITL/scene/cursor watch timeEnter 217.5 220.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_56 show 1,
+  /ITL/scene/page_57 show 1,
+  /ITL/scene/page_56 $top,
+  /ITL/scene/page_57 $bottom
+);
+
+/ITL/scene/page_57 set img 'pages/cello/n57.png';
+/ITL/scene/page_57 date 220.5;
+/ITL/scene/page_57 duration 2.25 ;
+/ITL/scene/cursor watch timeEnter 220.5 222.75 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_57 show 1,
+  /ITL/scene/page_58 show 1,
+  /ITL/scene/page_57 $bottom,
+  /ITL/scene/page_58 $top
+);
+
+/ITL/scene/page_58 set img 'pages/cello/n58.png';
+/ITL/scene/page_58 date 222.75;
+/ITL/scene/page_58 duration 2.75 ;
+/ITL/scene/cursor watch timeEnter 222.75 225.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_58 show 1,
+  /ITL/scene/page_59 show 1,
+  /ITL/scene/page_58 $top,
+  /ITL/scene/page_59 $bottom
+);
+
+/ITL/scene/page_59 set img 'pages/cello/n59.png';
+/ITL/scene/page_59 date 225.5;
+/ITL/scene/page_59 duration 3.5 ;
+/ITL/scene/cursor watch timeEnter 225.5 229 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_59 show 1,
+  /ITL/scene/page_60 show 1,
+  /ITL/scene/page_59 $bottom,
+  /ITL/scene/page_60 $top
+);
+
+/ITL/scene/page_60 set img 'pages/cello/n60.png';
+/ITL/scene/page_60 date 229.;
+/ITL/scene/page_60 duration 7. ;
+/ITL/scene/cursor watch timeEnter 229. 236 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_60 show 1,
+  /ITL/scene/page_61 show 1,
+  /ITL/scene/page_60 $top,
+  /ITL/scene/page_61 $bottom
+);
+
+/ITL/scene/page_61 set img 'pages/cello/n61.png';
+/ITL/scene/page_61 date 236.;
+/ITL/scene/page_61 duration 2.25 ;
+/ITL/scene/cursor watch timeEnter 236. 238.25 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_61 show 1,
+  /ITL/scene/page_62 show 1,
+  /ITL/scene/page_61 $bottom,
+  /ITL/scene/page_62 $top
+);
+
+/ITL/scene/page_62 set img 'pages/cello/n62.png';
+/ITL/scene/page_62 date 238.25;
+/ITL/scene/page_62 duration 3.25 ;
+/ITL/scene/cursor watch timeEnter 238.25 241.5 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_62 show 1,
+  /ITL/scene/page_63 show 1,
+  /ITL/scene/page_62 $top,
+  /ITL/scene/page_63 $bottom
+);
+
+/ITL/scene/page_63 set img 'pages/cello/n63.png';
+/ITL/scene/page_63 date 241.5;
+/ITL/scene/page_63 duration 2.5 ;
+/ITL/scene/cursor watch timeEnter 241.5 244 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_63 show 1,
+  /ITL/scene/page_64 show 1,
+  /ITL/scene/page_63 $bottom,
+  /ITL/scene/page_64 $top
+);
+
+/ITL/scene/page_64 set img 'pages/cello/n64.png';
+/ITL/scene/page_64 date 244.;
+/ITL/scene/page_64 duration 16. ;
+/ITL/scene/cursor watch timeEnter 244. 260 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_64 show 1,
+  /ITL/scene/page_65 show 1,
+  /ITL/scene/page_64 $top,
+  /ITL/scene/page_65 $bottom
+);
+
+/ITL/scene/page_65 set img 'pages/cello/n65.png';
+/ITL/scene/page_65 date 260.;
+/ITL/scene/page_65 duration 8. ;
+/ITL/scene/cursor watch timeEnter 260. 268 ( 
+  /ITL/scene/page_* show 0,
+  /ITL/scene/page_65 show 1,
+  /ITL/scene/page_66 show 1,
+  /ITL/scene/page_65 $bottom,
+  /ITL/scene/page_66 $top
+);
+
+/ITL/scene/cursor watch timeEnter 268 368 ( /ITL/scene event STOP );
+
+/ITL/scene/page_* show 0;
+/ITL/scene/page_* width 1.95;
+/ITL/scene/page_00 show 1;
+/ITL/scene/page_01 show 1;
+/ITL/scene/page_00 $top;
+/ITL/scene/page_01 $bottom;
+/ITL/scene/page_* watch mouseDown ( /ITL/scene event GOTO '$date');
+/ITL/scene/page_* watch mouseMove ( /ITL/scene event GOTO '$date');
+/ITL/scene event PAGEREADY;
