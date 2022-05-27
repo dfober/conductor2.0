@@ -1,6 +1,7 @@
 <html>
 <head>
 	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" >
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 	<title>Nonet - PART</title>
 
 	<link href="fonts/fonts.css" rel="stylesheet">
@@ -32,7 +33,7 @@
     /ITL/scene/cursor color red;
 
     /ITL/scene load 'inscore/INSTR.inscore.txt';
-    /ITL/scene watch PAGEREADY ( /ITL/log write "pages ready", /ITL/scene/sync cursor page* v );
+    /ITL/scene watch PAGEREADY ( /ITL/log write "pages ready", /ITL/scene/page_* width 0.9sw, /ITL/scene/sync cursor page* v );
  
     /ITL/scene load 'inscore/player.inscore.txt';
     /ITL/scene watch PLAYREADY      ( /ITL/scene/control y 0.9 );

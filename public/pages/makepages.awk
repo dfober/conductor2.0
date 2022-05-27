@@ -40,7 +40,7 @@ BEGIN {
 
 END {
 	print "\n" baseaddress  "* show 0;"
-	print baseaddress  "* width 1.95;"
+#	print baseaddress  "* width 0.9sw;"
 	print baseaddress  "00 show 1;"	
 	print baseaddress  "01 show 1;"	
 	print baseaddress  "00 $top;"	

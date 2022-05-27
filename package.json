@@ -7,7 +7,7 @@
     "start": "node server.js"
   },
   "dependencies": {
-    "@grame/inscorejs": "^1.1.1",
+    "@grame/inscorejs": "^1.2.0",
     "express": "^4.14.0",
     "ws": "^8.4.0",
     "timesync": "^1.0.8"

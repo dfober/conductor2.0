@@ -1310,8 +1310,9 @@ var JSObjectView = /** @class */ (function () {
     // 	INScore.objects().del (obj);		
     // }
     JSObjectView.prototype.updateObjectSize = function (obj, w, h) {
-        obj.updateWidth(this.scene2RelativeWidth(w));
-        obj.updateHeight(this.scene2RelativeHeight(h));
+        // obj.updateWidth  (this.scene2RelativeWidth  (w)); 
+        // obj.updateHeight (this.scene2RelativeHeight (h)); 
+        obj.setSize(this.scene2RelativeWidth(w), this.scene2RelativeHeight(h));
         var div = this.getElement();
         obj.updateViewBoundingRect(div.clientLeft, div.clientTop, w, h);
     };
@@ -1610,16 +1611,22 @@ var JSArcView = /** @class */ (function (_super) {
 var JSAutoSize = /** @class */ (function (_super) {
     __extends(JSAutoSize, _super);
     function JSAutoSize(elt, parent) {
-        return _super.call(this, elt, parent) || this;
+        var _this = _super.call(this, elt, parent) || this;
+        _this.fSetSize = true; // a flag to control automatic size setting
+        return _this;
     }
+    JSAutoSize.prototype.sizePending = function () { this.fSetSize = true; };
     JSAutoSize.prototype.getAutoSize = function () {
         var elt = this.getElement();
         return { x: elt.clientWidth, y: elt.clientHeight };
     };
     JSAutoSize.prototype.updateSizeSync = function (obj) {
+        if (!this.fSetSize)
+            return true;
         var p = this.getAutoSize();
         this.updateObjectSize(obj, p.x, p.y);
         obj.ready();
+        this.fSetSize = false;
         return true;
     };
     JSAutoSize.prototype.updateSizeASync = function (obj) {
@@ -2279,18 +2286,29 @@ var JSFaustwView = /** @class */ (function (_super) {
     JSFaustwView.prototype.buildNodeFromWasm = function (obj, wasm, json, voices) {
         return __awaiter(this, void 0, void 0, function () {
             var _a, result;
+            var _this = this;
             return __generator(this, function (_b) {
                 switch (_b.label) {
                     case 0:
+                        if (JSFaustView.fCompilerLock) {
+                            setTimeout(function () {
+                                _this.buildNodeFromWasm(obj, wasm, json, voices);
+                            }, 20);
+                            return [2 /*return*/, JSFaustView.kPending];
+                        }
+                        JSFaustView.fCompilerLock = true;
                         _a = this;
                         return [4 /*yield*/, Faust.createGenerator().loadDSPFactory(wasm, json)];
                     case 1:
                         _a.fFactory = _b.sent();
-                        if (!this.fFactory)
+                        if (!this.fFactory) {
+                            JSFaustView.fCompilerLock = false;
                             return [2 /*return*/, JSFaustView.kFailed];
+                        }
                         return [4 /*yield*/, this.makeAudioNode(obj, "inscore", voices)];
                     case 2:
                         result = _b.sent();
+                        JSFaustView.fCompilerLock = false;
                         return [2 /*return*/, result];
                 }
             });
@@ -2620,6 +2638,7 @@ var JSImageView = /** @class */ (function (_super) {
     JSImageView.prototype.updateSpecial = function (obj) {
         this.fImage.src = obj.getFile();
         this.fImage.id = obj.getID();
+        this.sizePending();
         return this.updateSizeASync(obj);
     };
     JSImageView.prototype.setShadow = function (elt, val) {
@@ -2985,8 +3004,14 @@ var JSSceneView = /** @class */ (function (_super) {
         div.style.filter = "blur(0px)";
         window.addEventListener("keydown", function (event) { if (event.key === ' ')
             event.preventDefault(); obj.keyEvent('keyDown', event.key); }, { capture: false });
+        // window.addEventListener ("resize", (e: UIEvent): void => { 
+        // 	this.updateObjectSize (obj, div.clientWidth, div.clientHeight);
+        // });
         if (screen.orientation)
-            screen.orientation.addEventListener('change', function (e) { inscore.postMessageStr("/ITL/" + id, "refresh"); });
+            screen.orientation.addEventListener('change', function (e) {
+                inscore.postMessageStrStr("/ITL/" + id, "event", (screen.orientation.type.startsWith("portrait") ? "portrait" : "landscape"));
+                inscore.postMessageStr("/ITL/" + id, "refresh");
+            });
         MidiSetup.addListener(obj);
         return _this;
     }
@@ -3011,6 +3036,23 @@ var JSSceneView = /** @class */ (function (_super) {
     JSSceneView.prototype.getScale = function (scale) { return scale; };
     JSSceneView.prototype.parentWidth = function () { return this.getElement().parentElement.offsetWidth; };
     JSSceneView.prototype.parentHeight = function () { return this.getElement().parentElement.offsetHeight; };
+    // this method is called by the model to get the real scene width and height
+    JSSceneView.getWidth = function (id) {
+        var scene = JSObjectView.getObjectView(id);
+        return scene ? scene.sceneWidth() : 2;
+    };
+    JSSceneView.getHeight = function (id) {
+        var scene = JSObjectView.getObjectView(id);
+        return scene ? scene.sceneHeight() : 2;
+    };
+    JSSceneView.prototype.sceneWidth = function () {
+        var div = this.getElement();
+        return (div.clientWidth <= div.clientHeight) ? 2 : 2 * (div.clientWidth / div.clientHeight);
+    };
+    JSSceneView.prototype.sceneHeight = function () {
+        var div = this.getElement();
+        return (div.clientHeight <= div.clientWidth) ? 2 : 2 * (div.clientHeight / div.clientWidth);
+    };
     JSSceneView.prototype.exitFullscreen = function () {
         var _this = this;
         var elt = document;
@@ -3140,6 +3182,7 @@ var JSVideoView = /** @class */ (function (_super) {
         AIOScanner.scan(obj.getOSCAddress());
         this.addHandlers(this.fVideo, obj);
         this.fVideo.src = obj.getFile();
+        this.sizePending();
         return this.updateSizeASync(obj);
     };
     JSVideoView.prototype.setShadow = function (elt, val) {

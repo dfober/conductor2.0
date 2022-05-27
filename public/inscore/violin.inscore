@@ -852,7 +852,6 @@ bottom = yorigin -1.3;
 /ITL/scene/cursor watch timeEnter 245 345 ( /ITL/scene event STOP );
 
 /ITL/scene/page_* show 0;
-/ITL/scene/page_* width 1.95;
 /ITL/scene/page_00 show 1;
 /ITL/scene/page_01 show 1;
 /ITL/scene/page_00 $top;
